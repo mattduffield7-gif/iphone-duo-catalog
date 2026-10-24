@@ -439,6 +439,293 @@
         "https://britishcinematographer.co.uk/tim-ives-asc-goes-back-to-the-future-for-stranger-things-3/"
       ],
       "description": "Reported standard framing: 2.0:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0118276",
+      "type": "series",
+      "name": "Buffy the Vampire Slayer",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDk4MGVkNDAtZjQwZi00MDc3LWE4MmEtY2YyODQ2NDQyMjgxXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1997-2003",
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Horror"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/13456/buffy-the-vampire-slayer-the-complete-seventh-season/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Original US broadcast/DVD framing is 4:3. Widescreen HD remasters may reframe or crop shots; choose the original framing where available. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0162065",
+      "type": "series",
+      "name": "Angel",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjQzMTliMWYtNDQ3Ny00MTdmLWJjODQtNTk3NTcyZDMwMmMwXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1999-2004",
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/review/7211"
+      ],
+      "description": "Reported standard framing: 1.78:1. Season 1 is 4:3; later DVD seasons are 16:9. Transfers and special episodes can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1199099",
+      "type": "series",
+      "name": "Merlin",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmI5NDgyZmQtNDc3YS00Mjg0LThmMzEtZjcyNzczOTJlYWY4XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2008-2012",
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/44730/merlin-the-complete-first-season/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0112230",
+      "type": "series",
+      "name": "Xena: Warrior Princess",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWNhMmQ1YzEtMWM0YS00ZDcxLWFkMjEtNWYyOGE2MjhhYWUxXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1995-2001",
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/review/14960"
+      ],
+      "description": "Reported standard framing: 1.33:1. Reviewed original DVD presentation is 4:3. Individual streaming editions may differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0118480",
+      "type": "series",
+      "name": "Stargate SG-1",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc3MjEwMTc5N15BMl5BanBnXkFtZTcwNzQ2NjQ4NA@@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1997-2007",
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://archive.thedigitalbits.com/reviews2/stargatesg1s1.html"
+      ],
+      "description": "Reported standard framing: 1.78:1. DVD/Blu-ray presentation is 16:9; some broadcast or streaming editions are 4:3. Early HD releases may be upscales. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0374455",
+      "type": "series",
+      "name": "Stargate: Atlantis",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjI0MTI4MTY3N15BMl5BanBnXkFtZTcwMjg1NjQ4NA@@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2004-2009",
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/30614/stargate-atlantis-the-complete-third-season/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1286039",
+      "type": "series",
+      "name": "Stargate Universe",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTEzNTY5NDY5M15BMl5BanBnXkFtZTcwMTY4MDQ3Mg@@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2009-2011",
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/review/45432"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0187636",
+      "type": "series",
+      "name": "Farscape",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTE4NjhiOGEtMDI5ZS00M2JhLWFjYTUtNGMyNWNmYmE5NmFmXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1999-2003",
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/39183/farscape-the-complete-series/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Seasons 1–3 use 4:3; season 4 uses 16:9. Both are within this catalog’s tall-format range. HD editions can be upscales. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt4254242",
+      "type": "series",
+      "name": "The Magicians",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzVjZDg1YzctMTZhNi00OWVjLTg3OGEtMjdhNWE2MmEyODA5XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2015-2020",
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/30840/themagiciansseason1.html"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0460681",
+      "type": "series",
+      "name": "Supernatural",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDFmMGZmMGItNGRjNC00NjVjLWI5ODEtNzhjMTE5MmJhN2FkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2005-2020",
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/50599/supernatural-the-complete-sixth-season/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1830617",
+      "type": "series",
+      "name": "Grimm",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTkyODg2MzQwMV5BMl5BanBnXkFtZTgwNTA2MjE1MDI@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2011-2017",
+      "genres": [
+        "Fantasy",
+        "Crime",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/56274/grimm-season-one/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1132290",
+      "type": "series",
+      "name": "Warehouse 13",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDVjOGI3MDEtYTQzYi00N2IxLTlkMGItM2UwMTIzZTcxYjY5XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2009-2014",
+      "genres": [
+        "Sci-Fi",
+        "Fantasy",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/42904/warehouse-13/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0844653",
+      "type": "series",
+      "name": "Legend of the Seeker",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODcyNTM4MjUwOF5BMl5BanBnXkFtZTcwNTE5Mjc2Nw@@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2008-2010",
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/46280/legend-of-the-seeker-the-complete-second-season/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0105946",
+      "type": "series",
+      "name": "Babylon 5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTRmOWJjMWMtNDljOC00NzNlLWJhODItNjBjOGVkMDYxMzQ0XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1993-1998",
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://dvdcorner.net/2023/12/27/babylon-5-the-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Select the 4:3 remastered TV series presentation; older widescreen DVD editions and associated movies can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0796264",
+      "type": "series",
+      "name": "Eureka",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDNlZjFhYWUtYTM0My00ZjQ1LWJhYzktYzM4ZWQ5Yzk3NjEyXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2006-2012",
+      "genres": [
+        "Sci-Fi",
+        "Comedy",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.theaterbyte.com/eureka-the-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0092455",
+      "type": "series",
+      "name": "Star Trek: The Next Generation",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmNiNTQ2YzYtODBjYy00ZWMwLTlmNWMtYWE1NTQ2ZTYyZmMwXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1987-1994",
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/star-trek-tng-season-1"
+      ],
+      "description": "Reported standard framing: 1.33:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "limitations": "Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored."

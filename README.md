@@ -36,6 +36,8 @@ GitHub Pages publishes only manifest, status and catalog endpoints.
 
 ## Live service
 
-The replacement metadata-only endpoint is https://iphone-duo-catalog.ivory-carp-4098.chatgpt.site/manifest.json. It serves both full catalogs and freshly shuffles their order on each HTTP fetch. It publishes no playback links, credentials, watched-title identifiers or account history. A broad genre mix guides series ordering; it is not a live history-sync or automatic watched-title exclusion service.
+The replacement metadata-only endpoint is https://iphone-duo-catalog.ivory-carp-4098.chatgpt.site/manifest.json. It serves both full catalogs and freshly shuffles their order on each HTTP fetch. It publishes no playback links, credentials, watched-title identifiers or account history. Series ordering favors science fiction, fantasy, action, adventure and mythology, while keeping comedy, crime and documentary choices. It is not a live history-sync or automatic watched-title exclusion service.
 
 Series in `data/series-editions.json` have sourced reported home framing between 1.33:1 and 2.00:1, with episode/season exceptions possible. Daily metadata refreshes do not automatically approve arbitrary new series.
+
+The series pool now contains 42 titles. Buffy is included with an original-framing note; The Expanse guides the genre mix but is excluded because later seasons contain wider/variable framing. Each genre filter remains optional and All returns the complete pool.

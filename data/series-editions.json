@@ -313,6 +313,220 @@
       "sources": [
         "https://britishcinematographer.co.uk/tim-ives-asc-goes-back-to-the-future-for-stranger-things-3/"
       ]
+    },
+    {
+      "title": "Buffy the Vampire Slayer",
+      "year": 1997,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Horror"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/13456/buffy-the-vampire-slayer-the-complete-seventh-season/"
+      ],
+      "note": "Original US broadcast/DVD framing is 4:3. Widescreen HD remasters may reframe or crop shots; choose the original framing where available."
+    },
+    {
+      "title": "Angel",
+      "year": 1999,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/review/7211"
+      ],
+      "note": "Season 1 is 4:3; later DVD seasons are 16:9. Transfers and special episodes can differ."
+    },
+    {
+      "title": "Merlin",
+      "year": 2008,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/44730/merlin-the-complete-first-season/"
+      ]
+    },
+    {
+      "title": "Xena: Warrior Princess",
+      "year": 1995,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/review/14960"
+      ],
+      "note": "Reviewed original DVD presentation is 4:3. Individual streaming editions may differ."
+    },
+    {
+      "title": "Stargate SG-1",
+      "year": 1997,
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://archive.thedigitalbits.com/reviews2/stargatesg1s1.html"
+      ],
+      "note": "DVD/Blu-ray presentation is 16:9; some broadcast or streaming editions are 4:3. Early HD releases may be upscales."
+    },
+    {
+      "title": "Stargate Atlantis",
+      "year": 2004,
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/30614/stargate-atlantis-the-complete-third-season/"
+      ]
+    },
+    {
+      "title": "Stargate Universe",
+      "year": 2009,
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/review/45432"
+      ]
+    },
+    {
+      "title": "Farscape",
+      "year": 1999,
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/39183/farscape-the-complete-series/"
+      ],
+      "note": "Seasons 1–3 use 4:3; season 4 uses 16:9. Both are within this catalog’s tall-format range. HD editions can be upscales."
+    },
+    {
+      "title": "The Magicians",
+      "year": 2015,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://bluray.highdefdigest.com/30840/themagiciansseason1.html"
+      ]
+    },
+    {
+      "title": "Supernatural",
+      "year": 2005,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/50599/supernatural-the-complete-sixth-season/"
+      ]
+    },
+    {
+      "title": "Grimm",
+      "year": 2011,
+      "genres": [
+        "Fantasy",
+        "Crime",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/56274/grimm-season-one/"
+      ]
+    },
+    {
+      "title": "Warehouse 13",
+      "year": 2009,
+      "genres": [
+        "Sci-Fi",
+        "Fantasy",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/42904/warehouse-13/"
+      ]
+    },
+    {
+      "title": "Legend of the Seeker",
+      "year": 2008,
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/46280/legend-of-the-seeker-the-complete-second-season/"
+      ]
+    },
+    {
+      "title": "Babylon 5",
+      "year": 1993,
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://dvdcorner.net/2023/12/27/babylon-5-the-complete-series-blu-ray-review/"
+      ],
+      "note": "Select the 4:3 remastered TV series presentation; older widescreen DVD editions and associated movies can differ."
+    },
+    {
+      "title": "Eureka",
+      "year": 2006,
+      "genres": [
+        "Sci-Fi",
+        "Comedy",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.theaterbyte.com/eureka-the-complete-series-blu-ray-review/"
+      ]
+    },
+    {
+      "title": "Star Trek: The Next Generation",
+      "year": 1987,
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/star-trek-tng-season-1"
+      ]
     }
-  ]
+  ],
+  "taste": "Emphasize science fiction, fantasy, action, adventure and mythology while retaining comedy, crime and documentary choices. Buffy and The Expanse are taste references; The Expanse is excluded because later seasons contain wider/variable framing."
 }
