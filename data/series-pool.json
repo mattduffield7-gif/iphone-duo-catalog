@@ -726,6 +726,25 @@
         "https://thedigitalbits.com/reviews/item/star-trek-tng-season-1"
       ],
       "description": "Reported standard framing: 1.33:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt2306299",
+      "type": "series",
+      "name": "Vikings",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTFmZmExYTEtYmE0Mi00MzRmLWE4ZDYtOThiNzNlOTIyODljXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2013-2020",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://moviemansguide.com/main/2022/03/review-vikings-series-bd/"
+      ],
+      "description": "Reported standard framing: 1.78:1. The complete-series Blu-ray review reports 1.78:1 across every season. Individual stream files may differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "limitations": "Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored."

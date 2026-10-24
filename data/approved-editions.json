@@ -194,6 +194,31 @@
         "https://www.bigpicturebigsound.com/Jurassic-Park-Ultimate-Trilogy-Blu-ray.shtml"
       ],
       "evidence": "Firsthand Blu-ray review confirms all three original trilogy entries retain their original 1.85 home framing."
+    },
+    {
+      "id": "tt33764258",
+      "title": "The Odyssey",
+      "year": 2026,
+      "edition": "Expanded Home",
+      "aspectRatio": "1.78:1",
+      "allowStandardHome": true,
+      "notBefore": "2026-11-17",
+      "sources": [
+        "https://www.universalpicturesathome.com/press-release/the-odyssey-press-release"
+      ],
+      "evidence": "Universal’s official home-entertainment announcement lists the UHD and Blu-ray feature at 1.78:1 with a November 17, 2026 street date. Enable only after this date and an indexed 2D home release; later conflicting evidence can revoke approval."
+    },
+    {
+      "id": "tt0145487",
+      "title": "Spider-Man",
+      "year": 2002,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://screen-connections.com/2013/08/06/blu-ray-review-sony-pictures-home-entertainment-4k-mastered-titles-men-in-black-spider-man-spider-man-2-now-available-on-4k-mastered-blu-ray/"
+      ],
+      "evidence": "Firsthand review of the mastered-in-4K Blu-ray confirms the complete original 1.85 presentation. This approval covers the original 2002 film only; the sequels use wider native framing."
     }
   ],
   "pendingReview": [

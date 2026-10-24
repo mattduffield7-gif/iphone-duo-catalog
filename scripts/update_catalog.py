@@ -108,12 +108,14 @@ def retain_previous(movies, previous_pool, policy, today):
     kept = dict(movies)
     approved_ids = {m['id'] for m in policy['movies']}
     blocked = {(normalize(m['title']), m['year']) for m in policy.get('excludedMovies', [])}
+    held = {(normalize(m['title']), m['year']) for m in policy['movies']
+            if m.get('notBefore', today.isoformat()) > today.isoformat()}
     for movie in previous_pool:
         match = re.match(r'\d{4}', str(movie.get('releaseInfo', '')))
         if not match or not re.fullmatch(r'tt\d{7,10}', movie.get('id', '')):
             continue
         year = int(match.group())
-        if ((normalize(movie.get('name', '')), year) in blocked
+        if ((normalize(movie.get('name', '')), year) in blocked | held
                 or (not policy['includeOlderTitles'] and year < today.year - 3)):
             continue
         reviewed = movie['id'] in approved_ids
@@ -129,8 +131,11 @@ def build(today, fixture_dir=None, policy=None, previous_pool=()):
     if policy is None:
         policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
     approved = {(normalize(m["title"]), m["year"], m["edition"]): m for m in policy["movies"]
-                if policy["includeOlderTitles"] or m["year"] >= today.year - 3}
+                if (policy["includeOlderTitles"] or m["year"] >= today.year - 3)
+                and m.get('notBefore', today.isoformat()) <= today.isoformat()}
     blocked = {(normalize(m["title"]), m["year"]) for m in policy.get("excludedMovies", [])}
+    blocked |= {(normalize(m['title']), m['year']) for m in policy['movies']
+                if m.get('notBefore', today.isoformat()) > today.isoformat()}
     candidates = {}
     queries = list(dict.fromkeys(["IMAX", "Open Matte", "OpenMatte"] +
                    [f"{m['title']} {m['year']}" if m.get("allowStandardHome") else f"{m['title']} {m['edition']}" for m in approved.values()]))

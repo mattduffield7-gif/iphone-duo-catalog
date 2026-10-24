@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-24T23:19:25.111110+00:00",
+  "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
+  "movies": {
+    "state": "ok",
+    "lastAttemptAt": "2026-10-24T23:19:25.111110+00:00",
+    "lastSuccessAt": "2026-10-24T23:19:25.111110+00:00"
+  },
+  "series": {
+    "state": "ok",
+    "lastAttemptAt": "2026-10-24T23:19:25.111110+00:00",
+    "lastSuccessAt": "2026-10-24T23:19:25.111110+00:00"
+  },
+  "seriesDiscovery": {
+    "state": "ok",
+    "lastAttemptAt": "2026-10-24T23:19:25.111110+00:00",
+    "lastSuccessAt": "2026-10-24T23:19:25.111110+00:00"
+  },
+  "upcoming": [
+    {
+      "id": "tt33764258",
+      "title": "The Odyssey",
+      "notBefore": "2026-11-17",
+      "aspectRatio": "1.78:1",
+      "sources": [
+        "https://www.universalpicturesathome.com/press-release/the-odyssey-press-release"
+      ]
+    }
+  ]
+}

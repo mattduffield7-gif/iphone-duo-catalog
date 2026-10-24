@@ -526,7 +526,32 @@
       "sources": [
         "https://thedigitalbits.com/reviews/item/star-trek-tng-season-1"
       ]
+    },
+    {
+      "title": "Vikings",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Mythology"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://moviemansguide.com/main/2022/03/review-vikings-series-bd/"
+      ],
+      "note": "The complete-series Blu-ray review reports 1.78:1 across every season. Individual stream files may differ."
     }
   ],
-  "taste": "Emphasize science fiction, fantasy, action, adventure and mythology while retaining comedy, crime and documentary choices. Buffy and The Expanse are taste references; The Expanse is excluded because later seasons contain wider/variable framing."
+  "taste": "Emphasize science fiction, fantasy, action, adventure and mythology while retaining comedy, crime and documentary choices. Buffy and The Expanse are taste references; The Expanse is excluded because later seasons contain wider/variable framing.",
+  "excludedSeries": [
+    {
+      "id": "tt3230854",
+      "title": "The Expanse",
+      "reason": "Taste reference only: later seasons contain wider/variable framing.",
+      "sources": [
+        "https://thespool.net/podcasts/naren-shankar-the-expanse-season-4-amazon-podcast-interview/"
+      ]
+    }
+  ]
 }

@@ -20,15 +20,14 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -v
-      - run: python scripts/update_catalog.py
-      - run: python scripts/update_series.py
+      - run: python scripts/refresh_catalogs.py
       - name: Publish updated metadata
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add catalog data status.json
+          git add catalog data status.json stream-expression.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh daily iPhone Duo movies"
+            git commit -m "Refresh daily iPhone Duo catalogs and health"
             git push
           fi
       - name: Stage catalog endpoints
@@ -42,6 +41,15 @@ jobs:
           path: public
       - uses: actions/deploy-pages@v4
         id: deployment
+      - name: Report refresh failures after publishing healthy catalogs
+        run: |
+          python - <<'PY'
+          import json
+          health = json.load(open('data/refresh-health.json'))
+          failed = [name for name in ('movies', 'series', 'seriesDiscovery') if health[name]['state'] != 'ok']
+          if failed:
+              raise SystemExit('Previous good metadata retained for: ' + ', '.join(failed))
+          PY
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
