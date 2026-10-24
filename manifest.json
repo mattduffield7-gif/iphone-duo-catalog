@@ -1,19 +1,25 @@
 {
   "id": "community.iphone-duo.catalog",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "name": "Good for the iPhone Duo",
-  "description": "Daily rotating reviewed tall-format films and newly indexed Open Matte-labelled releases. Uploader labels do not independently verify whole-film framing. Use IMAX/Open Matte for matching TorBox results.",
+  "description": "Full movie and tall-format series catalogs. This static fallback refreshes daily; the live service reshuffles every fetch. Framing and release labels are not file-level verification.",
   "resources": [
     "catalog"
   ],
   "types": [
-    "movie"
+    "movie",
+    "series"
   ],
   "catalogs": [
     {
       "type": "movie",
       "id": "iphone-duo",
-      "name": "Good for the iPhone Duo"
+      "name": "Good for the iPhone Duo – Movies"
+    },
+    {
+      "type": "series",
+      "id": "iphone-duo-series",
+      "name": "Good for the iPhone Duo – Series"
     }
   ],
   "behaviorHints": {

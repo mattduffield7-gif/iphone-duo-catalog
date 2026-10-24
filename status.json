@@ -4,9 +4,10 @@
   "poolSize": 88,
   "reviewedCount": 16,
   "releaseLabelledCount": 72,
-  "rowSize": 12,
+  "rowSize": 88,
   "minimumMovieYear": null,
   "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches",
-  "rotation": "Daily order and up to 12 movies per selection",
-  "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability."
+  "rotation": "Daily order of the complete pool on static fallback; live service reshuffles the complete pool on each fetch",
+  "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability.",
+  "seriesPoolSize": 26
 }

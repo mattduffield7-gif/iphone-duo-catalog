@@ -1,0 +1,445 @@
+{
+  "updated": "2026-10-25",
+  "series": [
+    {
+      "id": "tt1439629",
+      "type": "series",
+      "name": "Community",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2009-2015",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/community-the-complete-final-season-dvd-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0386676",
+      "type": "series",
+      "name": "The Office",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2005-2013",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://screen-connections.com/2026/07/17/blu-ray-review-the-office-the-complete-series-superfan-extended-episodes/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1266020",
+      "type": "series",
+      "name": "Parks and Recreation",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDlhMzAwNTAtNTk2NS00MTdkLWE3ZWYtMDU0MTFiYmU2ZTc0XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2009-2015",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.homecinemachoice.com/content/parks-and-recreation-seasons-one-two-three-four-review"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt2467372",
+      "type": "series",
+      "name": "Brooklyn Nine-Nine",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2013-2021",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://geekvibesnation.com/brooklyn-nine-nine-the-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt4955642",
+      "type": "series",
+      "name": "The Good Place",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjI3ZGRhNDYtNDFjOS00OGFlLTg4NTEtYjZjYTViY2ZiMzBkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2016-2020",
+      "genres": [
+        "Comedy",
+        "Fantasy"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/81445/thegoodplacethecompleteseries.html"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt4082744",
+      "type": "series",
+      "name": "Detectorists",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGRjYzhmOTgtMDNlNy00YjJlLWI1MDAtMjAyMDRlMjE5OGNkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2014-2022",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/82488/detectoristsseries1.html"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt2674806",
+      "type": "series",
+      "name": "Inside No. 9",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTQ0ZGM2ZmQtMzU2Ni00MTQ0LTliZjMtMGRlNzlhNWIxNjgyXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2014-2024",
+      "genres": [
+        "Comedy",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.blu-ray.com/Inside-No-9/319717/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt14218830",
+      "type": "series",
+      "name": "Abbott Elementary",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjU5YTdlZTItNWM5Yi00OGM1LTk1NGItNjY5MGU3Y2JkOWIwXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2021-",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://dvdcorner.net/2025/04/03/abbott-elementary-season-3-dvd-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt21433690",
+      "type": "series",
+      "name": "St. Denis Medical",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTVmZjBkNTgtYjI4ZS00YjJiLTk4NjktNmRhY2JiZGZjMDU1XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2024-",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://dvdcorner.net/2025/11/08/st-denis-medical-season-1-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt7587890",
+      "type": "series",
+      "name": "The Rookie",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTdmNjFlMjktZDI1ZC00MzMzLTkxZmItMzE0OTJkMDAwNzQ4XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2018-",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.blu-ray.com/digital/The-Rookie-Season-1-Digital/29471/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1196946",
+      "type": "series",
+      "name": "The Mentalist",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ5OTgzOTczM15BMl5BanBnXkFtZTcwMDM2OTY4MQ@@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2008-2015",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.comingsoon.net/dvd/reviews/59281-the-mentalist-the-complete-first-season"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0491738",
+      "type": "series",
+      "name": "Psych",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDhiNDEwZDAtNGY3NS00ODU3LWE2NjUtYWNiNGFhZjIyMDg5XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2006-2014",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/review/33882"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1475582",
+      "type": "series",
+      "name": "Sherlock",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjRhZDdjMDYtMTg5Yy00NGI4LWI3ZDgtYjNkNDc4MzJkNDRjXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2010-2017",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.soundandvision.com/content/blu-ray-disc-review-sherlock-season-1"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt2243973",
+      "type": "series",
+      "name": "Hannibal",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjBmYjdiMzItNTEwNi00YTI2LTg4YjctOTRjNDYxNTUxNGQ1XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2013-2015",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Horror"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.avforums.com/reviews/hannibal-season-3-blu-ray-review.12189/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2008-2013",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/2949/breakingbad_s1.html"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt3032476",
+      "type": "series",
+      "name": "Better Call Saul",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTAxOTQ0MjUzMzJeQTJeQWpwZ15BbWU4MDY0NTAxNzMx._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2015-2022",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://screen-connections.com/2015/11/20/blu-ray-review-better-call-saul-season-one-now-available-on-blu-ray-dvd-from-sony/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1119644",
+      "type": "series",
+      "name": "Fringe",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWVlMmE1MmEtNjhjMC00MDdmLWIzZGMtNjc1YTZmNDc2MWExXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2008-2013",
+      "genres": [
+        "Sci-Fi",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/3311/fringe_s2.html"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1839578",
+      "type": "series",
+      "name": "Person of Interest",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTcxNDJiMTUtN2ZhZS00OGE1LWJmZmYtN2VhYThiZTBhYWM1XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2011-2016",
+      "genres": [
+        "Crime",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/community/threads/person-of-interest-the-complete-first-season-blu-ray-review.317595/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0303461",
+      "type": "series",
+      "name": "Firefly",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzYyZWYzNzUtOWQ4Yi00Y2Q4LWJjZjgtZTllNjg2ZGM0MTcyXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2002-2003",
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.technofile.com/bluray/firefly.asp"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0407362",
+      "type": "series",
+      "name": "Battlestar Galactica",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmMzYzdmNWMtM2ZmMi00Y2E2LWI5ZTMtYWJlNmJiMDgyYWRiXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2004-2009",
+      "genres": [
+        "Sci-Fi",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.avforums.com/reviews/battlestar-galactica-the-complete-series-blu-ray-review.2422/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt5491994",
+      "type": "series",
+      "name": "Planet Earth II",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzY4NDBkMWYtYzdkYy00YzBjLWJmODctMWM4YjYzZTdjNWE5XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2016",
+      "genres": [
+        "Documentary",
+        "Nature"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://whysoblu.com/planet-earth-ii-4k-uhd-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt6769208",
+      "type": "series",
+      "name": "Blue Planet II",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmUwYThjM2UtNTg1Yy00MzRlLThhMmYtNjlmOWU0ZmQxZDA3XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2017",
+      "genres": [
+        "Documentary",
+        "Nature"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.whathifi.com/features/blue-planet-ii-4k-ultra-hd-blu-ray-review"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt2092588",
+      "type": "series",
+      "name": "Frozen Planet",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDE0ZTZlZDItOTgzNS00Zjg4LWEwOWEtYjc1YzY2MjliZTM5XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2011-2012",
+      "genres": [
+        "Documentary",
+        "Nature"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/community/threads/frozen-planet-blu-ray-review.313868/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt8064302",
+      "type": "series",
+      "name": "Dead to Me",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODFhNzI1ZjgtMTFmNC00MTkyLTg0NTItMTkzYzk4MDFjNzdhXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2019-2022",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "aspectRatio": 2.0,
+      "evidenceSources": [
+        "https://acmag.com.au/2020/06/01/dead-to-me/"
+      ],
+      "description": "Reported standard framing: 2.0:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt10919486",
+      "type": "series",
+      "name": "Into the Night",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmI5N2ZhMmMtZThkYS00ZmYyLWI0NWItNWI4ZDg0MjVkOTczXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2020-2021",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "aspectRatio": 2.0,
+      "evidenceSources": [
+        "https://www.vantagefilm.com/en/news/null/into-the-night-with-vantage-one4-1-11479"
+      ],
+      "description": "Reported standard framing: 2.0:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt4574334",
+      "type": "series",
+      "name": "Stranger Things",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2016-2025",
+      "genres": [
+        "Sci-Fi",
+        "Mystery",
+        "Horror"
+      ],
+      "aspectRatio": 2.0,
+      "evidenceSources": [
+        "https://britishcinematographer.co.uk/tim-ives-asc-goes-back-to-the-future-for-stranger-things-3/"
+      ],
+      "description": "Reported standard framing: 2.0:1. Special episodes, seasons and individual stream files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    }
+  ],
+  "limitations": "Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored."
+}

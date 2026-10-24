@@ -1,0 +1,318 @@
+{
+  "aspectRange": [
+    1.33,
+    2.0
+  ],
+  "policy": "Popular series with sourced standard home framing close to the IMAX/16:9 range. Season and episode exceptions may exist; no playback verification. No account history is published.",
+  "series": [
+    {
+      "title": "Community",
+      "year": 2009,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.hometheaterforum.com/community-the-complete-final-season-dvd-review/"
+      ]
+    },
+    {
+      "title": "The Office",
+      "year": 2005,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://screen-connections.com/2026/07/17/blu-ray-review-the-office-the-complete-series-superfan-extended-episodes/"
+      ]
+    },
+    {
+      "title": "Parks and Recreation",
+      "year": 2009,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.homecinemachoice.com/content/parks-and-recreation-seasons-one-two-three-four-review"
+      ]
+    },
+    {
+      "title": "Brooklyn Nine-Nine",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://geekvibesnation.com/brooklyn-nine-nine-the-complete-series-blu-ray-review/"
+      ]
+    },
+    {
+      "title": "The Good Place",
+      "year": 2016,
+      "genres": [
+        "Comedy",
+        "Fantasy"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://bluray.highdefdigest.com/81445/thegoodplacethecompleteseries.html"
+      ]
+    },
+    {
+      "title": "Detectorists",
+      "year": 2014,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://bluray.highdefdigest.com/82488/detectoristsseries1.html"
+      ]
+    },
+    {
+      "title": "Inside No. 9",
+      "year": 2014,
+      "genres": [
+        "Comedy",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.blu-ray.com/Inside-No-9/319717/"
+      ]
+    },
+    {
+      "title": "Abbott Elementary",
+      "year": 2021,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://dvdcorner.net/2025/04/03/abbott-elementary-season-3-dvd-review/"
+      ]
+    },
+    {
+      "title": "St. Denis Medical",
+      "year": 2024,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://dvdcorner.net/2025/11/08/st-denis-medical-season-1-blu-ray-review/"
+      ]
+    },
+    {
+      "title": "The Rookie",
+      "year": 2018,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.blu-ray.com/digital/The-Rookie-Season-1-Digital/29471/"
+      ]
+    },
+    {
+      "title": "The Mentalist",
+      "year": 2008,
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.comingsoon.net/dvd/reviews/59281-the-mentalist-the-complete-first-season"
+      ]
+    },
+    {
+      "title": "Psych",
+      "year": 2006,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/review/33882"
+      ]
+    },
+    {
+      "title": "Sherlock",
+      "year": 2010,
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.soundandvision.com/content/blu-ray-disc-review-sherlock-season-1"
+      ]
+    },
+    {
+      "title": "Hannibal",
+      "year": 2013,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Horror"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.avforums.com/reviews/hannibal-season-3-blu-ray-review.12189/"
+      ]
+    },
+    {
+      "title": "Breaking Bad",
+      "year": 2008,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://bluray.highdefdigest.com/2949/breakingbad_s1.html"
+      ]
+    },
+    {
+      "title": "Better Call Saul",
+      "year": 2015,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://screen-connections.com/2015/11/20/blu-ray-review-better-call-saul-season-one-now-available-on-blu-ray-dvd-from-sony/"
+      ]
+    },
+    {
+      "title": "Fringe",
+      "year": 2008,
+      "genres": [
+        "Sci-Fi",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://bluray.highdefdigest.com/3311/fringe_s2.html"
+      ]
+    },
+    {
+      "title": "Person of Interest",
+      "year": 2011,
+      "genres": [
+        "Crime",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.hometheaterforum.com/community/threads/person-of-interest-the-complete-first-season-blu-ray-review.317595/"
+      ]
+    },
+    {
+      "title": "Firefly",
+      "year": 2002,
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.technofile.com/bluray/firefly.asp"
+      ]
+    },
+    {
+      "title": "Battlestar Galactica",
+      "year": 2004,
+      "genres": [
+        "Sci-Fi",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.avforums.com/reviews/battlestar-galactica-the-complete-series-blu-ray-review.2422/"
+      ]
+    },
+    {
+      "title": "Planet Earth II",
+      "year": 2016,
+      "genres": [
+        "Documentary",
+        "Nature"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://whysoblu.com/planet-earth-ii-4k-uhd-blu-ray-review/"
+      ]
+    },
+    {
+      "title": "Blue Planet II",
+      "year": 2017,
+      "genres": [
+        "Documentary",
+        "Nature"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.whathifi.com/features/blue-planet-ii-4k-ultra-hd-blu-ray-review"
+      ]
+    },
+    {
+      "title": "Frozen Planet",
+      "year": 2011,
+      "genres": [
+        "Documentary",
+        "Nature"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.hometheaterforum.com/community/threads/frozen-planet-blu-ray-review.313868/"
+      ]
+    },
+    {
+      "title": "Dead to Me",
+      "year": 2019,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "aspectRatio": 2.0,
+      "sources": [
+        "https://acmag.com.au/2020/06/01/dead-to-me/"
+      ]
+    },
+    {
+      "title": "Into the Night",
+      "year": 2020,
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "aspectRatio": 2.0,
+      "sources": [
+        "https://www.vantagefilm.com/en/news/null/into-the-night-with-vantage-one4-1-11479"
+      ]
+    },
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "genres": [
+        "Sci-Fi",
+        "Mystery",
+        "Horror"
+      ],
+      "aspectRatio": 2.0,
+      "sources": [
+        "https://britishcinematographer.co.uk/tim-ives-asc-goes-back-to-the-future-for-stranger-things-3/"
+      ]
+    }
+  ]
+}

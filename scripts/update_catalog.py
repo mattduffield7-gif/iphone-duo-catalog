@@ -189,8 +189,8 @@ def build(today, fixture_dir=None, policy=None):
         raise RuntimeError(f"{len(failures)} metadata lookups failed; retaining the previous catalog")
     # Unknown IMAX tags never qualify: most IMAX movies switch aspect ratios.
     pool = list(movies.values())
-    public_movies = [{k: v for k, v in m.items() if k not in ("edition", "observed", "aspectRatio", "evidenceSources")} for m in rotate(pool, today)]
-    return pool, {"metas": public_movies, "cacheMaxAge": 3600, "staleRevalidate": 3600}
+    public_movies = [{k: v for k, v in m.items() if k not in ("edition", "observed", "aspectRatio", "evidenceSources")} for m in rotate(pool, today, size=len(pool))]
+    return pool, {"metas": public_movies, "cacheMaxAge": 300, "staleRevalidate": 0}
 
 
 
@@ -231,8 +231,8 @@ def main():
     (ROOT / "stream-expression.txt").write_text(stream_expression(policy) + "\n")
     write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "movies": pool})
     write_json(ROOT / "catalog" / "movie" / "iphone-duo.json", catalog)
-    write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "reviewedCount": sum(m.get("reviewStatus", "").startswith("Reviewed") for m in pool), "releaseLabelledCount": sum(m.get("reviewStatus", "").startswith("Release-labelled") for m in pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": None if policy["includeOlderTitles"] else today.year - 3, "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches", "rotation": "Daily order and up to 12 movies per selection", "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability."})
-    print(f"Built {len(catalog['metas'])} daily picks from {len(pool)} movies for {today}")
+    write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "reviewedCount": sum(m.get("reviewStatus", "").startswith("Reviewed") for m in pool), "releaseLabelledCount": sum(m.get("reviewStatus", "").startswith("Release-labelled") for m in pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": None if policy["includeOlderTitles"] else today.year - 3, "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches", "rotation": "Daily order of the complete pool; the live service shuffles each fetch", "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability."})
+    print(f"Built full catalog with {len(catalog['metas'])} movies for {today}")
 
 
 if __name__ == "__main__":
