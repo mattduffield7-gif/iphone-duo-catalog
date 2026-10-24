@@ -1,9 +1,9 @@
 {
   "updated": "2026-10-25",
   "timezone": "Australia/Adelaide",
-  "poolSize": 86,
+  "poolSize": 88,
   "reviewedCount": 16,
-  "releaseLabelledCount": 70,
+  "releaseLabelledCount": 72,
   "rowSize": 12,
   "minimumMovieYear": null,
   "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches",
