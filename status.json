@@ -10,22 +10,22 @@
   "rotation": "Daily order of the complete pool; the live service shuffles each fetch",
   "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability.",
   "refresh": {
-    "checkedAt": "2026-10-24T23:30:16.087968+00:00",
+    "checkedAt": "2026-10-24T23:32:20.997700+00:00",
     "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
     "movies": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-24T23:29:44.586102+00:00",
-      "lastSuccessAt": "2026-10-24T23:30:15.173988+00:00"
+      "lastAttemptAt": "2026-10-24T23:31:17.619234+00:00",
+      "lastSuccessAt": "2026-10-24T23:32:06.477497+00:00"
     },
     "series": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-24T23:29:44.586102+00:00",
-      "lastSuccessAt": "2026-10-24T23:30:15.845104+00:00"
+      "lastAttemptAt": "2026-10-24T23:31:17.619234+00:00",
+      "lastSuccessAt": "2026-10-24T23:32:20.732621+00:00"
     },
     "seriesDiscovery": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-24T23:29:44.586102+00:00",
-      "lastSuccessAt": "2026-10-24T23:30:16.087520+00:00"
+      "lastAttemptAt": "2026-10-24T23:31:17.619234+00:00",
+      "lastSuccessAt": "2026-10-24T23:32:20.997235+00:00"
     },
     "upcoming": [
       {
