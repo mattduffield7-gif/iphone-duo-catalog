@@ -3,18 +3,6 @@
   "policy": "Only reviewed full-film expanded editions. A theatrical IMAX credit or filename alone is insufficient. Unknown candidates remain excluded until their home edition is reviewed. File-level playback is not verified.",
   "movies": [
     {
-      "id": "tt10676052",
-      "title": "The Fantastic Four: First Steps",
-      "year": 2025,
-      "edition": "IMAX",
-      "aspectRatio": "1.90:1",
-      "sources": [
-        "https://www.imax.com/movie/the-fantastic-four-first-steps",
-        "https://www.disneyplus.com/explore/articles/fantastic-four-first-steps-movie"
-      ],
-      "evidence": "IMAX explicitly describes the entire film as expanded. Disney confirms an IMAX Enhanced home edition. Select 1.43 theatrical sequences are not the fixed 1.90 home presentation."
-    },
-    {
       "id": "tt4154756",
       "title": "Avengers: Infinity War",
       "year": 2018,
@@ -74,6 +62,22 @@
         "https://fanrestore.com/thread-1993.html"
       ],
       "evidence": "Community restoration documentation identifies the full-frame Open Matte edition. Select an Open Matte file; the standard widescreen release does not qualify. This is community evidence rather than studio certification."
+    }
+  ],
+  "pendingReview": [
+    {
+      "id": "tt10676052",
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "edition": "IMAX",
+      "aspectRatio": "1.90:1 / 1.78:1 with windowboxed 1.66:1 footage",
+      "sources": [
+        "https://www.imax.com/movie/the-fantastic-four-first-steps",
+        "https://www.disneyplus.com/explore/articles/fantastic-four-first-steps-movie",
+        "https://videofileblog.com/2022/08/31/imax-variable-aspect-ratio-movies/"
+      ],
+      "evidence": "The theatrical entire-film expansion announcement does not establish a constant-ratio home edition. Home-media reference identifies additional framing changes.",
+      "reviewStatus": "Held out: home edition has framing changes; does not satisfy the strict constant-frame preference."
     }
   ]
 }

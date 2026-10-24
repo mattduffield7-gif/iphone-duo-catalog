@@ -42,16 +42,17 @@ class CatalogTests(unittest.TestCase):
 
     def test_unknown_and_variable_ratio_titles_never_enter_pool(self):
         payload = {"hits": [
-            {"title": "The.Fantastic.Four.First.Steps.2025.IMAX.HYBRID.1080p"},
+            {"title": "Avengers.Infinity.War.2018.IMAX.HYBRID.1080p"},
+            {"title": "The.Fantastic.Four.First.Steps.2025.IMAX.1080p"},
             {"title": "Oppenheimer.2023.IMAX.2160p"},
             {"title": "Unknown.Movie.2025.Open.Matte.1080p"},
         ]}
-        movie = {"id": "tt10676052", "name": "The Fantastic Four: First Steps", "type": "movie", "releaseInfo": "2025"}
+        movie = {"id": "tt4154756", "name": "Avengers: Infinity War", "type": "movie", "releaseInfo": "2018"}
         def fetch(url):
             return payload if "api.knaben.org" in url else {"metas": [movie]}
         with patch.object(catalog, "fetch_json", side_effect=fetch):
             pool, public = catalog.build(dt.date(2026, 10, 25))
-        self.assertEqual([m["id"] for m in pool], ["tt10676052"])
+        self.assertEqual([m["id"] for m in pool], ["tt4154756"])
         self.assertEqual(len(public["metas"]), 1)
         self.assertIn("Reviewed full-film", public["metas"][0]["description"])
 

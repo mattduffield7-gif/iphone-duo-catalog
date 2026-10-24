@@ -4,7 +4,7 @@ A metadata-only Stremio row for full-film expanded IMAX and Open Matte editions,
 
 ## Strict edition policy
 
-Only titles and editions in `data/approved-editions.json` are eligible. Each entry records source evidence and the intended aspect ratio. IMAX filmed-camera credits alone are insufficient: the home edition must preserve expansion across the film. Variable-ratio editions such as Interstellar, Oppenheimer and The Marvels are excluded. Unknown IMAX/Open Matte labels are excluded until reviewed. The word HYBRID is not treated as proof of changing aspect ratio: it can refer to combined audio, HDR or video sources.
+Only titles and editions in `data/approved-editions.json` are eligible. Each entry records source evidence and the intended aspect ratio. IMAX filmed-camera credits alone are insufficient: the home edition must preserve expansion across the film. Variable-ratio editions such as Interstellar, Oppenheimer and The Marvels are excluded. Fantastic Four: First Steps is held in `pendingReview` because its home presentation has framing changes; an entire-film IMAX marketing credit is insufficient. Unknown IMAX/Open Matte labels are excluded until reviewed. The word HYBRID is not treated as proof of changing aspect ratio: it can refer to combined audio, HDR or video sources.
 
 This is a conservative starting list, not a complete directory. Primary IMAX/Disney sources support the IMAX entries; the Blade Runner 2049 Open Matte entry uses community restoration documentation, recorded separately in its evidence. Individual stream files have not been played or independently verified. Select the matching edition in the stream results; an ordinary widescreen release of an eligible movie does not qualify.
 

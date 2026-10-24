@@ -18,22 +18,6 @@
       ]
     },
     {
-      "id": "tt9419884",
-      "type": "movie",
-      "name": "Doctor Strange in the Multiverse of Madness",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2022",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
-      "edition": "IMAX",
-      "observed": "2026-04-17T02:12:35+00:00",
-      "aspectRatio": "1.90:1",
-      "evidenceSources": [
-        "https://imaxcorporation.gcs-web.com/node/23511/pdf",
-        "https://www.disneyplus.com/welcome/imax-enhanced"
-      ]
-    },
-    {
       "id": "tt4154796",
       "type": "movie",
       "name": "Avengers: Endgame",
@@ -47,6 +31,22 @@
       "evidenceSources": [
         "https://www.youtube.com/watch?v=3yPFZrSvfes",
         "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ]
+    },
+    {
+      "id": "tt9419884",
+      "type": "movie",
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2022",
+      "posterShape": "poster",
+      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "edition": "IMAX",
+      "observed": "2026-04-17T02:12:35+00:00",
+      "aspectRatio": "1.90:1",
+      "evidenceSources": [
+        "https://imaxcorporation.gcs-web.com/node/23511/pdf",
+        "https://www.disneyplus.com/welcome/imax-enhanced"
       ]
     },
     {
@@ -64,22 +64,6 @@
         "https://www.fanrestore.com/thread-1922.html",
         "https://www.fanrestore.com/thread-1922-page-25.html",
         "https://fanrestore.com/thread-1993.html"
-      ]
-    },
-    {
-      "id": "tt10676052",
-      "type": "movie",
-      "name": "The Fantastic Four: First Steps",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2025",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
-      "edition": "IMAX",
-      "observed": "2025-11-05T18:56:56+00:00",
-      "aspectRatio": "1.90:1",
-      "evidenceSources": [
-        "https://www.imax.com/movie/the-fantastic-four-first-steps",
-        "https://www.disneyplus.com/explore/articles/fantastic-four-first-steps-movie"
       ]
     },
     {
