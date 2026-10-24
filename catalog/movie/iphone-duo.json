@@ -1,0 +1,114 @@
+{
+  "metas": [
+    {
+      "id": "tt33095008",
+      "type": "movie",
+      "name": "A Writer's Odyssey 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzU4OTIyYTYtNTkyNS00MDM2LTk1NmEtMGVmMWZkMTgyNWJiXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2026",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt12042730",
+      "type": "movie",
+      "name": "Project Hail Mary",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2026",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt9603208",
+      "type": "movie",
+      "name": "Mission: Impossible - The Final Reckoning",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt23468450",
+      "type": "movie",
+      "name": "Longlegs",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmJkNGNiNjgtMzFlYy00ZDI5LWI2YzktZGVjYjI5MjQyMGU3XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2024",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt10676052",
+      "type": "movie",
+      "name": "The Fantastic Four: First Steps",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt26743210",
+      "type": "movie",
+      "name": "How to Train Your Dragon",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt9663764",
+      "type": "movie",
+      "name": "Aquaman and the Lost Kingdom",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTUzMWMtY2VkNS00ZDRjLWEwODYtYmFkMWJiNTQxMDUzXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2023",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt22898462",
+      "type": "movie",
+      "name": "The Conjuring: Last Rites",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2VmMzRkYzgtMzg2ZC00OTFkLTkwMTYtNTMxNjM2YzI1MjgyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt10676048",
+      "type": "movie",
+      "name": "The Marvels",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzczOWM4MzItMWMyOS00ZDczLWIxMzctNzBmYTgzOTI1MzI3XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2023",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt34956443",
+      "type": "movie",
+      "name": "Ne Zha 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDBlMWRiZmItN2Q4ZC00NGI3LTk2NjMtMzBlZmVmMmFiNmY5XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    },
+    {
+      "id": "tt14513804",
+      "type": "movie",
+      "name": "Captain America: Brave New World",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+    }
+  ],
+  "cacheMaxAge": 3600,
+  "staleRevalidate": 3600
+}

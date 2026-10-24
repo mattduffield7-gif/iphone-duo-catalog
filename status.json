@@ -1,0 +1,10 @@
+{
+  "updated": "2026-10-25",
+  "timezone": "Australia/Adelaide",
+  "poolSize": 17,
+  "rowSize": 12,
+  "minimumMovieYear": 2023,
+  "source": "Knaben public edition-labelled release metadata; exact Cinemeta title/year matches",
+  "rotation": "Daily, 12 movies per selection",
+  "limitations": "Release labels are community metadata, not independent aspect-ratio or playback verification."
+}

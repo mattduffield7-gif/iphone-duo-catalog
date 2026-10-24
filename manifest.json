@@ -1,0 +1,10 @@
+{
+  "id": "community.iphone-duo.catalog",
+  "version": "1.0.0",
+  "name": "Good for the iPhone Duo",
+  "description": "A daily rotating selection of recent movies with publicly indexed releases labelled IMAX or Open Matte. Use your existing AIOStreams addon for filtered versions.",
+  "resources": ["catalog"],
+  "types": ["movie"],
+  "catalogs": [{"type": "movie", "id": "iphone-duo", "name": "Good for the iPhone Duo"}],
+  "behaviorHints": {"adult": false, "p2p": false}
+}

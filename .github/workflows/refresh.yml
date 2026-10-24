@@ -1,0 +1,46 @@
+name: Refresh daily movie selection
+on:
+  workflow_dispatch:
+  schedule:
+    # 05:17 Adelaide during daylight saving; 04:17 during standard time.
+    - cron: '47 18 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: catalog-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/update_catalog.py
+      - name: Publish updated metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog data status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh daily iPhone Duo movies"
+            git push
+          fi
+      - name: Stage catalog endpoints
+        run: |
+          mkdir -p public
+          cp manifest.json status.json .nojekyll public/
+          cp -R catalog public/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4
+        id: deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
