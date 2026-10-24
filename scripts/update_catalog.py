@@ -258,7 +258,7 @@ def main():
     previous = json.loads(previous_path.read_text()).get('movies', []) if previous_path.exists() else []
     pool, catalog = build(today, args.fixture_dir, previous_pool=previous)
     (ROOT / "stream-expression.txt").write_text(stream_expression(policy) + "\n")
-    write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "movies": pool})
+    write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "refreshedAt": dt.datetime.now(dt.timezone.utc).isoformat(), "movies": pool})
     write_json(ROOT / "catalog" / "movie" / "iphone-duo.json", catalog)
     write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "reviewedCount": sum(m.get("reviewStatus", "").startswith("Reviewed") for m in pool), "releaseLabelledCount": sum(m.get("reviewStatus", "").startswith("Release-labelled") for m in pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": None if policy["includeOlderTitles"] else today.year - 3, "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches", "rotation": "Daily order of the complete pool; the live service shuffles each fetch", "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability."})
     print(f"Built full catalog with {len(catalog['metas'])} movies for {today}")

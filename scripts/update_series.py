@@ -26,7 +26,7 @@ def main():
     entries=json.loads((ROOT/'data/series-editions.json').read_text())['series']
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
         movies=list(ex.map(resolve,entries))
-    write_json(ROOT/'data/series-pool.json',{'updated':dt.datetime.now(ZoneInfo('Australia/Adelaide')).date().isoformat(),'series':movies,'limitations':'Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored.'})
+    write_json(ROOT/'data/series-pool.json',{'updated':dt.datetime.now(ZoneInfo('Australia/Adelaide')).date().isoformat(),'refreshedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'series':movies,'limitations':'Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored.'})
     write_json(ROOT/'catalog/series/iphone-duo-series.json',{'metas':movies,'cacheMaxAge':300})
     print(f'Built full series catalog with {len(movies)} titles')
 

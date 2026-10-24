@@ -1,5 +1,6 @@
 {
   "updated": "2026-10-25",
+  "refreshedAt": "2026-10-24T23:30:15.120007+00:00",
   "movies": [
     {
       "id": "tt4154756",
@@ -52,6 +53,23 @@
       "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
+      "id": "tt4154796",
+      "type": "movie",
+      "name": "Avengers: Endgame",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX250.jpg",
+      "releaseInfo": "2019",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "edition": "IMAX",
+      "observed": "2023-03-12T22:00:00+00:00",
+      "aspectRatio": "1.90:1",
+      "evidenceSources": [
+        "https://www.youtube.com/watch?v=3yPFZrSvfes",
+        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
       "id": "tt9376612",
       "type": "movie",
       "name": "Shang-Chi and the Legend of the Ten Rings",
@@ -69,21 +87,16 @@
       "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
-      "id": "tt4154796",
+      "id": "tt0181852",
       "type": "movie",
-      "name": "Avengers: Endgame",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX250.jpg",
-      "releaseInfo": "2019",
+      "name": "Terminator 3: Rise of the Machines",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTk5NzM1ODgyN15BMl5BanBnXkFtZTcwMzA5MjAzMw@@._V1_SX250.jpg",
+      "releaseInfo": "2003",
       "posterShape": "poster",
-      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
-      "edition": "IMAX",
-      "observed": "2023-03-12T22:00:00+00:00",
-      "aspectRatio": "1.90:1",
-      "evidenceSources": [
-        "https://www.youtube.com/watch?v=3yPFZrSvfes",
-        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
-      ],
-      "reviewStatus": "Reviewed title/edition; file unverified"
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2026-10-24T21:00:00+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
     },
     {
       "id": "tt0343818",
@@ -182,18 +195,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt0090605",
-      "type": "movie",
-      "name": "Aliens",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2ZiMmQ0YWItN2IwZS00Y2NhLWE0NzQtNGNiOGFjN2U4MWNmXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "1986",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2026-10-02T22:15:05+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt2310332",
       "type": "movie",
       "name": "The Hobbit: The Battle of the Five Armies",
@@ -203,6 +204,18 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2026-09-25T23:49:00+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0090605",
+      "type": "movie",
+      "name": "Aliens",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2ZiMmQ0YWItN2IwZS00Y2NhLWE0NzQtNGNiOGFjN2U4MWNmXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1986",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2026-10-02T22:15:05+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -242,18 +255,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt0258000",
-      "type": "movie",
-      "name": "Panic Room",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODU0ZGM0MjctM2YxYy00OWY1LTk2N2YtNWE4ZWQ2ODQwMTI5XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2002",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2026-09-16T16:37:00+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt1856101",
       "type": "movie",
       "name": "Blade Runner 2049",
@@ -270,6 +271,18 @@
         "https://fanrestore.com/thread-1993.html"
       ],
       "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0258000",
+      "type": "movie",
+      "name": "Panic Room",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODU0ZGM0MjctM2YxYy00OWY1LTk2N2YtNWE4ZWQ2ODQwMTI5XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2002",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2026-09-16T16:37:00+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
     },
     {
       "id": "tt0181689",
@@ -308,18 +321,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt3569230",
-      "type": "movie",
-      "name": "Legend",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjE0MjkyODQ3NF5BMl5BanBnXkFtZTgwNDM1OTk1NjE@._V1_SX250.jpg",
-      "releaseInfo": "2015",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2026-09-07T05:05:08+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt0840361",
       "type": "movie",
       "name": "The Town",
@@ -329,6 +330,18 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2026-09-07T03:38:00+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt3569230",
+      "type": "movie",
+      "name": "Legend",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE0MjkyODQ3NF5BMl5BanBnXkFtZTgwNDM1OTk1NjE@._V1_SX250.jpg",
+      "releaseInfo": "2015",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2026-09-07T05:05:08+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -416,18 +429,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt0409459",
-      "type": "movie",
-      "name": "Watchmen",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmJiNTUwYWUtZDllNi00ODdjLWFmNTEtOTVlNmYxYTZhNzYzXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2009",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2026-08-28T08:07:33+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt0780504",
       "type": "movie",
       "name": "Drive",
@@ -440,6 +441,18 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
+      "id": "tt0409459",
+      "type": "movie",
+      "name": "Watchmen",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmJiNTUwYWUtZDllNi00ODdjLWFmNTEtOTVlNmYxYTZhNzYzXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2009",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2026-08-28T08:07:33+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
       "id": "tt1078912",
       "type": "movie",
       "name": "Night at the Museum: Battle of the Smithsonian",
@@ -449,18 +462,6 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2026-07-26T06:26:17+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
-      "id": "tt0181852",
-      "type": "movie",
-      "name": "Terminator 3: Rise of the Machines",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTk5NzM1ODgyN15BMl5BanBnXkFtZTcwMzA5MjAzMw@@._V1_SX250.jpg",
-      "releaseInfo": "2003",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2026-10-24T21:00:00+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -500,15 +501,15 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt0120694",
+      "id": "tt0414982",
       "type": "movie",
-      "name": "Halloween H20: 20 Years Later",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTgyZjI3MWEtOWNiMS00ZDE3LWJmNjMtZjZhZWY4MmU5MzBmXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "1998",
+      "name": "Final Destination 3",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzI3NzE0MmEtYmFjZC00NTJhLWI4OWUtNGRmNDEwNGU3NzM0XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2006",
       "posterShape": "poster",
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
-      "observed": "2025-10-25T06:14:06+00:00",
+      "observed": "2025-06-02T05:57:56+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -521,18 +522,6 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2012-09-02T21:18:53+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
-      "id": "tt0414982",
-      "type": "movie",
-      "name": "Final Destination 3",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzI3NzE0MmEtYmFjZC00NTJhLWI4OWUtNGRmNDEwNGU3NzM0XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2006",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2025-06-02T05:57:56+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -560,18 +549,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt1854564",
-      "type": "movie",
-      "name": "Percy Jackson: Sea of Monsters",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMGMyZTI2MjUtODEzMi00M2JlLWEwZGEtYWE5MmY5OWNkYTRjXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2013",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2019-01-30T14:15:32+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt1921064",
       "type": "movie",
       "name": "Pompeii",
@@ -581,6 +558,18 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2024-08-19T04:41:12+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt1854564",
+      "type": "movie",
+      "name": "Percy Jackson: Sea of Monsters",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGMyZTI2MjUtODEzMi00M2JlLWEwZGEtYWE5MmY5OWNkYTRjXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2013",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2019-01-30T14:15:32+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -605,18 +594,6 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2022-07-05T22:00:00+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
-      "id": "tt3393786",
-      "type": "movie",
-      "name": "Jack Reacher: Never Go Back",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODQ3ODQ3NDI4NV5BMl5BanBnXkFtZTgwMDY1Mzk5OTE@._V1_SX250.jpg",
-      "releaseInfo": "2016",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2019-11-07T06:41:59+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -656,18 +633,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt0102217",
-      "type": "movie",
-      "name": "The King of the Kickboxers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmM4NDBlZTUtZTUyMC00MzNjLWJhYTMtNmY3ZWJlM2FkMTdiXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "1990",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2019-12-21T22:00:00+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt0097438",
       "type": "movie",
       "name": "Gleaming the Cube",
@@ -677,6 +642,18 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2019-07-13T22:00:00+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0102217",
+      "type": "movie",
+      "name": "The King of the Kickboxers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmM4NDBlZTUtZTUyMC00MzNjLWJhYTMtNmY3ZWJlM2FkMTdiXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1990",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2019-12-21T22:00:00+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -740,18 +717,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt1129442",
-      "type": "movie",
-      "name": "Transporter 3",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTkxNzg1OTU4M15BMl5BanBnXkFtZTcwMjcyMjI5MQ@@._V1_SX250.jpg",
-      "releaseInfo": "2008",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2017-08-17T22:00:00+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt0435705",
       "type": "movie",
       "name": "Next",
@@ -761,6 +726,18 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2017-08-16T20:32:06+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt1129442",
+      "type": "movie",
+      "name": "Transporter 3",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTkxNzg1OTU4M15BMl5BanBnXkFtZTcwMjcyMjI5MQ@@._V1_SX250.jpg",
+      "releaseInfo": "2008",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2017-08-17T22:00:00+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -800,18 +777,6 @@
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
-      "id": "tt0318649",
-      "type": "movie",
-      "name": "Sahara",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjExOTM4NDUzNV5BMl5BanBnXkFtZTcwOTgzNzczMw@@._V1_SX250.jpg",
-      "releaseInfo": "2005",
-      "posterShape": "poster",
-      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
-      "edition": "Open Matte",
-      "observed": "2013-12-22T18:16:44+00:00",
-      "reviewStatus": "Release-labelled; framing unverified"
-    },
-    {
       "id": "tt0489099",
       "type": "movie",
       "name": "Jumper",
@@ -821,6 +786,18 @@
       "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
       "edition": "Open Matte",
       "observed": "2013-08-07T12:23:28+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0318649",
+      "type": "movie",
+      "name": "Sahara",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjExOTM4NDUzNV5BMl5BanBnXkFtZTcwOTgzNzczMw@@._V1_SX250.jpg",
+      "releaseInfo": "2005",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2013-12-22T18:16:44+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
     },
     {
@@ -900,22 +877,6 @@
       "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
-      "id": "tt0848228",
-      "type": "movie",
-      "name": "The Avengers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2012",
-      "posterShape": "poster",
-      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.78:1 / 1.85:1 by release). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
-      "edition": "Native Tall",
-      "observed": "2012-08-20T22:00:00+00:00",
-      "aspectRatio": "1.78:1 / 1.85:1 by release",
-      "evidenceSources": [
-        "https://highdefdiscnews.com/2018/08/20/the-avengers-4k-uhd-blu-ray-review/comment-page-1/"
-      ],
-      "reviewStatus": "Reviewed title/edition; file unverified"
-    },
-    {
       "id": "tt12361974",
       "type": "movie",
       "name": "Zack Snyder's Justice League",
@@ -928,6 +889,22 @@
       "aspectRatio": "1.33:1",
       "evidenceSources": [
         "https://www.motionpictures.org/2021/03/cinematographer-fabian-wagner-on-zack-snyders-justice-league/"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0848228",
+      "type": "movie",
+      "name": "The Avengers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2012",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.78:1 / 1.85:1 by release). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Native Tall",
+      "observed": "2012-08-20T22:00:00+00:00",
+      "aspectRatio": "1.78:1 / 1.85:1 by release",
+      "evidenceSources": [
+        "https://highdefdiscnews.com/2018/08/20/the-avengers-4k-uhd-blu-ray-review/comment-page-1/"
       ],
       "reviewStatus": "Reviewed title/edition; file unverified"
     },
@@ -1010,6 +987,30 @@
         "https://screen-connections.com/2013/08/06/blu-ray-review-sony-pictures-home-entertainment-4k-mastered-titles-men-in-black-spider-man-spider-man-2-now-available-on-4k-mastered-blu-ray/"
       ],
       "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0120694",
+      "type": "movie",
+      "name": "Halloween H20: 20 Years Later",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTgyZjI3MWEtOWNiMS00ZDE3LWJmNjMtZjZhZWY4MmU5MzBmXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1998",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2025-10-25T06:14:06+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt3393786",
+      "type": "movie",
+      "name": "Jack Reacher: Never Go Back",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODQ3ODQ3NDI4NV5BMl5BanBnXkFtZTgwMDY1Mzk5OTE@._V1_SX250.jpg",
+      "releaseInfo": "2016",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2019-11-07T06:41:59+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
     },
     {
       "id": "tt0119177",
