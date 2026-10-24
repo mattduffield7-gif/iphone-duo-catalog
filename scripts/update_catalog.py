@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a metadata-only Stremio row from publicly indexed edition labels."""
+"""Build a metadata-only row gated by reviewed full-film expanded editions."""
 import argparse
 import concurrent.futures
 import datetime as dt
@@ -48,8 +48,6 @@ def parse_release(release, today):
     parenthesized = [m for m in years if m.start() and title[m.start() - 1] in "(["]
     match = (parenthesized or years)[0]
     year = int(match.group())
-    if year < today.year - 3:
-        return None
     name = title[:match.start()].strip(" ._-([{")
     if " / " in name:
         name = name.split(" / ")[-1]
@@ -87,7 +85,7 @@ def rotate(movies, day, size=12):
     if not pool:
         return []
     count = min(size, len(pool))
-    offset = (day - dt.date(2026, 1, 1)).days * count % len(pool)
+    offset = (day - dt.date(2026, 1, 1)).days * max(1, count - 1) % len(pool)
     return (pool + pool)[offset:offset + count]
 
 
@@ -99,8 +97,13 @@ def write_json(path, data):
 
 
 def build(today, fixture_dir=None):
+    policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
+    approved = {(normalize(m["title"]), m["year"], m["edition"]): m for m in policy["movies"]
+                if policy["includeOlderTitles"] or m["year"] >= today.year - 3}
     candidates = {}
-    for query in ["IMAX", "Open Matte", "OpenMatte"]:
+    queries = list(dict.fromkeys(["IMAX", "Open Matte", "OpenMatte"] +
+                   [f"{m['title']} {m['edition']}" for m in approved.values()]))
+    for query in queries:
         if fixture_dir and query in ("IMAX", "Open Matte"):
             name = "imax" if query == "IMAX" else "open-matte"
             payload = json.loads((fixture_dir / f"{name}-releases.json").read_text())
@@ -112,7 +115,10 @@ def build(today, fixture_dir=None):
         for release in payload["hits"]:
             movie = parse_release(release, today)
             if movie:
-                candidates[(normalize(movie["title"]), movie["year"], movie["edition"])] = movie
+                key = (normalize(movie["title"]), movie["year"], movie["edition"])
+                if key in approved:
+                    movie["approval"] = approved[key]
+                    candidates[key] = movie
     movies = {}
     failures = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
@@ -120,7 +126,12 @@ def build(today, fixture_dir=None):
         for future in concurrent.futures.as_completed(futures):
             try:
                 movie = future.result()
-                if movie:
+                if movie and movie["id"] == futures[future]["approval"]["id"]:
+                    approval = futures[future]["approval"]
+                    movie["aspectRatio"] = approval["aspectRatio"]
+                    movie["evidenceSources"] = approval["sources"]
+                    movie["description"] = (f"Reviewed full-film expanded {movie['edition']} edition ({approval['aspectRatio']}). "
+                                            "Choose the matching edition in your stream addon. Individual files have not been played or verified.")
                     if movie["id"] in movies:
                         old = movies[movie["id"]]
                         movie["edition"] = ", ".join(sorted(set(old["edition"].split(", ") + movie["edition"].split(", "))))
@@ -129,10 +140,10 @@ def build(today, fixture_dir=None):
                 failures.append(str(error))
     if failures:
         raise RuntimeError(f"{len(failures)} metadata lookups failed; retaining the previous catalog")
-    if len(movies) < 8:
-        raise ValueError(f"Only {len(movies)} verified metadata matches; retaining the previous catalog")
+    # Never fall back to the old broad IMAX pool when the strict selection is small.
+    # An empty successful scan is published as empty rather than serving disallowed films.
     pool = list(movies.values())
-    public_movies = [{k: v for k, v in m.items() if k not in ("edition", "observed")} for m in rotate(pool, today)]
+    public_movies = [{k: v for k, v in m.items() if k not in ("edition", "observed", "aspectRatio", "evidenceSources")} for m in rotate(pool, today)]
     return pool, {"metas": public_movies, "cacheMaxAge": 3600, "staleRevalidate": 3600}
 
 
@@ -145,7 +156,7 @@ def main():
     pool, catalog = build(today, args.fixture_dir)
     write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "movies": pool})
     write_json(ROOT / "catalog" / "movie" / "iphone-duo.json", catalog)
-    write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": today.year - 3, "source": "Knaben public edition-labelled release metadata; exact Cinemeta title/year matches", "rotation": "Daily, 12 movies per selection", "limitations": "Release labels are community metadata, not independent aspect-ratio or playback verification."})
+    write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": None if json.loads((ROOT / "data" / "approved-editions.json").read_text())["includeOlderTitles"] else today.year - 3, "source": "Reviewed full-film edition allowlist, Knaben edition metadata, and exact Cinemeta title/year/IMDb matches", "rotation": "Daily order and up to 12 movies per selection", "limitations": "Title/edition evidence is reviewed; individual files are not played or verified. Unknown movies require review before admission. Daily refresh does not automatically approve new titles."})
     print(f"Built {len(catalog['metas'])} daily picks from {len(pool)} movies for {today}")
 
 

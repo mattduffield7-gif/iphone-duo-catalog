@@ -1,0 +1,79 @@
+{
+  "includeOlderTitles": true,
+  "policy": "Only reviewed full-film expanded editions. A theatrical IMAX credit or filename alone is insufficient. Unknown candidates remain excluded until their home edition is reviewed. File-level playback is not verified.",
+  "movies": [
+    {
+      "id": "tt10676052",
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "edition": "IMAX",
+      "aspectRatio": "1.90:1",
+      "sources": [
+        "https://www.imax.com/movie/the-fantastic-four-first-steps",
+        "https://www.disneyplus.com/explore/articles/fantastic-four-first-steps-movie"
+      ],
+      "evidence": "IMAX explicitly describes the entire film as expanded. Disney confirms an IMAX Enhanced home edition. Select 1.43 theatrical sequences are not the fixed 1.90 home presentation."
+    },
+    {
+      "id": "tt4154756",
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "edition": "IMAX",
+      "aspectRatio": "1.90:1",
+      "sources": [
+        "https://www.imax.com/pr/marvel-studios-avengers-infinity-war-makes-hollywood-history",
+        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ],
+      "evidence": "IMAX confirms whole-film expanded presentation; Disney confirms the IMAX Enhanced home edition."
+    },
+    {
+      "id": "tt4154796",
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "edition": "IMAX",
+      "aspectRatio": "1.90:1",
+      "sources": [
+        "https://www.youtube.com/watch?v=3yPFZrSvfes",
+        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ],
+      "evidence": "The official IMAX comparison describes the entire film as expanded; Disney confirms the home edition."
+    },
+    {
+      "id": "tt9376612",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "year": 2021,
+      "edition": "IMAX",
+      "aspectRatio": "1.90:1",
+      "sources": [
+        "https://tnaqua.org/news/marvel-comic-book-epic-shang-chi-and-the-legend-of-the-ten-rings-coming-to-imax-sept-2/",
+        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ],
+      "evidence": "The IMAX theater operator describes the entire IMAX presentation; Disney confirms the IMAX Enhanced home edition."
+    },
+    {
+      "id": "tt9419884",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "edition": "IMAX",
+      "aspectRatio": "1.90:1",
+      "sources": [
+        "https://imaxcorporation.gcs-web.com/node/23511/pdf",
+        "https://www.disneyplus.com/welcome/imax-enhanced"
+      ],
+      "evidence": "IMAX's press release explicitly confirms whole-film expanded aspect ratio; Disney lists the home edition."
+    },
+    {
+      "id": "tt1856101",
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "edition": "Open Matte",
+      "aspectRatio": "1.78:1",
+      "sources": [
+        "https://www.fanrestore.com/thread-1922.html",
+        "https://www.fanrestore.com/thread-1922-page-25.html",
+        "https://fanrestore.com/thread-1993.html"
+      ],
+      "evidence": "Community restoration documentation identifies the full-frame Open Matte edition. Select an Open Matte file; the standard widescreen release does not qualify. This is community evidence rather than studio certification."
+    }
+  ]
+}

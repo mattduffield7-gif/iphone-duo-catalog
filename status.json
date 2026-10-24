@@ -1,10 +1,10 @@
 {
   "updated": "2026-10-25",
   "timezone": "Australia/Adelaide",
-  "poolSize": 17,
-  "rowSize": 12,
-  "minimumMovieYear": 2023,
-  "source": "Knaben public edition-labelled release metadata; exact Cinemeta title/year matches",
-  "rotation": "Daily, 12 movies per selection",
-  "limitations": "Release labels are community metadata, not independent aspect-ratio or playback verification."
+  "poolSize": 6,
+  "rowSize": 6,
+  "minimumMovieYear": null,
+  "source": "Reviewed full-film edition allowlist, Knaben edition metadata, and exact Cinemeta title/year/IMDb matches",
+  "rotation": "Daily order and up to 12 movies per selection",
+  "limitations": "Title/edition evidence is reviewed; individual files are not played or verified. Unknown movies require review before admission. Daily refresh does not automatically approve new titles."
 }

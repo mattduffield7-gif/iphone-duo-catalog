@@ -10,12 +10,11 @@ spec.loader.exec_module(catalog)
 
 
 class CatalogTests(unittest.TestCase):
-    def test_edition_and_recent_year_required(self):
+    def test_edition_and_valid_year_required(self):
         today = dt.date(2026, 10, 25)
         self.assertIsNone(catalog.parse_release({"title": "Some.Movie.2025.1080p.WEB-DL"}, today))
         self.assertIsNone(catalog.parse_release({"title": "Some.Movie.2025.NON.IMAX.1080p"}, today))
         self.assertIsNone(catalog.parse_release({"title": "Some.Movie.2025.IMAX.HDCAM"}, today))
-        self.assertIsNone(catalog.parse_release({"title": "Some.Movie.2022.Open.Matte"}, today))
         self.assertIsNone(catalog.parse_release({"title": "Some.Movie.2027.IMAX"}, today))
         movie = catalog.parse_release({"title": "Some.Movie.2025.Open.Matte.1080p.WEB-DL"}, today)
         self.assertEqual((movie["title"], movie["year"], movie["edition"]), ("Some Movie", 2025, "Open Matte"))
@@ -34,6 +33,27 @@ class CatalogTests(unittest.TestCase):
         seen = {m["id"] for day in range(23) for m in catalog.rotate(movies, start + dt.timedelta(days=day))}
         self.assertEqual(len(seen), 23)
         self.assertEqual(len({m["id"] for m in first}), 12)
+
+    def test_small_pool_rotates_order(self):
+        movies = [{"id": f"tt{i:07}"} for i in range(6)]
+        day = dt.date(2026, 10, 25)
+        self.assertNotEqual(catalog.rotate(movies, day), catalog.rotate(movies, day + dt.timedelta(days=1)))
+        self.assertEqual(len(catalog.rotate(movies, day)), 6)
+
+    def test_unknown_and_variable_ratio_titles_never_enter_pool(self):
+        payload = {"hits": [
+            {"title": "The.Fantastic.Four.First.Steps.2025.IMAX.HYBRID.1080p"},
+            {"title": "Oppenheimer.2023.IMAX.2160p"},
+            {"title": "Unknown.Movie.2025.Open.Matte.1080p"},
+        ]}
+        movie = {"id": "tt10676052", "name": "The Fantastic Four: First Steps", "type": "movie", "releaseInfo": "2025"}
+        def fetch(url):
+            return payload if "api.knaben.org" in url else {"metas": [movie]}
+        with patch.object(catalog, "fetch_json", side_effect=fetch):
+            pool, public = catalog.build(dt.date(2026, 10, 25))
+        self.assertEqual([m["id"] for m in pool], ["tt10676052"])
+        self.assertEqual(len(public["metas"]), 1)
+        self.assertIn("Reviewed full-film", public["metas"][0]["description"])
 
     def test_metadata_must_match_title_year_and_release_date(self):
         candidate = {"title": "Some Movie", "year": 2026, "edition": "IMAX", "observed": "2026-10-24"}

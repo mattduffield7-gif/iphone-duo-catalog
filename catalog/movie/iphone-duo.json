@@ -1,49 +1,13 @@
 {
   "metas": [
     {
-      "id": "tt33095008",
+      "id": "tt4154756",
       "type": "movie",
-      "name": "A Writer's Odyssey 2",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzU4OTIyYTYtNTkyNS00MDM2LTk1NmEtMGVmMWZkMTgyNWJiXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2025",
+      "name": "Avengers: Infinity War",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX250.jpg",
+      "releaseInfo": "2018",
       "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
-    },
-    {
-      "id": "tt22084616",
-      "type": "movie",
-      "name": "Spider-Man: Brand New Day",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2026",
-      "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
-    },
-    {
-      "id": "tt12042730",
-      "type": "movie",
-      "name": "Project Hail Mary",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2026",
-      "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
-    },
-    {
-      "id": "tt9603208",
-      "type": "movie",
-      "name": "Mission: Impossible - The Final Reckoning",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2025",
-      "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
-    },
-    {
-      "id": "tt23468450",
-      "type": "movie",
-      "name": "Longlegs",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmJkNGNiNjgtMzFlYy00ZDI5LWI2YzktZGVjYjI5MjQyMGU3XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2024",
-      "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
     },
     {
       "id": "tt10676052",
@@ -52,61 +16,43 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2025",
       "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
     },
     {
-      "id": "tt26743210",
+      "id": "tt9376612",
       "type": "movie",
-      "name": "How to Train Your Dragon",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2025",
+      "name": "Shang-Chi and the Legend of the Ten Rings",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmY5MDcyNzAtYzg3MC00MGNlLTg3OGItNmRjYThkZGVlNzAyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
       "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
     },
     {
-      "id": "tt9663764",
+      "id": "tt1856101",
       "type": "movie",
-      "name": "Aquaman and the Lost Kingdom",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTUzMWMtY2VkNS00ZDRjLWEwODYtYmFkMWJiNTQxMDUzXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2023",
+      "name": "Blade Runner 2049",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX250.jpg",
+      "releaseInfo": "2017",
       "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+      "description": "Reviewed full-film expanded Open Matte edition (1.78:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
     },
     {
-      "id": "tt22898462",
+      "id": "tt9419884",
       "type": "movie",
-      "name": "The Conjuring: Last Rites",
-      "poster": "https://m.media-amazon.com/images/M/MV5BM2VmMzRkYzgtMzg2ZC00OTFkLTkwMTYtNTMxNjM2YzI1MjgyXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2025",
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2022",
       "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
     },
     {
-      "id": "tt10676048",
+      "id": "tt4154796",
       "type": "movie",
-      "name": "The Marvels",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzczOWM4MzItMWMyOS00ZDczLWIxMzctNzBmYTgzOTI1MzI3XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2023",
+      "name": "Avengers: Endgame",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX250.jpg",
+      "releaseInfo": "2019",
       "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
-    },
-    {
-      "id": "tt34956443",
-      "type": "movie",
-      "name": "Ne Zha 2",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDBlMWRiZmItN2Q4ZC00NGI3LTk2NjMtMzBlZmVmMmFiNmY5XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2025",
-      "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
-    },
-    {
-      "id": "tt14513804",
-      "type": "movie",
-      "name": "Captain America: Brave New World",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2025",
-      "posterShape": "poster",
-      "description": "A publicly indexed release is labelled IMAX. Choose AIOStreams in the source selector for IMAX/Open Matte results."
+      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
     }
   ],
   "cacheMaxAge": 3600,

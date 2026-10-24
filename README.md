@@ -1,28 +1,32 @@
 # Good for the iPhone Duo
 
-A metadata-only Stremio home-screen row with 12 daily rotating movie picks.
+A metadata-only Stremio row for full-film expanded IMAX and Open Matte editions, rotating daily in Australia/Adelaide time.
 
-The daily update searches Knaben's public movie index for releases labelled IMAX or Open Matte, keeps movies from the current year and previous three years, and requires an exact normalized title and release-year match from Cinemeta. It excludes obvious cam, trailer, sample, and non-IMAX labels. Movie IDs are ordinary IMDb IDs, so existing metadata and stream addons continue to handle movie details and playback.
+## Strict edition policy
 
-No account credentials, media files, torrent hashes, magnets, or playback links are stored here. Community release labels are evidence of an indexed release, not independent verification of aspect ratio, quality, language, or current playability. The catalog cannot guarantee every IMAX or Open Matte movie is indexed.
+Only titles and editions in `data/approved-editions.json` are eligible. Each entry records source evidence and the intended aspect ratio. IMAX filmed-camera credits alone are insufficient: the home edition must preserve expansion across the film. Variable-ratio editions such as Interstellar, Oppenheimer and The Marvels are excluded. Unknown IMAX/Open Matte labels are excluded until reviewed. The word HYBRID is not treated as proof of changing aspect ratio: it can refer to combined audio, HDR or video sources.
 
-The selection rotates daily according to the Australia/Adelaide date, and source data refreshes through GitHub Actions. The workflow publishes only the manifest, catalog, and status endpoints to GitHub Pages. A source outage or failed metadata lookup leaves the previous published selection in place and marks the workflow failed. GitHub's scheduled jobs can run later than their nominal time.
+This is a conservative starting list, not a complete directory. Primary IMAX/Disney sources support the IMAX entries; the Blade Runner 2049 Open Matte entry uses community restoration documentation, recorded separately in its evidence. Individual stream files have not been played or independently verified. Select the matching edition in the stream results; an ordinary widescreen release of an eligible movie does not qualify.
+
+The daily update searches Knaben's public movie index for edition-labelled releases, intersects them with the reviewed list, and requires exact normalized title, year and IMDb matches from Cinemeta. `includeOlderTitles` controls whether older reviewed titles are eligible; otherwise the current and previous three years are used. Up to 12 posters are shown, with daily order rotation even when fewer titles qualify. Daily refresh finds newly indexed releases of approved titles; it cannot safely approve every new movie automatically. New title/edition pairs require evidence review and an allowlist update.
+
+No credentials, media files, torrent hashes, magnets or playback links are stored here. Existing addons provide movie details and playback. This catalog does not check debrid availability.
 
 ## Endpoints
 
-- `manifest.json` — install this URL in Stremio
-- `catalog/movie/iphone-duo.json` — today's movie picks
-- `status.json` — last update date, source, pool size, and rotation information
+- `manifest.json` — installation URL
+- `catalog/movie/iphone-duo.json` — daily selection
+- `status.json` — last refresh, pool size and limitations
 
-The catalog uses a one-hour client cache. Restart or refresh Stremio if a saved row has not updated yet. It rotates the poster selection; it does not automatically start videos.
+The one-hour client cache may delay a new selection. Refresh Stremio if necessary. Rotation changes posters/order and never starts playback. GitHub Actions runs at 05:17 Adelaide during daylight saving and 04:17 during standard time; scheduled jobs can be delayed. A failed source request keeps the previous published selection and fails the workflow. A successful strict scan can publish an empty row rather than admit disallowed movies.
 
 ## Development
 
-Requires Python 3.12 or newer, with no third-party dependencies.
+Python 3.12+, no external dependencies.
 
 ```sh
 python -m unittest discover -s tests -v
 python scripts/update_catalog.py
 ```
 
-The schedule refreshes at 05:17 Adelaide during daylight saving and 04:17 during standard time. Run the workflow manually to refresh sooner. Playback is provided by the user's separately configured streaming addons; this repository supplies a catalog only.
+GitHub Pages publishes only manifest, status and catalog endpoints.
