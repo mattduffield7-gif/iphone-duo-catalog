@@ -18,6 +18,22 @@
       ]
     },
     {
+      "id": "tt4154756",
+      "type": "movie",
+      "name": "Avengers: Infinity War",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX250.jpg",
+      "releaseInfo": "2018",
+      "posterShape": "poster",
+      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "edition": "IMAX",
+      "observed": "2023-03-17T22:00:00+00:00",
+      "aspectRatio": "1.90:1",
+      "evidenceSources": [
+        "https://www.imax.com/pr/marvel-studios-avengers-infinity-war-makes-hollywood-history",
+        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ]
+    },
+    {
       "id": "tt4154796",
       "type": "movie",
       "name": "Avengers: Endgame",
@@ -67,19 +83,78 @@
       ]
     },
     {
-      "id": "tt4154756",
+      "id": "tt0499549",
       "type": "movie",
-      "name": "Avengers: Infinity War",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX250.jpg",
-      "releaseInfo": "2018",
+      "name": "Avatar",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2009",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
-      "edition": "IMAX",
-      "observed": "2023-03-17T22:00:00+00:00",
+      "description": "Reviewed full-film expanded Expanded Home edition (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Expanded Home",
+      "observed": "2010-04-24T01:30:36+00:00",
+      "aspectRatio": "1.78:1",
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/avatar-4k-uhd-2023"
+      ]
+    },
+    {
+      "id": "tt9663764",
+      "type": "movie",
+      "name": "Aquaman and the Lost Kingdom",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTUzMWMtY2VkNS00ZDRjLWEwODYtYmFkMWJiNTQxMDUzXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2023",
+      "posterShape": "poster",
+      "description": "Reviewed full-film expanded Expanded Home edition (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Expanded Home",
+      "observed": "2024-01-22T22:00:00+00:00",
+      "aspectRatio": "1.78:1",
+      "evidenceSources": [
+        "https://www.theaterbyte.com/aquaman-and-the-lost-kingdom-4k-uhd-review/"
+      ]
+    },
+    {
+      "id": "tt1630029",
+      "type": "movie",
+      "name": "Avatar: The Way of Water",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2022",
+      "posterShape": "poster",
+      "description": "Reviewed full-film expanded Expanded Home edition (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Expanded Home",
+      "observed": "2023-03-24T22:00:00+00:00",
+      "aspectRatio": "1.85:1",
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/avatar-way-of-water-4k-uhd-2023"
+      ]
+    },
+    {
+      "id": "tt6334354",
+      "type": "movie",
+      "name": "The Suicide Squad",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWU3Y2NlZmEtMjJjNS00ZWMxLWE1MzctYWYyMjMzMDdkNTE4XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "posterShape": "poster",
+      "description": "Reviewed full-film expanded Expanded Home edition (1.90:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Expanded Home",
+      "observed": "2021-08-05T23:19:33+00:00",
       "aspectRatio": "1.90:1",
       "evidenceSources": [
-        "https://www.imax.com/pr/marvel-studios-avengers-infinity-war-makes-hollywood-history",
-        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+        "https://highdefdiscnews.com/2021/10/26/the-suicide-squad-4k-uhd-blu-ray-review/"
+      ]
+    },
+    {
+      "id": "tt1757678",
+      "type": "movie",
+      "name": "Avatar: Fire and Ash",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2025",
+      "posterShape": "poster",
+      "description": "Reviewed full-film expanded Expanded Home edition (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Expanded Home",
+      "observed": "2025-12-25T21:19:25+00:00",
+      "aspectRatio": "1.85:1",
+      "evidenceSources": [
+        "https://ultrahd.highdefdigest.com/156950/avatarfireandash4kultrahdbluray.html"
       ]
     }
   ]

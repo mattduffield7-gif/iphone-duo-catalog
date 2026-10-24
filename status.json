@@ -1,8 +1,8 @@
 {
   "updated": "2026-10-25",
   "timezone": "Australia/Adelaide",
-  "poolSize": 5,
-  "rowSize": 5,
+  "poolSize": 10,
+  "rowSize": 10,
   "minimumMovieYear": null,
   "source": "Reviewed full-film edition allowlist, Knaben edition metadata, and exact Cinemeta title/year/IMDb matches",
   "rotation": "Daily order and up to 12 movies per selection",

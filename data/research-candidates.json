@@ -1,0 +1,288 @@
+{
+  "checked": "2026-10-25",
+  "method": "Public Knaben movie metadata, three literal spelling queries; no files downloaded and no TorBox availability inferred.",
+  "candidateCount": 40,
+  "policy": "These are candidates only and are excluded from approval until whole-film edition evidence is sufficient.",
+  "movies": [
+    {
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "edition": "Open Matte",
+      "observed": "2026-05-30T01:52:17+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Jack Reacher: Never Go Back",
+      "year": 2016,
+      "edition": "Open Matte",
+      "observed": "2019-11-07T06:41:59+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "The Accountant",
+      "year": 2016,
+      "edition": "Open Matte",
+      "observed": "2025-04-29T15:53:48+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Furious Seven",
+      "year": 2015,
+      "edition": "Open Matte",
+      "observed": "2026-07-10T17:49:19+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Legend",
+      "year": 2015,
+      "edition": "Open Matte",
+      "observed": "2026-09-07T05:05:08+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Pompeii",
+      "year": 2014,
+      "edition": "Open Matte",
+      "observed": "2024-08-19T04:41:12+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "The Imitation Game",
+      "year": 2014,
+      "edition": "Open Matte",
+      "observed": "2024-07-23T07:02:13+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "The Judge",
+      "year": 2014,
+      "edition": "Open Matte",
+      "observed": "2023-08-27T17:35:24+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Oz the Great and Powerful",
+      "year": 2013,
+      "edition": "Open Matte",
+      "observed": "2018-08-08T10:25:50+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Percy Jackson: Sea of Monsters",
+      "year": 2013,
+      "edition": "Open Matte",
+      "observed": "2019-01-30T14:15:32+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Prometheus",
+      "year": 2012,
+      "edition": "Open Matte",
+      "observed": "2017-09-26T22:29:54+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Final Destination 5",
+      "year": 2011,
+      "edition": "Open Matte",
+      "observed": "2023-07-15T09:13:50+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Percy Jackson & the Olympians: The Lightning Thief",
+      "year": 2010,
+      "edition": "Open Matte",
+      "observed": "2016-02-11T13:17:24+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Night at the Museum: Battle of the Smithsonian",
+      "year": 2009,
+      "edition": "Open Matte",
+      "observed": "2026-07-26T06:26:17+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Watchmen",
+      "year": 2009,
+      "edition": "Open Matte",
+      "observed": "2026-08-28T08:07:33+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Aliens vs Predator Requiem",
+      "year": 2007,
+      "edition": "Open Matte",
+      "observed": "2026-10-12T05:15:07+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Pirates of the Caribbean: At World's End",
+      "year": 2007,
+      "edition": "Open Matte",
+      "observed": "2015-11-14T08:57:32+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Spider-Man 3",
+      "year": 2007,
+      "edition": "Open Matte",
+      "observed": "2026-01-09T08:55:50+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "The Bourne Ultimatum",
+      "year": 2007,
+      "edition": "Open Matte",
+      "observed": "2026-07-09T21:12:49+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Wind Chill",
+      "year": 2007,
+      "edition": "Open Matte",
+      "observed": "2020-03-17T10:12:13+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "300",
+      "year": 2006,
+      "edition": "Open Matte",
+      "observed": "2023-03-29T22:00:00+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Final Destination 3",
+      "year": 2006,
+      "edition": "Open Matte",
+      "observed": "2019-07-06T17:31:06+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "year": 2006,
+      "edition": "Open Matte",
+      "observed": "2017-01-11T15:02:11+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "X-Men: The last stand",
+      "year": 2006,
+      "edition": "Open Matte",
+      "observed": "2024-11-04T07:27:15+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Hostel",
+      "year": 2005,
+      "edition": "Open Matte",
+      "observed": "2020-01-05T15:50:55+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Kingdom of Heaven",
+      "year": 2005,
+      "edition": "Open Matte",
+      "observed": "2018-09-29T11:32:17+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Mr&Mrs Smith",
+      "year": 2005,
+      "edition": "Open Matte",
+      "observed": "2026-02-13T20:20:40+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "White Noise",
+      "year": 2005,
+      "edition": "Open Matte",
+      "observed": "2019-10-28T16:44:43+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Spider-Man 2",
+      "year": 2004,
+      "edition": "Open Matte",
+      "observed": "2026-09-25T02:21:00+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "edition": "Open Matte",
+      "observed": "2017-01-07T12:08:30+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Pirates of the Caribbean: Trilogy",
+      "year": 2003,
+      "edition": "Open Matte",
+      "observed": "2017-01-06T18:42:37+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Scary Movie",
+      "year": 2000,
+      "edition": "Open Matte",
+      "observed": "2017-04-22T13:44:06+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Urban Legends: Final Cut",
+      "year": 2000,
+      "edition": "Open Matte",
+      "observed": "2024-07-09T07:55:48+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Fight Club",
+      "year": 1999,
+      "edition": "Open Matte",
+      "observed": "2026-10-21T04:46:00+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Halloween H20: 20 Years Later",
+      "year": 1998,
+      "edition": "Open Matte",
+      "observed": "2025-10-25T06:14:06+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Alien: Resurrection",
+      "year": 1997,
+      "edition": "Open Matte",
+      "observed": "2026-07-13T16:56:53+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Gattaca",
+      "year": 1997,
+      "edition": "Open Matte",
+      "observed": "2021-01-24T11:58:19+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Titanic",
+      "year": 1997,
+      "edition": "Open Matte",
+      "observed": "2022-07-08T22:00:00+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Casino",
+      "year": 1995,
+      "edition": "Open Matte",
+      "observed": "2026-05-14T07:33:09+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    },
+    {
+      "title": "Aliens",
+      "year": 1986,
+      "edition": "Open Matte",
+      "observed": "2026-10-02T22:15:05+00:00",
+      "reviewStatus": "needs edition evidence and TorBox availability check"
+    }
+  ]
+}

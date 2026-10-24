@@ -56,6 +56,23 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(len(public["metas"]), 1)
         self.assertIn("Reviewed full-film", public["metas"][0]["description"])
 
+    def test_reviewed_standard_home_edition_needs_no_imax_label(self):
+        payload = {"hits": [
+            {"title": "Avatar.2009.2160p.BluRay.x265"},
+            {"title": "Unknown.Movie.2025.1080p.WEB-DL"},
+            {"title": "Avatar.2009.CROPPED.1080p.WEB-DL"},
+            {"title": "Avatar.2009.3D.BluRay"},
+        ]}
+        movie = {"id": "tt0499549", "name": "Avatar", "type": "movie", "releaseInfo": "2009"}
+        def fetch(url):
+            return payload if "api.knaben.org" in url else {"metas": [movie]}
+        with patch.object(catalog, "fetch_json", side_effect=fetch):
+            pool, public = catalog.build(dt.date(2026, 10, 25))
+        self.assertEqual([m["id"] for m in pool], ["tt0499549"])
+        self.assertIn("IMAX filename tag is not required", public["metas"][0]["description"])
+        for title in ["Avatar.2009.CROPPED.WEB-DL", "Avatar.2009.3D.BluRay", "Avatar.2009.VAR.WEB-DL"]:
+            self.assertIsNone(catalog.parse_release({"title": title}, dt.date(2026, 10, 25), allow_unlabelled=True))
+
     def test_metadata_must_match_title_year_and_release_date(self):
         candidate = {"title": "Some Movie", "year": 2026, "edition": "IMAX", "observed": "2026-10-24"}
         movie = {"id": "tt1234567", "type": "movie", "name": "Some Movie", "releaseInfo": "2026", "released": "2026-10-24"}

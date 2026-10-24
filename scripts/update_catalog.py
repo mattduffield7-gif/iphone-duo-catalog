@@ -17,6 +17,8 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 EDITION = re.compile(r"\bIMAX\b|\bopen[ ._-]?matte\b", re.I)
 EXCLUDE = re.compile(r"\b(?:non[ ._-]?imax|cam|hdcam|hdts|telesync|trailer|sample)\b", re.I)
+HOME_SOURCE = re.compile(r"\b(?:web[ ._-]?(?:dl|rip)|blu[ ._-]?ray|bd(?:rip|remux))\b", re.I)
+ALTERED_FRAME = re.compile(r"\b(?:cropped|crop|custom[ ._-]?open[ ._-]?matte|variable[ ._-]?aspect|VAR|UAR|3D)\b", re.I)
 
 
 def fetch_json(url):
@@ -38,9 +40,9 @@ def normalize(title):
     return "".join(c for c in value if c.isalnum() and not unicodedata.combining(c))
 
 
-def parse_release(release, today):
+def parse_release(release, today, allow_unlabelled=False):
     title = html.unescape(release.get("title", ""))
-    if not EDITION.search(title) or EXCLUDE.search(title):
+    if (not EDITION.search(title) and not allow_unlabelled) or EXCLUDE.search(title) or ALTERED_FRAME.search(title):
         return None
     years = [m for m in re.finditer(r"(?<!\d)(?:19\d{2}|20\d{2})(?!\d)", title) if 1900 <= int(m.group()) <= today.year]
     if not years:
@@ -54,7 +56,8 @@ def parse_release(release, today):
     name = re.sub(r"[._]+", " ", name).strip()
     if not name:
         return None
-    return {"title": name, "year": year, "edition": "Open Matte" if re.search(r"open[ ._-]?matte", title, re.I) else "IMAX", "observed": release.get("date", "")}
+    edition = "Open Matte" if re.search(r"open[ ._-]?matte", title, re.I) else "IMAX" if re.search(r"\bIMAX\b", title, re.I) else "Standard Home"
+    return {"title": name, "year": year, "edition": edition, "homeSource": bool(HOME_SOURCE.search(title)), "observed": release.get("date", "")}
 
 
 def resolve_movie(candidate, today):
@@ -102,7 +105,7 @@ def build(today, fixture_dir=None):
                 if policy["includeOlderTitles"] or m["year"] >= today.year - 3}
     candidates = {}
     queries = list(dict.fromkeys(["IMAX", "Open Matte", "OpenMatte"] +
-                   [f"{m['title']} {m['edition']}" for m in approved.values()]))
+                   [f"{m['title']} {m['year']}" if m.get("allowStandardHome") else f"{m['title']} {m['edition']}" for m in approved.values()]))
     for query in queries:
         if fixture_dir and query in ("IMAX", "Open Matte"):
             name = "imax" if query == "IMAX" else "open-matte"
@@ -113,12 +116,22 @@ def build(today, fixture_dir=None):
         if not isinstance(payload.get("hits"), list):
             raise ValueError("Invalid release source response; retaining the previous catalog")
         for release in payload["hits"]:
-            movie = parse_release(release, today)
+            movie = parse_release(release, today, allow_unlabelled=True)
             if movie:
                 key = (normalize(movie["title"]), movie["year"], movie["edition"])
                 if key in approved:
                     movie["approval"] = approved[key]
                     candidates[key] = movie
+                else:
+                    # A few reviewed films preserve expansion in their regular home
+                    # releases; those files need not carry an IMAX/Open Matte tag.
+                    for approved_key, approval in approved.items():
+                        if (approval.get("allowStandardHome") and movie["homeSource"]
+                                and approved_key[:2] == key[:2]):
+                            movie["edition"] = approval["edition"]
+                            movie["approval"] = approval
+                            candidates[approved_key] = movie
+                            break
     movies = {}
     failures = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
@@ -131,7 +144,8 @@ def build(today, fixture_dir=None):
                     movie["aspectRatio"] = approval["aspectRatio"]
                     movie["evidenceSources"] = approval["sources"]
                     movie["description"] = (f"Reviewed full-film expanded {movie['edition']} edition ({approval['aspectRatio']}). "
-                                            "Choose the matching edition in your stream addon. Individual files have not been played or verified.")
+                                            + ("The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. " if approval.get("allowStandardHome") else "Choose the matching edition in your stream addon. ")
+                                            + "Individual files have not been played or verified.")
                     if movie["id"] in movies:
                         old = movies[movie["id"]]
                         movie["edition"] = ", ".join(sorted(set(old["edition"].split(", ") + movie["edition"].split(", "))))
@@ -147,13 +161,34 @@ def build(today, fixture_dir=None):
     return pool, {"metas": public_movies, "cacheMaxAge": 3600, "staleRevalidate": 3600}
 
 
+
+def stream_expression(policy):
+    def quoted(value):
+        return "'" + value.replace("\\", "\\\\").replace("'", "\\'") + "'"
+    expression = "[]"
+    for movie in reversed(policy["movies"]):
+        condition = f"(title == {quoted(movie['title'])} and year == {movie['year']})"
+        if movie.get("allowStandardHome"):
+            selection = "quality(streams, 'Bluray REMUX', 'Bluray', 'WEB-DL', 'WEBRip')"
+        elif movie["edition"] == "Open Matte":
+            selection = "merge(editions(streams, 'Open Matte'), keyword(streams, 'filename,folderName', 'open matte', 'openmatte'))"
+        else:
+            selection = "merge(visualTag(streams, 'IMAX'), editions(streams, 'IMAX', 'IMAX Enhanced'))"
+        expression = f"{condition} ? {selection} : ({expression})"
+    rejected = "keyword(streams, 'filename,folderName', 'cropped', 'custom open matte', 'variable aspect', 'VAR', 'UAR')"
+    return ("/* Reviewed full-film expanded movie editions */ (queryType == 'movie' or queryType == 'anime.movie') ? "
+            + f"negate({rejected}, ({expression})) : streams")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", type=dt.date.fromisoformat)
     parser.add_argument("--fixture-dir", type=Path)
     args = parser.parse_args()
     today = args.date or dt.datetime.now(ZoneInfo("Australia/Adelaide")).date()
+    policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
     pool, catalog = build(today, args.fixture_dir)
+    (ROOT / "stream-expression.txt").write_text(stream_expression(policy) + "\n")
     write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "movies": pool})
     write_json(ROOT / "catalog" / "movie" / "iphone-duo.json", catalog)
     write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": None if json.loads((ROOT / "data" / "approved-editions.json").read_text())["includeOlderTitles"] else today.year - 3, "source": "Reviewed full-film edition allowlist, Knaben edition metadata, and exact Cinemeta title/year/IMDb matches", "rotation": "Daily order and up to 12 movies per selection", "limitations": "Title/edition evidence is reviewed; individual files are not played or verified. Unknown movies require review before admission. Daily refresh does not automatically approve new titles."})

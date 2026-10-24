@@ -62,6 +62,66 @@
         "https://fanrestore.com/thread-1993.html"
       ],
       "evidence": "Community restoration documentation identifies the full-frame Open Matte edition. Select an Open Matte file; the standard widescreen release does not qualify. This is community evidence rather than studio certification."
+    },
+    {
+      "id": "tt0499549",
+      "title": "Avatar",
+      "year": 2009,
+      "edition": "Expanded Home",
+      "aspectRatio": "1.78:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/avatar-4k-uhd-2023"
+      ],
+      "evidence": "Disc review confirms the expanded 1.78 home framing. Regular 2D Blu-ray/WEB files qualify; exclude cam, cropped and custom-frame releases."
+    },
+    {
+      "id": "tt1630029",
+      "title": "Avatar: The Way of Water",
+      "year": 2022,
+      "edition": "Expanded Home",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/avatar-way-of-water-4k-uhd-2023"
+      ],
+      "evidence": "Disc review confirms expanded 1.85 framing on Blu-ray and UHD. Regular 2D Blu-ray/WEB files qualify; exclude cam, cropped and custom-frame releases."
+    },
+    {
+      "id": "tt1757678",
+      "title": "Avatar: Fire and Ash",
+      "year": 2025,
+      "edition": "Expanded Home",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://ultrahd.highdefdigest.com/156950/avatarfireandash4kultrahdbluray.html"
+      ],
+      "evidence": "Firsthand UHD review confirms the expanded 1.85 home transfer. Regular 2D Blu-ray/WEB files qualify; exclude cam, cropped and custom-frame releases."
+    },
+    {
+      "id": "tt9663764",
+      "title": "Aquaman and the Lost Kingdom",
+      "year": 2023,
+      "edition": "Expanded Home",
+      "aspectRatio": "1.78:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.theaterbyte.com/aquaman-and-the-lost-kingdom-4k-uhd-review/"
+      ],
+      "evidence": "Firsthand UHD review identifies the full-frame 1.78 home presentation. Regular 2D Blu-ray/WEB files qualify; exclude cam, cropped and custom-frame releases."
+    },
+    {
+      "id": "tt6334354",
+      "title": "The Suicide Squad",
+      "year": 2021,
+      "edition": "Expanded Home",
+      "aspectRatio": "1.90:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://highdefdiscnews.com/2021/10/26/the-suicide-squad-4k-uhd-blu-ray-review/"
+      ],
+      "evidence": "Firsthand UHD review explicitly confirms fixed 1.90 framing with no aspect-ratio shifts. Regular 2D Blu-ray/WEB files qualify; exclude cam, cropped and custom-frame releases."
     }
   ],
   "pendingReview": [

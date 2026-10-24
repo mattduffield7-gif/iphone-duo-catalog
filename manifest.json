@@ -1,8 +1,8 @@
 {
   "id": "community.iphone-duo.catalog",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "Good for the iPhone Duo",
-  "description": "Daily rotating movies with reviewed full-film expanded IMAX or Open Matte editions. Individual stream files require the matching edition; unknown and variable-ratio editions are excluded.",
+  "description": "Daily rotating films with reviewed whole-film expanded IMAX, Open Matte or expanded home editions. Use the IMAX/Open Matte source option for matching TorBox results.",
   "resources": [
     "catalog"
   ],
