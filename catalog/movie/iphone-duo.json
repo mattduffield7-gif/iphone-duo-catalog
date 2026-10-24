@@ -7,61 +7,28 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMWU3Y2NlZmEtMjJjNS00ZWMxLWE1MzctYWYyMjMzMDdkNTE4XkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2021",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.90:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified."
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.90:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
-      "id": "tt1856101",
+      "id": "tt1663662",
       "type": "movie",
-      "name": "Blade Runner 2049",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX250.jpg",
-      "releaseInfo": "2017",
+      "name": "Pacific Rim",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_SX250.jpg",
+      "releaseInfo": "2013",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Open Matte edition (1.78:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
-      "id": "tt1630029",
+      "id": "tt0163025",
       "type": "movie",
-      "name": "Avatar: The Way of Water",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2022",
+      "name": "Jurassic Park III",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2FmMjhlZDYtNmYyMy00NTdjLTlhYzYtZWNlMDY2MmUzOGM2XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2001",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified."
-    },
-    {
-      "id": "tt9376612",
-      "type": "movie",
-      "name": "Shang-Chi and the Legend of the Ten Rings",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZmY5MDcyNzAtYzg3MC00MGNlLTg3OGItNmRjYThkZGVlNzAyXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2021",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
-    },
-    {
-      "id": "tt4154756",
-      "type": "movie",
-      "name": "Avengers: Infinity War",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX250.jpg",
-      "releaseInfo": "2018",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
-    },
-    {
-      "id": "tt0499549",
-      "type": "movie",
-      "name": "Avatar",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2009",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified."
-    },
-    {
-      "id": "tt9663764",
-      "type": "movie",
-      "name": "Aquaman and the Lost Kingdom",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTUzMWMtY2VkNS00ZDRjLWEwODYtYmFkMWJiNTQxMDUzXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2023",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified."
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt9419884",
@@ -70,7 +37,38 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2022",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt12361974",
+      "type": "movie",
+      "name": "Zack Snyder's Justice League",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDA0MzM5YTctZTU2My00NGQ5LWE2NTEtNDM0MjZmMDBkOTZkXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.33:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt4154756",
+      "type": "movie",
+      "name": "Avengers: Infinity War",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX250.jpg",
+      "releaseInfo": "2018",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt9376612",
+      "type": "movie",
+      "name": "Shang-Chi and the Legend of the Ten Rings",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmY5MDcyNzAtYzg3MC00MGNlLTg3OGItNmRjYThkZGVlNzAyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt4154796",
@@ -79,7 +77,28 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX250.jpg",
       "releaseInfo": "2019",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified."
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt1630029",
+      "type": "movie",
+      "name": "Avatar: The Way of Water",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2022",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0499549",
+      "type": "movie",
+      "name": "Avatar",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2009",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt1757678",
@@ -88,7 +107,18 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2025",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified."
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0848228",
+      "type": "movie",
+      "name": "The Avengers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2012",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.78:1 / 1.85:1 by release). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "reviewStatus": "Reviewed title/edition; file unverified"
     }
   ],
   "cacheMaxAge": 3600,

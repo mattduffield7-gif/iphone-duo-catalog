@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a metadata-only row gated by reviewed full-film expanded editions."""
+"""Build a rotating row of reviewed tall films and optional Open Matte leads."""
 import argparse
 import concurrent.futures
 import datetime as dt
@@ -54,6 +54,9 @@ def parse_release(release, today, allow_unlabelled=False):
     if " / " in name:
         name = name.split(" / ")[-1]
     name = re.sub(r"[._]+", " ", name).strip()
+    # Edition tags can precede the year (e.g. 'Collateral Open Matte 2004').
+    name = EDITION.sub("", name).strip(" ._-[]()")
+    name = re.sub(r"\s+", " ", name)
     if not name:
         return None
     edition = "Open Matte" if re.search(r"open[ ._-]?matte", title, re.I) else "IMAX" if re.search(r"\bIMAX\b", title, re.I) else "Standard Home"
@@ -99,10 +102,12 @@ def write_json(path, data):
     temporary.replace(path)
 
 
-def build(today, fixture_dir=None):
-    policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
+def build(today, fixture_dir=None, policy=None):
+    if policy is None:
+        policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
     approved = {(normalize(m["title"]), m["year"], m["edition"]): m for m in policy["movies"]
                 if policy["includeOlderTitles"] or m["year"] >= today.year - 3}
+    blocked = {(normalize(m["title"]), m["year"]) for m in policy.get("excludedMovies", [])}
     candidates = {}
     queries = list(dict.fromkeys(["IMAX", "Open Matte", "OpenMatte"] +
                    [f"{m['title']} {m['year']}" if m.get("allowStandardHome") else f"{m['title']} {m['edition']}" for m in approved.values()]))
@@ -111,27 +116,45 @@ def build(today, fixture_dir=None):
             name = "imax" if query == "IMAX" else "open-matte"
             payload = json.loads((fixture_dir / f"{name}-releases.json").read_text())
         else:
-            params = urllib.parse.urlencode({"q": query, "c": "3000000", "o": "date", "d": "desc", "s": 300})
-            payload = fetch_json(f"https://api.knaben.org/v2/search?{params}")
+            # Zero-seed metadata is still useful: a debrid service can retain a
+            # cached copy. Paginate broad searches rather than dropping old films.
+            hits = []
+            for page in range(10):
+                params = urllib.parse.urlencode({"q": query, "c": "3000000", "o": "date", "d": "desc", "s": 300, "f": page * 300})
+                batch = fetch_json(f"https://api.knaben.org/v2/search?{params}&dead")
+                if not isinstance(batch.get("hits"), list):
+                    raise ValueError("Invalid release source response; retaining the previous catalog")
+                hits.extend(batch["hits"])
+                if len(batch["hits"]) < 300:
+                    break
+            payload = {"hits": hits}
         if not isinstance(payload.get("hits"), list):
             raise ValueError("Invalid release source response; retaining the previous catalog")
         for release in payload["hits"]:
             movie = parse_release(release, today, allow_unlabelled=True)
             if movie:
                 key = (normalize(movie["title"]), movie["year"], movie["edition"])
+                if key[:2] in blocked:
+                    continue
                 if key in approved:
                     movie["approval"] = approved[key]
                     candidates[key] = movie
                 else:
                     # A few reviewed films preserve expansion in their regular home
                     # releases; those files need not carry an IMAX/Open Matte tag.
+                    matched = False
                     for approved_key, approval in approved.items():
                         if (approval.get("allowStandardHome") and movie["homeSource"]
                                 and approved_key[:2] == key[:2]):
                             movie["edition"] = approval["edition"]
                             movie["approval"] = approval
                             candidates[approved_key] = movie
+                            matched = True
                             break
+                    if (not matched and policy.get("includeReleaseLabelledOpenMatte")
+                            and movie["edition"] == "Open Matte"
+                            and (policy["includeOlderTitles"] or movie["year"] >= today.year - 3)):
+                        candidates[key] = movie
     movies = {}
     failures = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
@@ -139,11 +162,20 @@ def build(today, fixture_dir=None):
         for future in concurrent.futures.as_completed(futures):
             try:
                 movie = future.result()
-                if movie and movie["id"] == futures[future]["approval"]["id"]:
-                    approval = futures[future]["approval"]
+                approval = futures[future].get("approval")
+                if movie and (not approval or movie["id"] == approval["id"]):
+                    if not approval:
+                        movie["reviewStatus"] = "Release-labelled; framing unverified"
+                        movie["description"] = ("Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. "
+                                                "Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.")
+                        # A reviewed entry always takes precedence over a lead.
+                        if movie["id"] not in movies:
+                            movies[movie["id"]] = movie
+                        continue
                     movie["aspectRatio"] = approval["aspectRatio"]
                     movie["evidenceSources"] = approval["sources"]
-                    movie["description"] = (f"Reviewed full-film expanded {movie['edition']} edition ({approval['aspectRatio']}). "
+                    movie["reviewStatus"] = "Reviewed title/edition; file unverified"
+                    movie["description"] = (f"Reviewed full-film tall/expanded {movie['edition']} presentation ({approval['aspectRatio']}). "
                                             + ("The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. " if approval.get("allowStandardHome") else "Choose the matching edition in your stream addon. ")
                                             + "Individual files have not been played or verified.")
                     if movie["id"] in movies:
@@ -154,8 +186,7 @@ def build(today, fixture_dir=None):
                 failures.append(str(error))
     if failures:
         raise RuntimeError(f"{len(failures)} metadata lookups failed; retaining the previous catalog")
-    # Never fall back to the old broad IMAX pool when the strict selection is small.
-    # An empty successful scan is published as empty rather than serving disallowed films.
+    # Unknown IMAX tags never qualify: most IMAX movies switch aspect ratios.
     pool = list(movies.values())
     public_movies = [{k: v for k, v in m.items() if k not in ("edition", "observed", "aspectRatio", "evidenceSources")} for m in rotate(pool, today)]
     return pool, {"metas": public_movies, "cacheMaxAge": 3600, "staleRevalidate": 3600}
@@ -165,18 +196,22 @@ def build(today, fixture_dir=None):
 def stream_expression(policy):
     def quoted(value):
         return "'" + value.replace("\\", "\\\\").replace("'", "\\'") + "'"
-    expression = "[]"
+    open_matte = "merge(editions(streams, 'Open Matte'), keyword(streams, 'filename,folderName', 'open matte', 'openmatte'))"
+    expression = open_matte if policy.get("includeReleaseLabelledOpenMatte") else "[]"
     for movie in reversed(policy["movies"]):
         condition = f"(title == {quoted(movie['title'])} and year == {movie['year']})"
         if movie.get("allowStandardHome"):
             selection = "quality(streams, 'Bluray REMUX', 'Bluray', 'WEB-DL', 'WEBRip')"
         elif movie["edition"] == "Open Matte":
-            selection = "merge(editions(streams, 'Open Matte'), keyword(streams, 'filename,folderName', 'open matte', 'openmatte'))"
+            selection = open_matte
         else:
             selection = "merge(visualTag(streams, 'IMAX'), editions(streams, 'IMAX', 'IMAX Enhanced'))"
         expression = f"{condition} ? {selection} : ({expression})"
+    for movie in policy.get("excludedMovies", []):
+        condition = f"(title == {quoted(movie['title'])} and year == {movie['year']})"
+        expression = f"{condition} ? [] : ({expression})"
     rejected = "keyword(streams, 'filename,folderName', 'cropped', 'custom open matte', 'variable aspect', 'VAR', 'UAR')"
-    return ("/* Reviewed full-film expanded movie editions */ (queryType == 'movie' or queryType == 'anime.movie') ? "
+    return ("/* Reviewed tall films and optional release-labelled Open Matte */ (queryType == 'movie' or queryType == 'anime.movie') ? "
             + f"negate({rejected}, ({expression})) : streams")
 
 
@@ -191,7 +226,7 @@ def main():
     (ROOT / "stream-expression.txt").write_text(stream_expression(policy) + "\n")
     write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "movies": pool})
     write_json(ROOT / "catalog" / "movie" / "iphone-duo.json", catalog)
-    write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": None if json.loads((ROOT / "data" / "approved-editions.json").read_text())["includeOlderTitles"] else today.year - 3, "source": "Reviewed full-film edition allowlist, Knaben edition metadata, and exact Cinemeta title/year/IMDb matches", "rotation": "Daily order and up to 12 movies per selection", "limitations": "Title/edition evidence is reviewed; individual files are not played or verified. Unknown movies require review before admission. Daily refresh does not automatically approve new titles."})
+    write_json(ROOT / "status.json", {"updated": today.isoformat(), "timezone": "Australia/Adelaide", "poolSize": len(pool), "reviewedCount": sum(m.get("reviewStatus", "").startswith("Reviewed") for m in pool), "releaseLabelledCount": sum(m.get("reviewStatus", "").startswith("Release-labelled") for m in pool), "rowSize": len(catalog["metas"]), "minimumMovieYear": None if policy["includeOlderTitles"] else today.year - 3, "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches", "rotation": "Daily order and up to 12 movies per selection", "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability."})
     print(f"Built {len(catalog['metas'])} daily picks from {len(pool)} movies for {today}")
 
 

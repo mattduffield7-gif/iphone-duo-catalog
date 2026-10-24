@@ -2,20 +2,38 @@
   "updated": "2026-10-25",
   "movies": [
     {
+      "id": "tt4154756",
+      "type": "movie",
+      "name": "Avengers: Infinity War",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX250.jpg",
+      "releaseInfo": "2018",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "edition": "IMAX",
+      "observed": "2023-03-17T22:00:00+00:00",
+      "aspectRatio": "1.90:1",
+      "evidenceSources": [
+        "https://www.imax.com/pr/marvel-studios-avengers-infinity-war-makes-hollywood-history",
+        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
       "id": "tt9419884",
       "type": "movie",
       "name": "Doctor Strange in the Multiverse of Madness",
       "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2022",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
       "edition": "IMAX",
       "observed": "2026-04-17T02:12:35+00:00",
       "aspectRatio": "1.90:1",
       "evidenceSources": [
         "https://imaxcorporation.gcs-web.com/node/23511/pdf",
         "https://www.disneyplus.com/welcome/imax-enhanced"
-      ]
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt4154796",
@@ -24,30 +42,15 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX250.jpg",
       "releaseInfo": "2019",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
       "edition": "IMAX",
       "observed": "2023-03-12T22:00:00+00:00",
       "aspectRatio": "1.90:1",
       "evidenceSources": [
         "https://www.youtube.com/watch?v=3yPFZrSvfes",
         "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
-      ]
-    },
-    {
-      "id": "tt4154756",
-      "type": "movie",
-      "name": "Avengers: Infinity War",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX250.jpg",
-      "releaseInfo": "2018",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
-      "edition": "IMAX",
-      "observed": "2023-03-17T22:00:00+00:00",
-      "aspectRatio": "1.90:1",
-      "evidenceSources": [
-        "https://www.imax.com/pr/marvel-studios-avengers-infinity-war-makes-hollywood-history",
-        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
-      ]
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt1856101",
@@ -56,31 +59,16 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX250.jpg",
       "releaseInfo": "2017",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Open Matte edition (1.78:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "description": "Reviewed full-film tall/expanded Open Matte presentation (1.78:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
       "edition": "Open Matte",
-      "observed": "2026-09-15T02:28:00+00:00",
+      "observed": "2026-08-28T08:08:52+00:00",
       "aspectRatio": "1.78:1",
       "evidenceSources": [
         "https://www.fanrestore.com/thread-1922.html",
         "https://www.fanrestore.com/thread-1922-page-25.html",
         "https://fanrestore.com/thread-1993.html"
-      ]
-    },
-    {
-      "id": "tt9376612",
-      "type": "movie",
-      "name": "Shang-Chi and the Legend of the Ten Rings",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZmY5MDcyNzAtYzg3MC00MGNlLTg3OGItNmRjYThkZGVlNzAyXkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2021",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded IMAX edition (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
-      "edition": "IMAX",
-      "observed": "2021-11-12T08:34:32+00:00",
-      "aspectRatio": "1.90:1",
-      "evidenceSources": [
-        "https://tnaqua.org/news/marvel-comic-book-epic-shang-chi-and-the-legend-of-the-ten-rings-coming-to-imax-sept-2/",
-        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
-      ]
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt0499549",
@@ -89,13 +77,14 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2009",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
       "edition": "Expanded Home",
       "observed": "2010-04-24T01:30:36+00:00",
       "aspectRatio": "1.78:1",
       "evidenceSources": [
         "https://thedigitalbits.com/reviews/item/avatar-4k-uhd-2023"
-      ]
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt1630029",
@@ -104,13 +93,14 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BNWI0Y2NkOWEtMmM2OC00MjQ3LWI1YzItZGQxYzQ3NzI4NWZmXkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2022",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
       "edition": "Expanded Home",
       "observed": "2023-03-24T22:00:00+00:00",
       "aspectRatio": "1.85:1",
       "evidenceSources": [
         "https://thedigitalbits.com/reviews/item/avatar-way-of-water-4k-uhd-2023"
-      ]
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt1757678",
@@ -119,28 +109,14 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2025",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
       "edition": "Expanded Home",
       "observed": "2025-12-25T21:19:25+00:00",
       "aspectRatio": "1.85:1",
       "evidenceSources": [
         "https://ultrahd.highdefdigest.com/156950/avatarfireandash4kultrahdbluray.html"
-      ]
-    },
-    {
-      "id": "tt6334354",
-      "type": "movie",
-      "name": "The Suicide Squad",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMWU3Y2NlZmEtMjJjNS00ZWMxLWE1MzctYWYyMjMzMDdkNTE4XkEyXkFqcGc@._V1_SX250.jpg",
-      "releaseInfo": "2021",
-      "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.90:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
-      "edition": "Expanded Home",
-      "observed": "2021-08-05T23:19:33+00:00",
-      "aspectRatio": "1.90:1",
-      "evidenceSources": [
-        "https://highdefdiscnews.com/2021/10/26/the-suicide-squad-4k-uhd-blu-ray-review/"
-      ]
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
     },
     {
       "id": "tt9663764",
@@ -149,13 +125,143 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTUzMWMtY2VkNS00ZDRjLWEwODYtYmFkMWJiNTQxMDUzXkEyXkFqcGc@._V1_SX250.jpg",
       "releaseInfo": "2023",
       "posterShape": "poster",
-      "description": "Reviewed full-film expanded Expanded Home edition (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.78:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
       "edition": "Expanded Home",
       "observed": "2024-01-22T22:00:00+00:00",
       "aspectRatio": "1.78:1",
       "evidenceSources": [
         "https://www.theaterbyte.com/aquaman-and-the-lost-kingdom-4k-uhd-review/"
-      ]
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt6334354",
+      "type": "movie",
+      "name": "The Suicide Squad",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWU3Y2NlZmEtMjJjNS00ZWMxLWE1MzctYWYyMjMzMDdkNTE4XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Expanded Home presentation (1.90:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Expanded Home",
+      "observed": "2021-08-05T23:19:33+00:00",
+      "aspectRatio": "1.90:1",
+      "evidenceSources": [
+        "https://highdefdiscnews.com/2021/10/26/the-suicide-squad-4k-uhd-blu-ray-review/"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt9376612",
+      "type": "movie",
+      "name": "Shang-Chi and the Legend of the Ten Rings",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmY5MDcyNzAtYzg3MC00MGNlLTg3OGItNmRjYThkZGVlNzAyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded IMAX presentation (1.90:1). Choose the matching edition in your stream addon. Individual files have not been played or verified.",
+      "edition": "IMAX",
+      "observed": "2021-11-14T01:46:06+00:00",
+      "aspectRatio": "1.90:1",
+      "evidenceSources": [
+        "https://tnaqua.org/news/marvel-comic-book-epic-shang-chi-and-the-legend-of-the-ten-rings-coming-to-imax-sept-2/",
+        "https://press.disneyplus.com/news/imax-enhanced-on-disney-plus-launches-november-12-disney-plus-day"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0848228",
+      "type": "movie",
+      "name": "The Avengers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2012",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.78:1 / 1.85:1 by release). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Native Tall",
+      "observed": "2012-08-20T22:00:00+00:00",
+      "aspectRatio": "1.78:1 / 1.85:1 by release",
+      "evidenceSources": [
+        "https://highdefdiscnews.com/2018/08/20/the-avengers-4k-uhd-blu-ray-review/comment-page-1/"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0107290",
+      "type": "movie",
+      "name": "Jurassic Park",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX250.jpg",
+      "releaseInfo": "1993",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Native Tall",
+      "observed": "2011-07-06T22:00:00+00:00",
+      "aspectRatio": "1.85:1",
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/jurassic-park-25th-collection-4k-uhd"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt1663662",
+      "type": "movie",
+      "name": "Pacific Rim",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_SX250.jpg",
+      "releaseInfo": "2013",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Native Tall",
+      "observed": "2013-07-27T22:00:00+00:00",
+      "aspectRatio": "1.85:1",
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/pacific-rim-uhd"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt12361974",
+      "type": "movie",
+      "name": "Zack Snyder's Justice League",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDA0MzM5YTctZTU2My00NGQ5LWE2NTEtNDM0MjZmMDBkOTZkXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2021",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.33:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Native Tall",
+      "observed": "2021-03-18T09:39:56+00:00",
+      "aspectRatio": "1.33:1",
+      "evidenceSources": [
+        "https://www.motionpictures.org/2021/03/cinematographer-fabian-wagner-on-zack-snyders-justice-league/"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0163025",
+      "type": "movie",
+      "name": "Jurassic Park III",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2FmMjhlZDYtNmYyMy00NTdjLTlhYzYtZWNlMDY2MmUzOGM2XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2001",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Native Tall",
+      "observed": "2011-10-17T21:17:20+00:00",
+      "aspectRatio": "1.85:1",
+      "evidenceSources": [
+        "https://www.bigpicturebigsound.com/Jurassic-Park-Ultimate-Trilogy-Blu-ray.shtml"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
+    },
+    {
+      "id": "tt0119567",
+      "type": "movie",
+      "name": "The Lost World: Jurassic Park",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGI3NDg5N2ItZGIyZi00ZWNkLWFlODUtZDA1Y2Q1M2U4NGM2XkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1997",
+      "posterShape": "poster",
+      "description": "Reviewed full-film tall/expanded Native Tall presentation (1.85:1). The regular 2D Blu-ray/WEB home presentation qualifies; an IMAX filename tag is not required. Individual files have not been played or verified.",
+      "edition": "Native Tall",
+      "observed": "2013-12-08T23:10:43+00:00",
+      "aspectRatio": "1.85:1",
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/jurassic-park-25th-collection-4k-uhd"
+      ],
+      "reviewStatus": "Reviewed title/edition; file unverified"
     }
   ]
 }

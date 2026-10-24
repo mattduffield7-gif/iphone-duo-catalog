@@ -56,6 +56,40 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(len(public["metas"]), 1)
         self.assertIn("Reviewed full-film", public["metas"][0]["description"])
 
+    def test_open_matte_tag_before_year_is_not_part_of_movie_title(self):
+        movie = catalog.parse_release({"title": "Collateral Open Matte 2004 ITA ENG 1080p"}, dt.date(2026, 10, 25))
+        self.assertEqual(movie["title"], "Collateral")
+
+    def test_broader_discovery_retains_labels_and_blocks_known_variable_titles(self):
+        policy = {"includeOlderTitles": True, "includeReleaseLabelledOpenMatte": True, "movies": [],
+                  "excludedMovies": [{"title": "Interstellar", "year": 2014}]}
+        payload = {"hits": [{"title": "Some.Movie.2025.Open.Matte.WEB-DL"},
+                            {"title": "Interstellar.2014.Open.Matte.WEB-DL"},
+                            {"title": "Unknown.IMAX.Movie.2025.IMAX.WEB-DL"},
+                            {"title": "Ordinary.Movie.2025.WEB-DL"}]}
+        movie = {"id": "tt1234567", "name": "Some Movie", "type": "movie", "releaseInfo": "2025"}
+        def fetch(url):
+            return payload if "api.knaben.org" in url else {"metas": [movie]}
+        with patch.object(catalog, "fetch_json", side_effect=fetch):
+            pool, public = catalog.build(dt.date(2026, 10, 25), policy=policy)
+        self.assertEqual([m["id"] for m in pool], ["tt1234567"])
+        self.assertEqual(pool[0]["reviewStatus"], "Release-labelled; framing unverified")
+        self.assertIn("not been independently confirmed", public["metas"][0]["description"])
+        expression = catalog.stream_expression(policy)
+        self.assertIn("title == 'Interstellar'", expression)
+        self.assertIn("? [] :", expression)
+        self.assertIn("editions(streams, 'Open Matte')", expression)
+
+    def test_native_tall_snyder_cut_needs_no_edition_tag(self):
+        policy = {"includeOlderTitles": True, "movies": [{"id": "tt12361974", "title": "Zack Snyder's Justice League", "year": 2021,
+                  "edition": "Native Tall", "allowStandardHome": True, "aspectRatio": "1.33:1", "sources": ["https://www.motionpictures.org/"]}]}
+        payload = {"hits": [{"title": "Zack.Snyders.Justice.League.2021.2160p.BluRay"}]}
+        movie = {"id": "tt12361974", "name": "Zack Snyder's Justice League", "type": "movie", "releaseInfo": "2021"}
+        with patch.object(catalog, "fetch_json", side_effect=lambda url: payload if "api.knaben.org" in url else {"metas": [movie]}):
+            pool, public = catalog.build(dt.date(2026, 10, 25), policy=policy)
+        self.assertEqual([m["id"] for m in pool], ["tt12361974"])
+        self.assertIn("Native Tall", public["metas"][0]["description"])
+
     def test_reviewed_standard_home_edition_needs_no_imax_label(self):
         payload = {"hits": [
             {"title": "Avatar.2009.2160p.BluRay.x265"},

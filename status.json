@@ -1,10 +1,12 @@
 {
   "updated": "2026-10-25",
   "timezone": "Australia/Adelaide",
-  "poolSize": 10,
-  "rowSize": 10,
+  "poolSize": 16,
+  "reviewedCount": 16,
+  "releaseLabelledCount": 0,
+  "rowSize": 12,
   "minimumMovieYear": null,
-  "source": "Reviewed full-film edition allowlist, Knaben edition metadata, and exact Cinemeta title/year/IMDb matches",
+  "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches",
   "rotation": "Daily order and up to 12 movies per selection",
-  "limitations": "Title/edition evidence is reviewed; individual files are not played or verified. Unknown movies require review before admission. Daily refresh does not automatically approve new titles."
+  "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability."
 }

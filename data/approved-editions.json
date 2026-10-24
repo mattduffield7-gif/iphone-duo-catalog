@@ -1,6 +1,6 @@
 {
   "includeOlderTitles": true,
-  "policy": "Only reviewed full-film expanded editions. A theatrical IMAX credit or filename alone is insufficient. Unknown candidates remain excluded until their home edition is reviewed. File-level playback is not verified.",
+  "policy": "Reviewed whole-film expanded or native tall presentations from 1.33:1 to 1.90:1. Unknown IMAX tags alone do not qualify. Release-labelled Open Matte discovery is a separate configurable tier; individual files are not verified.",
   "movies": [
     {
       "id": "tt4154756",
@@ -122,6 +122,78 @@
         "https://highdefdiscnews.com/2021/10/26/the-suicide-squad-4k-uhd-blu-ray-review/"
       ],
       "evidence": "Firsthand UHD review explicitly confirms fixed 1.90 framing with no aspect-ratio shifts. Regular 2D Blu-ray/WEB files qualify; exclude cam, cropped and custom-frame releases."
+    },
+    {
+      "id": "tt12361974",
+      "title": "Zack Snyder's Justice League",
+      "year": 2021,
+      "edition": "Native Tall",
+      "aspectRatio": "1.33:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.motionpictures.org/2021/03/cinematographer-fabian-wagner-on-zack-snyders-justice-league/"
+      ],
+      "evidence": "The cinematographer describes the full-frame 4:3 presentation, chosen to approximate IMAX proportions."
+    },
+    {
+      "id": "tt0848228",
+      "title": "The Avengers",
+      "year": 2012,
+      "edition": "Native Tall",
+      "aspectRatio": "1.78:1 / 1.85:1 by release",
+      "allowStandardHome": true,
+      "sources": [
+        "https://highdefdiscnews.com/2018/08/20/the-avengers-4k-uhd-blu-ray-review/comment-page-1/"
+      ],
+      "evidence": "Firsthand UHD review confirms 1.85 on UHD and 1.78 on the prior Blu-ray; both qualify as tall native home framing."
+    },
+    {
+      "id": "tt1663662",
+      "title": "Pacific Rim",
+      "year": 2013,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/pacific-rim-uhd"
+      ],
+      "evidence": "Firsthand UHD review confirms the original 1.85 theatrical framing on the home transfer."
+    },
+    {
+      "id": "tt0107290",
+      "title": "Jurassic Park",
+      "year": 1993,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/jurassic-park-25th-collection-4k-uhd"
+      ],
+      "evidence": "Firsthand UHD review confirms the original 1.85 framing on the home transfer."
+    },
+    {
+      "id": "tt0119567",
+      "title": "The Lost World: Jurassic Park",
+      "year": 1997,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/jurassic-park-25th-collection-4k-uhd"
+      ],
+      "evidence": "Firsthand UHD review confirms the original 1.85 framing on the home transfer."
+    },
+    {
+      "id": "tt0163025",
+      "title": "Jurassic Park III",
+      "year": 2001,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.bigpicturebigsound.com/Jurassic-Park-Ultimate-Trilogy-Blu-ray.shtml"
+      ],
+      "evidence": "Firsthand Blu-ray review confirms all three original trilogy entries retain their original 1.85 home framing."
     }
   ],
   "pendingReview": [
@@ -138,6 +210,29 @@
       ],
       "evidence": "The theatrical entire-film expansion announcement does not establish a constant-ratio home edition. Home-media reference identifies additional framing changes.",
       "reviewStatus": "Held out: home edition has framing changes; does not satisfy the strict constant-frame preference."
+    }
+  ],
+  "includeReleaseLabelledOpenMatte": false,
+  "excludedMovies": [
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "reason": "Known variable-ratio IMAX presentation; no reviewed constant-frame alternative."
+    },
+    {
+      "title": "Oppenheimer",
+      "year": 2023,
+      "reason": "Known variable-ratio IMAX presentation; no reviewed constant-frame alternative."
+    },
+    {
+      "title": "The Marvels",
+      "year": 2023,
+      "reason": "Known variable-ratio IMAX presentation; no reviewed constant-frame alternative."
+    },
+    {
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "reason": "Known variable-ratio IMAX presentation; no reviewed constant-frame alternative."
     }
   ]
 }
