@@ -1030,6 +1030,102 @@
       "edition": "Open Matte",
       "observed": "2016-12-30T10:49:13+00:00",
       "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0118583",
+      "type": "movie",
+      "name": "Alien: Resurrection",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDMyNmU5ZGQtNzhiZi00NjRjLTk3NGUtMmQ5YWU4ODlkNTBhXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1997",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2026-07-13T16:56:53+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0112641",
+      "type": "movie",
+      "name": "Casino",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDRlZWZjZjYtYzY2NS00ZWVjLTkwYzAtZTA2ZDAzMGRiYmYwXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "1995",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2026-05-14T07:33:09+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0325980",
+      "type": "movie",
+      "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDhlMzEyNzItMTA5Mi00YWRhLThlNTktYTQyMTA0MDIyNDEyXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2003",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2024-10-14T10:33:22+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0449088",
+      "type": "movie",
+      "name": "Pirates of the Caribbean: At World's End",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX250.jpg",
+      "releaseInfo": "2007",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2015-11-14T08:57:32+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt2084970",
+      "type": "movie",
+      "name": "The Imitation Game",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SX250.jpg",
+      "releaseInfo": "2014",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2024-07-23T07:02:13+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt1872194",
+      "type": "movie",
+      "name": "The Judge",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTcyNzIxOTIwMV5BMl5BanBnXkFtZTgwMzE0NjQwMjE@._V1_SX250.jpg",
+      "releaseInfo": "2014",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2023-08-27T17:35:24+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt1622979",
+      "type": "movie",
+      "name": "Final Destination 5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTgyOTExNDc1M15BMl5BanBnXkFtZTcwMDA0MTA4NQ@@._V1_SX250.jpg",
+      "releaseInfo": "2011",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2023-07-15T09:13:50+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
+    },
+    {
+      "id": "tt0375210",
+      "type": "movie",
+      "name": "White Noise",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmM5YmFjNTUtZmQ4Yi00M2FkLThmM2MtZTMyZWEyYjBiZjkzXkEyXkFqcGc@._V1_SX250.jpg",
+      "releaseInfo": "2005",
+      "posterShape": "poster",
+      "description": "Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.",
+      "edition": "Open Matte",
+      "observed": "2019-10-28T16:44:43+00:00",
+      "reviewStatus": "Release-labelled; framing unverified"
     }
   ]
 }

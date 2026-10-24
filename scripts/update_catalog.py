@@ -103,7 +103,29 @@ def write_json(path, data):
     temporary.replace(path)
 
 
-def build(today, fixture_dir=None, policy=None):
+def retain_previous(movies, previous_pool, policy, today):
+    """An index disappearing is not evidence that an observed edition never existed."""
+    kept = dict(movies)
+    approved_ids = {m['id'] for m in policy['movies']}
+    blocked = {(normalize(m['title']), m['year']) for m in policy.get('excludedMovies', [])}
+    for movie in previous_pool:
+        match = re.match(r'\d{4}', str(movie.get('releaseInfo', '')))
+        if not match or not re.fullmatch(r'tt\d{7,10}', movie.get('id', '')):
+            continue
+        year = int(match.group())
+        if ((normalize(movie.get('name', '')), year) in blocked
+                or (not policy['includeOlderTitles'] and year < today.year - 3)):
+            continue
+        reviewed = movie['id'] in approved_ids
+        labelled = (policy.get('includeReleaseLabelledOpenMatte')
+                    and movie.get('reviewStatus', '').startswith('Release-labelled')
+                    and movie.get('edition') == 'Open Matte')
+        if reviewed or labelled:
+            kept.setdefault(movie['id'], movie)
+    return kept
+
+
+def build(today, fixture_dir=None, policy=None, previous_pool=()):
     if policy is None:
         policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
     approved = {(normalize(m["title"]), m["year"], m["edition"]): m for m in policy["movies"]
@@ -188,7 +210,7 @@ def build(today, fixture_dir=None, policy=None):
     if failures:
         raise RuntimeError(f"{len(failures)} metadata lookups failed; retaining the previous catalog")
     # Unknown IMAX tags never qualify: most IMAX movies switch aspect ratios.
-    pool = list(movies.values())
+    pool = list(retain_previous(movies, previous_pool, policy, today).values())
     public_movies = [{k: v for k, v in m.items() if k not in ("edition", "observed", "aspectRatio", "evidenceSources")} for m in rotate(pool, today, size=len(pool))]
     return pool, {"metas": public_movies, "cacheMaxAge": 300, "staleRevalidate": 0}
 
@@ -227,7 +249,9 @@ def main():
     args = parser.parse_args()
     today = args.date or dt.datetime.now(ZoneInfo("Australia/Adelaide")).date()
     policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
-    pool, catalog = build(today, args.fixture_dir)
+    previous_path = ROOT / 'data' / 'pool.json'
+    previous = json.loads(previous_path.read_text()).get('movies', []) if previous_path.exists() else []
+    pool, catalog = build(today, args.fixture_dir, previous_pool=previous)
     (ROOT / "stream-expression.txt").write_text(stream_expression(policy) + "\n")
     write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "movies": pool})
     write_json(ROOT / "catalog" / "movie" / "iphone-duo.json", catalog)

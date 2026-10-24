@@ -95,6 +95,14 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual([m["id"] for m in pool], ["tt12361974"])
         self.assertIn("Native Tall", public["metas"][0]["description"])
 
+    def test_observed_editions_survive_index_fluctuations_but_obey_current_policy(self):
+        previous = [{"id": "tt1234567", "name": "Some Movie", "releaseInfo": "2020", "edition": "Open Matte", "reviewStatus": "Release-labelled; framing unverified"},
+                    {"id": "tt0816692", "name": "Interstellar", "releaseInfo": "2014", "edition": "Open Matte", "reviewStatus": "Release-labelled; framing unverified"}]
+        policy = {"includeOlderTitles": True, "includeReleaseLabelledOpenMatte": True, "movies": [], "excludedMovies": [{"title": "Interstellar", "year": 2014}]}
+        self.assertEqual(list(catalog.retain_previous({}, previous, policy, dt.date(2026, 10, 25))), ["tt1234567"])
+        policy["includeReleaseLabelledOpenMatte"] = False
+        self.assertEqual(catalog.retain_previous({}, previous, policy, dt.date(2026, 10, 25)), {})
+
     def test_reviewed_standard_home_edition_needs_no_imax_label(self):
         payload = {"hits": [
             {"title": "Avatar.2009.2160p.BluRay.x265"},
