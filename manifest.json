@@ -1,8 +1,8 @@
 {
   "id": "community.iphone-duo.catalog",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "name": "Good for the iPhone Duo",
-  "description": "Daily rotating films with reviewed whole-film IMAX, Open Matte or native tall home presentations (1.33–1.90). Use IMAX/Open Matte for matching TorBox results.",
+  "description": "Daily rotating reviewed tall-format films and newly indexed Open Matte-labelled releases. Uploader labels do not independently verify whole-film framing. Use IMAX/Open Matte for matching TorBox results.",
   "resources": [
     "catalog"
   ],

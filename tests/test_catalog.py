@@ -1,5 +1,6 @@
 import datetime as dt
 import importlib.util
+import json
 from pathlib import Path
 import unittest
 from unittest.mock import patch
@@ -41,6 +42,8 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(len(catalog.rotate(movies, day)), 6)
 
     def test_unknown_and_variable_ratio_titles_never_enter_pool(self):
+        policy = json.loads((catalog.ROOT / "data/approved-editions.json").read_text())
+        policy["includeReleaseLabelledOpenMatte"] = False
         payload = {"hits": [
             {"title": "Avengers.Infinity.War.2018.IMAX.HYBRID.1080p"},
             {"title": "The.Fantastic.Four.First.Steps.2025.IMAX.1080p"},
@@ -51,7 +54,7 @@ class CatalogTests(unittest.TestCase):
         def fetch(url):
             return payload if "api.knaben.org" in url else {"metas": [movie]}
         with patch.object(catalog, "fetch_json", side_effect=fetch):
-            pool, public = catalog.build(dt.date(2026, 10, 25))
+            pool, public = catalog.build(dt.date(2026, 10, 25), policy=policy)
         self.assertEqual([m["id"] for m in pool], ["tt4154756"])
         self.assertEqual(len(public["metas"]), 1)
         self.assertIn("Reviewed full-film", public["metas"][0]["description"])
@@ -59,6 +62,8 @@ class CatalogTests(unittest.TestCase):
     def test_open_matte_tag_before_year_is_not_part_of_movie_title(self):
         movie = catalog.parse_release({"title": "Collateral Open Matte 2004 ITA ENG 1080p"}, dt.date(2026, 10, 25))
         self.assertEqual(movie["title"], "Collateral")
+        movie = catalog.parse_release({"title": "The Martian Open Matte Theatrical 2015 1080p"}, dt.date(2026, 10, 25))
+        self.assertEqual(movie["title"], "The Martian")
 
     def test_broader_discovery_retains_labels_and_blocks_known_variable_titles(self):
         policy = {"includeOlderTitles": True, "includeReleaseLabelledOpenMatte": True, "movies": [],

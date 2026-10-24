@@ -212,7 +212,7 @@
       "reviewStatus": "Held out: home edition has framing changes; does not satisfy the strict constant-frame preference."
     }
   ],
-  "includeReleaseLabelledOpenMatte": false,
+  "includeReleaseLabelledOpenMatte": true,
   "excludedMovies": [
     {
       "title": "Interstellar",

@@ -57,6 +57,7 @@ def parse_release(release, today, allow_unlabelled=False):
     # Edition tags can precede the year (e.g. 'Collateral Open Matte 2004').
     name = EDITION.sub("", name).strip(" ._-[]()")
     name = re.sub(r"\s+", " ", name)
+    name = re.sub(r"\s+(?:theatrical(?: (?:cut|version))?|extended(?: (?:cut|edition|version))?|director['’]?s cut|special edition|unrated|remastered)$", "", name, flags=re.I).strip()
     if not name:
         return None
     edition = "Open Matte" if re.search(r"open[ ._-]?matte", title, re.I) else "IMAX" if re.search(r"\bIMAX\b", title, re.I) else "Standard Home"
@@ -197,7 +198,7 @@ def stream_expression(policy):
     def quoted(value):
         return "'" + value.replace("\\", "\\\\").replace("'", "\\'") + "'"
     open_matte = "merge(editions(streams, 'Open Matte'), keyword(streams, 'filename,folderName', 'open matte', 'openmatte'))"
-    expression = open_matte if policy.get("includeReleaseLabelledOpenMatte") else "[]"
+    expression = "[]"
     for movie in reversed(policy["movies"]):
         condition = f"(title == {quoted(movie['title'])} and year == {movie['year']})"
         if movie.get("allowStandardHome"):
@@ -207,6 +208,10 @@ def stream_expression(policy):
         else:
             selection = "merge(visualTag(streams, 'IMAX'), editions(streams, 'IMAX', 'IMAX Enhanced'))"
         expression = f"{condition} ? {selection} : ({expression})"
+    if policy.get("includeReleaseLabelledOpenMatte"):
+        # The discovery tier also applies to reviewed movies: e.g. an Endgame
+        # Open Matte file must not require a separate IMAX filename tag.
+        expression = f"merge(({expression}), {open_matte})"
     for movie in policy.get("excludedMovies", []):
         condition = f"(title == {quoted(movie['title'])} and year == {movie['year']})"
         expression = f"{condition} ? [] : ({expression})"
