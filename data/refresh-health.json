@@ -1,25 +1,26 @@
 {
-  "checkedAt": "2026-10-25T03:17:06.806551+00:00",
+  "checkedAt": "2026-10-25T21:23:24.962714+00:00",
   "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
   "movieDiscovery": {
     "state": "ok",
-    "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
-    "lastSuccessAt": "2026-10-25T03:14:45.504407+00:00"
+    "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
+    "lastSuccessAt": "2026-10-25T21:16:04.405973+00:00"
   },
   "movies": {
-    "state": "ok",
-    "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
-    "lastSuccessAt": "2026-10-25T03:17:00.313294+00:00"
+    "state": "failed",
+    "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
+    "lastSuccessAt": "2026-10-25T03:17:00.313294+00:00",
+    "message": "Refresh failed; previous successful metadata retained. See the GitHub Actions run."
   },
   "series": {
     "state": "ok",
-    "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
-    "lastSuccessAt": "2026-10-25T03:17:06.642031+00:00"
+    "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
+    "lastSuccessAt": "2026-10-25T21:23:24.747802+00:00"
   },
   "seriesDiscovery": {
     "state": "ok",
-    "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
-    "lastSuccessAt": "2026-10-25T03:17:06.806147+00:00"
+    "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
+    "lastSuccessAt": "2026-10-25T21:23:24.962193+00:00"
   },
   "upcoming": [
     {
