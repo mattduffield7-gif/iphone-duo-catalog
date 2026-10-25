@@ -53,6 +53,15 @@ Check exact editions: Seinfeld preserves 4:3 on UHD, while its standard Blu-ray 
 
 ## Home rotation and alphabetical browsing
 
-Live service version 8 (manifest 2.1.0) keeps unfiltered home requests shuffled and adds an optional `sort=A–Z` extra to both catalogs. In Stremio, use See all/Discover → Filters → sort → A–Z. Genre filtering can be combined with the selected order. All eligible titles are still returned; no twelve-item or 100-item truncation was introduced. Alphabetical ordering uses the full displayed title, case-insensitive natural number ordering, then release information and ID for stable ties.
+Live service (manifest 2.1.0) keeps unfiltered home requests shuffled and adds an optional `sort=A–Z` extra to both catalogs. In Stremio, use See all/Discover → Filters → sort → A–Z. Genre filtering can be combined with the selected order. All eligible titles are still returned; no twelve-item or 100-item truncation was introduced. Alphabetical ordering uses the full displayed title, case-insensitive natural number ordering, then release information and ID for stable ties.
 
 Home and See all initially request the same catalog resource, so the addon cannot automatically infer which order the caller wants. Do not claim automatic alphabetical See all: the user selects the A–Z filter. Do not introduce a global server-side preference, referer-based guessing or per-user tracking to distinguish the views. The installed metadata addon was refreshed to expose the filter, then the custom Movies/Series row names and positions directly below Channel 4 Series were restored. Catalog-only pool updates still do not require a reinstall.
+
+
+## Framing review and refresh recovery (2026-10-26)
+
+Added reviewed native-tall approvals for The Terminator (1984), Clash of the Titans (1981) and Toy Story 5 (2026), with exact home-disc evidence in approved-editions.json. The Terminator was already an unverified Open Matte discovery; it is now eligible in its regular 1.85 home edition. Clash uses evidence for the released Warner Blu-ray, not Arrow’s upcoming November edition. The Terminator UHD enhancement/upscale is noted rather than presented as native 4K detail.
+
+Added Reacher (2.00:1, separate seasons 1–3 disc reviews) and The Walking Dead (1.78:1, first-season and seasons 10–11 disc reviews). The latter approval does not include spin-offs or custom fan edits. Kept future-season and individual-file caveats. Added an explicit Project Hail Mary block after firsthand UHD reviews reported variable framing; no constant tall edition was established. Universal’s Odyssey announcement was rechecked: November 17 and 1.78 remain unchanged, so it stays gated.
+
+The October 25 scheduled movie updater retained its last good pool after one exhausted metadata lookup. Added one delayed retry around an exhausted per-title lookup, plus title/year/error diagnostics if it still fails. Exact title/year/IMDb matching and whole-catalog rollback remain in place. The new regression test covers transient recovery and persistent failure. The hosted refresh must report healthy before recovery is claimed.

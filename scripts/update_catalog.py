@@ -86,6 +86,18 @@ def resolve_movie(candidate, today):
     return {"id": movie["id"], "type": "movie", "name": movie["name"], "poster": movie.get("poster", f"https://images.metahub.space/poster/medium/{movie['id']}/img"), "releaseInfo": str(candidate["year"]), "posterShape": "poster", "description": f"A publicly indexed release is labelled {candidate['edition']}. Choose AIOStreams in the source selector for IMAX/Open Matte results.", "edition": candidate["edition"], "observed": candidate["observed"]}
 
 
+def resolve_movie_with_retry(candidate, today):
+    """Give an exhausted transient lookup one delayed retry, preserving strict matching."""
+    try:
+        return resolve_movie(candidate, today)
+    except Exception:
+        time.sleep(5)
+        try:
+            return resolve_movie(candidate, today)
+        except Exception as error:
+            raise RuntimeError(f"{candidate['title']} ({candidate['year']}): {type(error).__name__}: {error}") from error
+
+
 def rotate(movies, day, size=12):
     pool = sorted(movies, key=lambda m: m["id"])
     random.Random("iphone-duo-catalog-v1").shuffle(pool)
@@ -216,7 +228,7 @@ def build(today, fixture_dir=None, policy=None, previous_pool=(), community_cand
     movies = {}
     failures = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
-        futures = {executor.submit(resolve_movie, m, today): m for m in candidates.values()}
+        futures = {executor.submit(resolve_movie_with_retry, m, today): m for m in candidates.values()}
         for future in concurrent.futures.as_completed(futures):
             try:
                 movie = future.result()
@@ -249,7 +261,7 @@ def build(today, fixture_dir=None, policy=None, previous_pool=(), community_cand
             except Exception as error:
                 failures.append(str(error))
     if failures:
-        raise RuntimeError(f"{len(failures)} metadata lookups failed; retaining the previous catalog")
+        raise RuntimeError(f"{len(failures)} metadata lookups failed; retaining the previous catalog: " + "; ".join(failures))
     # Unknown IMAX tags never qualify: most IMAX movies switch aspect ratios.
     pool = list(retain_previous(movies, previous_pool, policy, today).values())
     public_movies = [{k: v for k, v in m.items() if k not in ("edition", "observed", "aspectRatio", "evidenceSources")} for m in rotate(pool, today, size=len(pool))]

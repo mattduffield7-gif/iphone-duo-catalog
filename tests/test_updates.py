@@ -14,6 +14,17 @@ import refresh_catalogs
 
 
 class UpdateTests(unittest.TestCase):
+    def test_exhausted_metadata_lookup_gets_one_delayed_retry_without_relaxing_matching(self):
+        candidate = {'title': 'Some Movie', 'year': 2026}
+        today = dt.date(2026, 10, 26)
+        with patch.object(movies, 'resolve_movie', side_effect=[TimeoutError('temporary'), None]) as resolve, patch.object(movies.time, 'sleep') as sleep:
+            self.assertIsNone(movies.resolve_movie_with_retry(candidate, today))
+            self.assertEqual(resolve.call_count, 2)
+            sleep.assert_called_once_with(5)
+        with patch.object(movies, 'resolve_movie', side_effect=TimeoutError('persistent')), patch.object(movies.time, 'sleep'):
+            with self.assertRaisesRegex(RuntimeError, r'Some Movie \(2026\): TimeoutError: persistent'):
+                movies.resolve_movie_with_retry(candidate, today)
+
     def test_announced_home_release_is_gated_even_for_open_matte_and_retained_entries(self):
         entry = {'id': 'tt33764258', 'title': 'The Odyssey', 'year': 2026,
                  'edition': 'Expanded Home', 'aspectRatio': '1.78:1', 'allowStandardHome': True,

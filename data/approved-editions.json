@@ -378,6 +378,44 @@
         "https://thedigitalbits.com/reviews/item/when-titans-clash-wrath-arrow-2024-uhd"
       ],
       "evidence": "Firsthand UHD review confirms full-film native 1.85 home framing for Wrath of the Titans. The wider 2.39 original Clash of the Titans (2010) is not covered by this approval. Individual files remain unverified."
+    },
+    {
+      "id": "tt0088247",
+      "title": "The Terminator",
+      "year": 1984,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.avforums.com/reviews/terminator-4k-blu-ray-review.22308/"
+      ],
+      "evidence": "Firsthand UHD review confirms the original 1.85 home framing. This upgrades the existing unverified Open Matte discovery to a reviewed native-tall home approval. The 2024 UHD uses an enhanced/upscaled master; 4K packaging is not a claim of native 4K detail. Individual files remain unverified."
+    },
+    {
+      "id": "tt0082186",
+      "title": "Clash of the Titans",
+      "year": 1981,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.avforums.com/reviews/clash-of-the-titans-blu-ray-review.1921/",
+        "https://bluray.highdefdigest.com/2860/clashofthetitans_1981.html"
+      ],
+      "evidence": "Firsthand reviews of the released Warner Blu-ray confirm the original 1.85 home presentation. Approval is based on that existing edition, not the forthcoming Arrow edition. Applies to the 1981 Harryhausen film only, not the 2010 remake."
+    },
+    {
+      "id": "tt26443597",
+      "title": "Toy Story 5",
+      "year": 2026,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.hometheaterforum.com/toy-story-5-uhd-review/",
+        "https://www.ecoustics.com/reviews/toy-story-5-4k-uhd/"
+      ],
+      "evidence": "Two firsthand UHD disc reviews confirm the released home edition at 1.85:1. The September 22, 2026 disc release predates this review. Native tall framing qualifies without an IMAX/Open Matte tag; no claim of native 4K rendering or file-level verification."
     }
   ],
   "pendingReview": [
@@ -417,6 +455,15 @@
       "title": "The Fantastic Four: First Steps",
       "year": 2025,
       "reason": "Known variable-ratio IMAX presentation; no reviewed constant-frame alternative."
+    },
+    {
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "reason": "Firsthand UHD review explicitly reports switching between 1.78:1 and 2.39:1. No reviewed constant tall home alternative; an IMAX tag alone does not qualify.",
+      "sources": [
+        "https://screen-connections.com/2026/08/13/4k-ultra-hd-review-project-hail-mary/",
+        "https://www.avnirvana.com/threads/project-hail-mary-4k-blu-ray-review.17228/"
+      ]
     }
   ]
 }

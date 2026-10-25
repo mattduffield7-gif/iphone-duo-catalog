@@ -1157,6 +1157,41 @@
       ],
       "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
       "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Reacher",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "aspectRatio": 2.0,
+      "preferredEdition": "Original 2.00:1 Blu-ray/UHD home editions, seasons 1–3 reviewed",
+      "sources": [
+        "https://www.thedigitalbits.com/reviews/item/reacher-season-one-2022-uhd",
+        "https://noreruns.net/2024/09/15/blu-ray-review-reacher-season-two/",
+        "https://www.avnirvana.com/threads/reacher-season-three-blu-ray-review.17274/"
+      ],
+      "note": "Separate firsthand disc reviews confirm 2.00:1 in seasons one, two and three. This is the wider edge of the accepted series range, not IMAX or Open Matte. Future seasons and individual files require rechecking."
+    },
+    {
+      "title": "The Walking Dead",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "aspectRatio": 1.78,
+      "preferredEdition": "Original series Blu-ray editions, seasons 1–11",
+      "sources": [
+        "https://www.hometheaterforum.com/community/threads/htf-blu-ray-review-the-walking-dead-the-complete-first-season.303168/",
+        "https://www.spook-central.com/tcp/2021/09/04/walking-dead-season-10-blu-ray-review",
+        "https://geekvibesnation.com/the-walking-dead-season-11-blu-ray-review/"
+      ],
+      "note": "Firsthand first-season and late-series Blu-ray reviews (seasons 10 and 11) report 1.78:1. Early seasons were photographed on Super 16 and retain grain; HD does not mean grain-free. This approval covers the original series only, not its separately framed spin-offs or custom widescreen fan edits. Special sequences and individual files can differ."
     }
   ],
   "taste": "Broad interests: include strong comedy, crime, mystery, drama, animation, documentary and other series alongside science fiction, fantasy, action, adventure and mythology. Genre preferences are not eligibility restrictions. Include original 4:3 HD home editions and distinguish native remasters from upscales and cropped widescreen alternatives.",
