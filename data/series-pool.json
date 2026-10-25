@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-26",
-  "refreshedAt": "2026-10-25T21:23:24.686236+00:00",
+  "refreshedAt": "2026-10-25T22:34:51.641508+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -1488,6 +1488,47 @@
         "https://www.fanbolt.com/110801/chernobyl-blu-ray-review-a-brilliant-and-extremely-powerful-miniseries/"
       ],
       "description": "Reported standard framing: 2.0:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt9288030",
+      "type": "series",
+      "name": "Reacher",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmE0YTA3MTItMjhiNC00MGQ3LTllZDktNGNiZWY1OWFmNmM1XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2022-",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "aspectRatio": 2.0,
+      "evidenceSources": [
+        "https://www.thedigitalbits.com/reviews/item/reacher-season-one-2022-uhd",
+        "https://noreruns.net/2024/09/15/blu-ray-review-reacher-season-two/",
+        "https://www.avnirvana.com/threads/reacher-season-three-blu-ray-review.17274/"
+      ],
+      "description": "Reported standard framing: 2.0:1. Preferred edition: Original 2.00:1 Blu-ray/UHD home editions, seasons 1–3 reviewed. Separate firsthand disc reviews confirm 2.00:1 in seasons one, two and three. This is the wider edge of the accepted series range, not IMAX or Open Matte. Future seasons and individual files require rechecking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1520211",
+      "type": "series",
+      "name": "The Walking Dead",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2010-2022",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/community/threads/htf-blu-ray-review-the-walking-dead-the-complete-first-season.303168/",
+        "https://www.spook-central.com/tcp/2021/09/04/walking-dead-season-10-blu-ray-review",
+        "https://geekvibesnation.com/the-walking-dead-season-11-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Original series Blu-ray editions, seasons 1–11. Firsthand first-season and late-series Blu-ray reviews (seasons 10 and 11) report 1.78:1. Early seasons were photographed on Super 16 and retain grain; HD does not mean grain-free. This approval covers the original series only, not its separately framed spin-offs or custom widescreen fan edits. Special sequences and individual files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "limitations": "Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored."

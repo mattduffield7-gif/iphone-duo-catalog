@@ -1,37 +1,36 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "timezone": "Australia/Adelaide",
-  "poolSize": 354,
-  "reviewedCount": 30,
-  "releaseLabelledCount": 324,
-  "rowSize": 354,
+  "poolSize": 363,
+  "reviewedCount": 32,
+  "releaseLabelledCount": 331,
+  "rowSize": 363,
   "minimumMovieYear": null,
   "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches",
   "rotation": "Daily order of the complete pool; the live service shuffles each fetch",
   "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability.",
   "refresh": {
-    "checkedAt": "2026-10-25T21:23:24.962714+00:00",
+    "checkedAt": "2026-10-25T22:34:51.992920+00:00",
     "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
     "movieDiscovery": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
-      "lastSuccessAt": "2026-10-25T21:16:04.405973+00:00"
+      "lastAttemptAt": "2026-10-25T22:29:58.847571+00:00",
+      "lastSuccessAt": "2026-10-25T22:30:11.741522+00:00"
     },
     "movies": {
-      "state": "failed",
-      "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
-      "lastSuccessAt": "2026-10-25T03:17:00.313294+00:00",
-      "message": "Refresh failed; previous successful metadata retained. See the GitHub Actions run."
+      "state": "ok",
+      "lastAttemptAt": "2026-10-25T22:29:58.847571+00:00",
+      "lastSuccessAt": "2026-10-25T22:34:09.760139+00:00"
     },
     "series": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
-      "lastSuccessAt": "2026-10-25T21:23:24.747802+00:00"
+      "lastAttemptAt": "2026-10-25T22:29:58.847571+00:00",
+      "lastSuccessAt": "2026-10-25T22:34:51.677855+00:00"
     },
     "seriesDiscovery": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-25T21:15:52.607133+00:00",
-      "lastSuccessAt": "2026-10-25T21:23:24.962193+00:00"
+      "lastAttemptAt": "2026-10-25T22:29:58.847571+00:00",
+      "lastSuccessAt": "2026-10-25T22:34:51.992428+00:00"
     },
     "upcoming": [
       {
@@ -47,6 +46,6 @@
   },
   "series": {
     "updated": "2026-10-26",
-    "poolSize": 85
+    "poolSize": 87
   }
 }
