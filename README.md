@@ -40,11 +40,13 @@ The replacement metadata-only endpoint is https://iphone-duo-catalog.ivory-carp-
 
 Series in `data/series-editions.json` have sourced reported home framing between 1.33:1 and 2.00:1, with episode/season exceptions possible. Daily metadata refreshes do not automatically approve arbitrary new series.
 
-The series pool now contains 43 titles. Buffy is included with an original-framing note; The Expanse guides the genre mix but is excluded because later seasons contain wider/variable framing. Each genre filter remains optional and All returns the complete pool.
+The series pool now contains 85 titles across genres, including 32 additional classics with original-framing Blu-ray/UHD editions and ten broader widescreen selections such as Mad Men, The Sopranos, Deadwood, House, Justified, Band of Brothers and Chernobyl. Comedy, crime, mystery, drama and animation join the existing sci-fi/fantasy, adventure and documentary choices. Each genre filter remains optional and All returns the complete pool. Buffy is included with an original-framing DVD note; The Expanse guides the genre mix but is excluded because later seasons contain wider/variable framing.
+
+Original 4:3 HD presentations qualify alongside 16:9/nearby framing. Descriptions identify preferred editions and distinguish native film remasters from restored/upscaled SD. Some titles require edition or season choices: Seinfeld's UHD is 4:3 but its standard Blu-ray is widescreen; Thunderbirds has cropped and uncropped editions; Frasier and Samurai Jack change framing in later seasons; Columbo's later Return transfers are reframed. Catalog membership does not verify or select an individual stream's framing or resolution.
 
 ## Ongoing updates and review
 
-Both catalogs refresh independently every day through `scripts/refresh_catalogs.py`. A failed updater retains its previous good catalog while the other continues. The live service reports last-success dates, source failures and stale metadata at `/status.json`. A daily genre-matched popular-series queue feeds the weekly framing review; a candidate is not automatically approved. See [maintenance](docs/maintenance.md) for the evidence requirements and recovery process.
+Both catalogs refresh independently every day through `scripts/refresh_catalogs.py`. A failed updater retains its previous good catalog while the other continues. The live service reports last-success dates, source failures and stale metadata at `/status.json`. A daily popular-series queue across all genres feeds the weekly framing review; a candidate is not automatically approved. See [maintenance](docs/maintenance.md) for the evidence requirements and recovery process.
 
 The Odyssey is registered for its officially announced 1.78:1 home edition, gated until 2026-11-17 and discovery of a matching indexed home release. This future-date gate also blocks early Open Matte labels and retained entries. The regenerated stream-expression rule for that title and Spider-Man was applied and saved in the existing AIOStreams profile on 2026-10-25. Future changes to that private rule remain a separate step from publishing catalog metadata.
 

@@ -20,7 +20,8 @@ def resolve(entry):
     if len(matches)!=1:
         raise ValueError('Series metadata did not match uniquely: '+entry['title'])
     m=matches[0]
-    return dict(id=m['id'],type='series',name=m['name'],poster=m.get('poster',f"https://images.metahub.space/poster/medium/{m['id']}/img"),posterShape='poster',releaseInfo=str(m.get('releaseInfo',entry['year'])),genres=entry['genres'],aspectRatio=entry['aspectRatio'],evidenceSources=entry['sources'],description=f"Reported standard framing: {entry['aspectRatio']}:1. {entry.get('note','Special episodes, seasons and individual stream files can differ.')} Select your usual series stream provider; this catalog does not enforce playback resolution.")
+    edition = f" Preferred edition: {entry['preferredEdition']}." if entry.get('preferredEdition') else ''
+    return dict(id=m['id'],type='series',name=m['name'],poster=m.get('poster',f"https://images.metahub.space/poster/medium/{m['id']}/img"),posterShape='poster',releaseInfo=str(m.get('releaseInfo',entry['year'])),genres=entry['genres'],aspectRatio=entry['aspectRatio'],evidenceSources=entry['sources'],description=f"Reported standard framing: {entry['aspectRatio']}:1.{edition} {entry.get('note','Special episodes, seasons and individual stream files can differ.')} Select your usual series stream provider; this catalog does not enforce playback resolution.")
 
 def main():
     entries=json.loads((ROOT/'data/series-editions.json').read_text())['series']

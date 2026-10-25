@@ -3,7 +3,7 @@
     1.33,
     2.0
   ],
-  "policy": "Popular series with sourced standard home framing close to the IMAX/16:9 range. Season and episode exceptions may exist; no playback verification. No account history is published.",
+  "policy": "Good series across all genres with sourced home framing from 4:3 to 2:1. Original-framing Blu-ray/UHD editions, HD film remasters and clearly noted SD upscales qualify. Edition, season and episode exceptions are recorded; no file-level playback verification. No account history is published.",
   "series": [
     {
       "title": "Community",
@@ -541,9 +541,625 @@
         "https://moviemansguide.com/main/2022/03/review-vikings-series-bd/"
       ],
       "note": "The complete-series Blu-ray review reports 1.78:1 across every season. Individual stream files may differ."
+    },
+    {
+      "title": "Star Trek",
+      "year": 1966,
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/37039/star-trek-the-original-series-season-1/",
+        "https://archive.thedigitalbits.com/reviewshd/bdreviews120109a.html"
+      ],
+      "preferredEdition": "Original-series 1080p Blu-ray",
+      "note": "Original and remastered-effects versions retain 4:3."
+    },
+    {
+      "title": "The Twilight Zone",
+      "year": 1959,
+      "genres": [
+        "Sci-Fi",
+        "Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://whysoblu.com/twilight-zone-complete-series-blu-ray-review/"
+      ],
+      "preferredEdition": "Original 1959 series Blu-ray",
+      "note": "All five seasons retain 4:3. A few videotaped episodes have less detail than the film restorations."
+    },
+    {
+      "title": "The Outer Limits",
+      "year": 1963,
+      "genres": [
+        "Sci-Fi",
+        "Horror",
+        "Mystery"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/72921/outer-limits-season-one-the/",
+        "https://bluray.highdefdigest.com/63708/theouterlimitsthecompletesecondseason.html"
+      ],
+      "preferredEdition": "Kino Lorber original-series Blu-ray",
+      "note": "Original 1963 series; do not confuse it with the 1995 revival."
+    },
+    {
+      "title": "Space: 1999",
+      "year": 1975,
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/space-1999-complete-series-imprint-2021-bd"
+      ],
+      "preferredEdition": "Network/Shout/Imprint 1080p remaster",
+      "note": "Both seasons retain 4:3."
+    },
+    {
+      "title": "The Prisoner",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.avforums.com/reviews/the-prisoner-blu-ray-review.1475/"
+      ],
+      "preferredEdition": "Original 1967 series Blu-ray",
+      "note": "All 17 episodes preserve original broadcast framing."
+    },
+    {
+      "title": "UFO",
+      "year": 1970,
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/ufo-complete-shado-files-imprint-2025-bd"
+      ],
+      "preferredEdition": "Imprint Complete SHADO Files 2025 Blu-ray",
+      "note": "4:3 film restoration. Earlier Japanese/German editions have a brief aspect-ratio error in Ordeal; prefer the reviewed Imprint restoration."
+    },
+    {
+      "title": "Captain Scarlet and the Mysterons",
+      "year": 1967,
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.avforums.com/reviews/captain-scarlet-and-the-mysterons-blu-ray-review.15359/"
+      ],
+      "preferredEdition": "Network original-series Blu-ray",
+      "note": "1080p restoration from 35mm elements; original 4:3, not the CGI revival."
+    },
+    {
+      "title": "Thunderbirds",
+      "year": 1965,
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Family"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.avforums.com/reviews/thunderbirds-complete-series-blu-ray-review.11673/"
+      ],
+      "preferredEdition": "Shout Factory/Timeless Media 4:3 Blu-ray",
+      "note": "Choose a 4:3 edition. The earlier 2008 UK Blu-ray is cropped to 16:9 and is not the recommended transfer."
+    },
+    {
+      "title": "Lost in Space",
+      "year": 1965,
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Family"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://screen-connections.com/2015/04/07/irwin-allens-beloved-sci-fi-adventure-lost-in-space-arrives-on-blu-ray-september-15-from-fox-as-it-celebrates-50-years/"
+      ],
+      "preferredEdition": "Fox 2015 Complete Adventures Blu-ray",
+      "note": "Original 1965 series in 4:3; some later widescreen DVD/streaming editions are reframed."
+    },
+    {
+      "title": "Quantum Leap",
+      "year": 1989,
+      "genres": [
+        "Sci-Fi",
+        "Drama",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.blu-ray.com/movies/Quantum-Leap-The-Complete-Series-Blu-ray/171714/",
+        "https://quantumleap-alsplace.com/homevideo/index.html"
+      ],
+      "preferredEdition": "Original 1989 series 4:3 Blu-ray",
+      "note": "The original series has a 1080p 4:3 release. Music and episode ordering can differ between editions."
+    },
+    {
+      "title": "Batman",
+      "year": 1966,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/batman-complete-tv-series-bd"
+      ],
+      "preferredEdition": "Warner complete 1966 television series Blu-ray",
+      "note": "All three seasons use original 4:3 film transfers; this is the television series, not the theatrical movie."
+    },
+    {
+      "title": "Batman: The Animated Series",
+      "year": 1992,
+      "genres": [
+        "Animation",
+        "Action",
+        "Crime"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/batman-the-complete-animated-series-bd"
+      ],
+      "preferredEdition": "Warner complete animated series Blu-ray",
+      "note": "TV episodes retain 4:3. Associated feature films can have alternate theatrical framing."
+    },
+    {
+      "title": "Superman: The Animated Series",
+      "year": 1996,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.doblu.com/2022/03/16/superman-the-complete-animated-series-blu-ray-review/"
+      ],
+      "preferredEdition": "Warner complete animated series Blu-ray",
+      "note": "All 54 episodes remastered from 35mm interpositives in 4:3."
+    },
+    {
+      "title": "Batman Beyond",
+      "year": 1999,
+      "genres": [
+        "Animation",
+        "Sci-Fi",
+        "Action"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/batman-beyond-complete-series-le-bd"
+      ],
+      "preferredEdition": "Warner complete series Blu-ray",
+      "note": "All episodes retain 4:3; some episodes are upscaled because original film elements were unavailable."
+    },
+    {
+      "title": "Samurai Jack",
+      "year": 2001,
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/samurai-jack-complete-series-brd"
+      ],
+      "preferredEdition": "Warner complete series Blu-ray",
+      "note": "Seasons 1–4 retain 4:3 and include upscaled material; season 5 is native 16:9. Both fit the catalog range."
+    },
+    {
+      "title": "Avatar: The Last Airbender",
+      "year": 2005,
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://dvdcorner.net/2018/05/28/avatar-the-last-airbender-the-complete-series-blu-ray-review/"
+      ],
+      "preferredEdition": "Animated original-series 4:3 Blu-ray",
+      "note": "The 1080p edition is an upscale of the SD animation, not a native HD film remaster. Not the live-action adaptation."
+    },
+    {
+      "title": "Cheers",
+      "year": 1982,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://familyhometheater.com/2023/06/02/review-cheers-complete-series-blu-ray/"
+      ],
+      "preferredEdition": "CBS/Paramount complete series Blu-ray",
+      "note": "All 11 seasons retain 4:3 in 1080p."
+    },
+    {
+      "title": "Frasier",
+      "year": 1993,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.hometheaterforum.com/frasier-the-complete-series-blu-ray-review/"
+      ],
+      "preferredEdition": "CBS/Paramount original-series Blu-ray",
+      "note": "Seasons 1–9 are 4:3, except the season 7 episode The Fight Before Christmas, presented in 16:9 by mistake. Seasons 10–11 are native 16:9."
+    },
+    {
+      "title": "Northern Exposure",
+      "year": 1990,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.thedigitalbits.com/reviews/item/northern-exposure-complete-regb-brd"
+      ],
+      "preferredEdition": "Fabulous Films/Turbine 4:3 Blu-ray",
+      "note": "All 110 episodes retain 4:3 in the reviewed film-sourced HD edition."
+    },
+    {
+      "title": "Seinfeld",
+      "year": 1989,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.hometheaterforum.com/seinfeld-the-complete-series-uhd-review/"
+      ],
+      "preferredEdition": "Sony 4K UHD Blu-ray 4:3 edition",
+      "note": "The 4K UHD discs preserve 4:3; standard 1080p Blu-ray and many streaming versions use cropped 16:9. A 1080p encode must explicitly derive from the 4:3 UHD edition to establish this framing."
+    },
+    {
+      "title": "Columbo",
+      "year": 1971,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://bluray.highdefdigest.com/121462/columboseasons17.html"
+      ],
+      "preferredEdition": "Kino Lorber The 1970s, seasons 1–7 Blu-ray",
+      "note": "Seasons 1–7 retain 4:3. The later Return Blu-rays are reframed to 16:9 and are not the recommended original-framing edition."
+    },
+    {
+      "title": "Murder, She Wrote",
+      "year": 1984,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://dvdcorner.net/2025/07/02/murder-she-wrote-the-complete-series-blu-ray-review/"
+      ],
+      "preferredEdition": "Universal 2025 complete series Blu-ray",
+      "note": "All 12 television seasons retain 4:3. Three later reunion films are 16:9."
+    },
+    {
+      "title": "Magnum, P.I.",
+      "year": 1980,
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://noreruns.net/2022/03/27/blu-ray-review-magnum-p-i-the-complete-series/"
+      ],
+      "preferredEdition": "Mill Creek original-series Blu-ray",
+      "note": "All eight seasons are presented in 1080p 4:3. Not the modern reboot."
+    },
+    {
+      "title": "Miami Vice",
+      "year": 1984,
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://glotzclevertv.de/miami-vice-ultimate-edition/"
+      ],
+      "preferredEdition": "Koch/Plaion Ultimate Edition 4:3 Blu-ray",
+      "note": "Original television series in 1080p 4:3, not the theatrical film."
+    },
+    {
+      "title": "The Rockford Files",
+      "year": 1974,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.hometheaterforum.com/rockford-files-complete-series-blu-ray-review/"
+      ],
+      "preferredEdition": "Mill Creek complete television series Blu-ray",
+      "note": "Original broadcast 4:3 in 1080p. Reunion movies should be checked separately."
+    },
+    {
+      "title": "The Incredible Hulk",
+      "year": 1977,
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://bluray.highdefdigest.com/98864/theincrediblehulkthecompleteseries.html"
+      ],
+      "preferredEdition": "Original Bill Bixby/Lou Ferrigno series Blu-ray",
+      "note": "The television episodes retain 4:3. Later TV movies and theatrical adaptations are separate."
+    },
+    {
+      "title": "Wonder Woman",
+      "year": 1975,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.avnirvana.com/threads/wonder-woman-the-complete-collection-blu-ray-review.7249/"
+      ],
+      "preferredEdition": "Warner complete Lynda Carter series Blu-ray",
+      "note": "Original 4:3 television presentation in 1080p."
+    },
+    {
+      "title": "The Dick Van Dyke Show",
+      "year": 1961,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/57183/dick-van-dyke-show-the-complete-series-the/"
+      ],
+      "preferredEdition": "Image/CBS complete series Blu-ray",
+      "note": "4:3 high-definition transfers from the 35mm negatives."
+    },
+    {
+      "title": "Monty Python's Flying Circus",
+      "year": 1969,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.thedigitalbits.com/reviews/item/monty-python-norwegian-bd-box"
+      ],
+      "preferredEdition": "Network restored complete series Blu-ray",
+      "note": "4:3 throughout. SD studio videotape is restored/upscaled; surviving film inserts can provide native HD detail."
+    },
+    {
+      "title": "Fawlty Towers",
+      "year": 1975,
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://gameplaygamers.com/2020/12/04/review-fawlty-towers-die-komplette-serie/"
+      ],
+      "preferredEdition": "Polyband 2020 4:3 Blu-ray",
+      "note": "Primarily SD video restored/upscaled for Blu-ray. Preserved framing does not make it a native HD film scan."
+    },
+    {
+      "title": "Doctor Who",
+      "year": 1963,
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://www.avforums.com/reviews/doctor-who-the-collection-season-12-blu-ray-review.15085/"
+      ],
+      "preferredEdition": "BBC The Collection, original 1963–1989 series",
+      "note": "Season-by-season Blu-ray releases retain 4:3; many use restored/upscaled video with improved film inserts. Some early episodes are missing or reconstructed/animated. Not all seasons have a Blu-ray release. Animated reconstructions and optional special versions may use wider framing; choose the original presentation."
+    },
+    {
+      "title": "Twin Peaks",
+      "year": 1990,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "aspectRatio": 1.33,
+      "sources": [
+        "https://bluray.highdefdigest.com/12231/twinpeakstheentiremystery.html"
+      ],
+      "preferredEdition": "The Entire Mystery Blu-ray for original seasons 1–2",
+      "note": "Original two seasons retain 4:3. The 2017 Return season and associated movie use wider framing and are not part of this 4:3 approval."
+    },
+    {
+      "title": "The Sopranos",
+      "year": 1999,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/65565/sopranos-the-complete-series-bd-digital-hd-the/"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Mad Men",
+      "year": 2007,
+      "genres": [
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.avforums.com/reviews/mad-men-complete-collection-blu-ray-review.12058/"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Deadwood",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Western",
+        "Crime"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/deadwood-complete-series-bd"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Lost",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.bigpicturebigsound.com/LOST-The-Complete-Series-Blu-ray.shtml"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Dexter",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.dvdtalk.com/reviews/71341/dexter-the-complete-series/"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "House",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.serietotaal.nl/nieuws/1465/tv-serie-op-blu-ray-house-md-the-complete-collection"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Justified",
+      "year": 2010,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Western"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://bluray.highdefdigest.com/24418/justifiedthecompleteseries.html"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Game of Thrones",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.hometheaterforum.com/game-of-thrones-the-complete-collection-uhd-review/"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Band of Brothers",
+      "year": 2001,
+      "genres": [
+        "Drama",
+        "War",
+        "History"
+      ],
+      "aspectRatio": 1.78,
+      "sources": [
+        "https://www.technofile.com/bluray/band_of_brothers.asp"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
+    },
+    {
+      "title": "Chernobyl",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "aspectRatio": 2.0,
+      "sources": [
+        "https://www.fanbolt.com/110801/chernobyl-blu-ray-review-a-brilliant-and-extremely-powerful-miniseries/"
+      ],
+      "preferredEdition": "Reviewed complete-series Blu-ray/UHD",
+      "note": "Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking."
     }
   ],
-  "taste": "Emphasize science fiction, fantasy, action, adventure and mythology while retaining comedy, crime and documentary choices. Buffy and The Expanse are taste references; The Expanse is excluded because later seasons contain wider/variable framing.",
+  "taste": "Broad interests: include strong comedy, crime, mystery, drama, animation, documentary and other series alongside science fiction, fantasy, action, adventure and mythology. Genre preferences are not eligibility restrictions. Include original 4:3 HD home editions and distinguish native remasters from upscales and cropped widescreen alternatives.",
   "excludedSeries": [
     {
       "id": "tt3230854",

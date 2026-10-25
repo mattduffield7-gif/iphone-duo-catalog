@@ -744,6 +744,748 @@
         "https://moviemansguide.com/main/2022/03/review-vikings-series-bd/"
       ],
       "description": "Reported standard framing: 1.78:1. The complete-series Blu-ray review reports 1.78:1 across every season. Individual stream files may differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0060028",
+      "type": "series",
+      "name": "Star Trek",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmIyYjI0YzUtOWRiZS00NDJhLThiZTktNDkyYzg4Yjg5YmJmXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1966-1969",
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/37039/star-trek-the-original-series-season-1/",
+        "https://archive.thedigitalbits.com/reviewshd/bdreviews120109a.html"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original-series 1080p Blu-ray. Original and remastered-effects versions retain 4:3. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0052520",
+      "type": "series",
+      "name": "The Twilight Zone",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjkyZmRmYmMtYTg5Zi00MjA0LTliYmQtMDU0NzBiZDcxNzA0XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1959-1964",
+      "genres": [
+        "Sci-Fi",
+        "Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://whysoblu.com/twilight-zone-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original 1959 series Blu-ray. All five seasons retain 4:3. A few videotaped episodes have less detail than the film restorations. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0056777",
+      "type": "series",
+      "name": "The Outer Limits",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTdhYzllMGMtNjBiMy00ZjVhLWFjMmMtODgyYWI5MDllMmZiXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1963-1965",
+      "genres": [
+        "Sci-Fi",
+        "Horror",
+        "Mystery"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/72921/outer-limits-season-one-the/",
+        "https://bluray.highdefdigest.com/63708/theouterlimitsthecompletesecondseason.html"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Kino Lorber original-series Blu-ray. Original 1963 series; do not confuse it with the 1995 revival. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0072564",
+      "type": "series",
+      "name": "Space: 1999",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmM0NjQwNzctNTI5Mi00MTlhLThhNTYtZmIwODUwNmVhMWFlXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1975-1977",
+      "genres": [
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/space-1999-complete-series-imprint-2021-bd"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Network/Shout/Imprint 1080p remaster. Both seasons retain 4:3. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0061287",
+      "type": "series",
+      "name": "The Prisoner",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2IzM2FkYjItZGEzYS00NDRmLTkzODYtZTBlNWY2NTU5ZmE0XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1967-1968",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.avforums.com/reviews/the-prisoner-blu-ray-review.1475/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original 1967 series Blu-ray. All 17 episodes preserve original broadcast framing. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0063962",
+      "type": "series",
+      "name": "UFO",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWZmMDY3OWMtZTU0Yy00OWFiLThmZDAtNTkzYWE1ODFhZjFjXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1970-1971",
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/ufo-complete-shado-files-imprint-2025-bd"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Imprint Complete SHADO Files 2025 Blu-ray. 4:3 film restoration. Earlier Japanese/German editions have a brief aspect-ratio error in Ordeal; prefer the reviewed Imprint restoration. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0059973",
+      "type": "series",
+      "name": "Captain Scarlet and the Mysterons",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmRkYzAzNTEtYmRmYi00MTA2LTg1YjMtZTBmMDA4M2U3OGQ5XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1967-1968",
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.avforums.com/reviews/captain-scarlet-and-the-mysterons-blu-ray-review.15359/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Network original-series Blu-ray. 1080p restoration from 35mm elements; original 4:3, not the CGI revival. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0057790",
+      "type": "series",
+      "name": "Thunderbirds",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDhhNzI0ZjktODgxYy00NWRmLWEzYjQtYzk3MTI3MmFkMzRmXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1965-1966",
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Family"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.avforums.com/reviews/thunderbirds-complete-series-blu-ray-review.11673/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Shout Factory/Timeless Media 4:3 Blu-ray. Choose a 4:3 edition. The earlier 2008 UK Blu-ray is cropped to 16:9 and is not the recommended transfer. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0058824",
+      "type": "series",
+      "name": "Lost in Space",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE2OTczMDI2M15BMl5BanBnXkFtZTcwMTA5MDgyMQ@@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1965-1968",
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Family"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://screen-connections.com/2015/04/07/irwin-allens-beloved-sci-fi-adventure-lost-in-space-arrives-on-blu-ray-september-15-from-fox-as-it-celebrates-50-years/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Fox 2015 Complete Adventures Blu-ray. Original 1965 series in 4:3; some later widescreen DVD/streaming editions are reframed. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0096684",
+      "type": "series",
+      "name": "Quantum Leap",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjFiYWZjZTctZWUxOS00YTA5LTg1ZjctNzYyMzYxODhjOWZlXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1989-1993",
+      "genres": [
+        "Sci-Fi",
+        "Drama",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.blu-ray.com/movies/Quantum-Leap-The-Complete-Series-Blu-ray/171714/",
+        "https://quantumleap-alsplace.com/homevideo/index.html"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original 1989 series 4:3 Blu-ray. The original series has a 1080p 4:3 release. Music and episode ordering can differ between editions. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0059968",
+      "type": "series",
+      "name": "Batman",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWFjNTdlZjctZTRkNC00OTQ1LWI3NDktOWY0ZWZmNzFiOTNkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1966-1968",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/batman-complete-tv-series-bd"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Warner complete 1966 television series Blu-ray. All three seasons use original 4:3 film transfers; this is the television series, not the theatrical movie. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0103359",
+      "type": "series",
+      "name": "Batman: The Animated Series",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjM2NjMwMjctZmMxZi00ZTRiLWI1NTItZDc4YTc4YWI2NTRjXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1992-1995",
+      "genres": [
+        "Animation",
+        "Action",
+        "Crime"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/batman-the-complete-animated-series-bd"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Warner complete animated series Blu-ray. TV episodes retain 4:3. Associated feature films can have alternate theatrical framing. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0115378",
+      "type": "series",
+      "name": "Superman: The Animated Series",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNiNTY1YjYtNmI1Zi00ODE3LTg4MmYtNWRkYTU2MTkxZjkwXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1996-2000",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.doblu.com/2022/03/16/superman-the-complete-animated-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Warner complete animated series Blu-ray. All 54 episodes remastered from 35mm interpositives in 4:3. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0147746",
+      "type": "series",
+      "name": "Batman Beyond",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDExYjNiYTYtZDkwZC00NDcxLTk3YWYtMmIyN2ZlZGYyY2E0XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1999-2001",
+      "genres": [
+        "Animation",
+        "Sci-Fi",
+        "Action"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/batman-beyond-complete-series-le-bd"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Warner complete series Blu-ray. All episodes retain 4:3; some episodes are upscaled because original film elements were unavailable. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0278238",
+      "type": "series",
+      "name": "Samurai Jack",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjIwZDQyOTMtNjVjNy00ODBiLTlmZWYtYTJkYzVjMTc2NWJkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2001-2017",
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Action",
+        "Adventure"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/samurai-jack-complete-series-brd"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Warner complete series Blu-ray. Seasons 1–4 retain 4:3 and include upscaled material; season 5 is native 16:9. Both fit the catalog range. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0417299",
+      "type": "series",
+      "name": "Avatar: The Last Airbender",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2005-2008",
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Adventure",
+        "Mythology"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://dvdcorner.net/2018/05/28/avatar-the-last-airbender-the-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Animated original-series 4:3 Blu-ray. The 1080p edition is an upscale of the SD animation, not a native HD film remaster. Not the live-action adaptation. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0083399",
+      "type": "series",
+      "name": "Cheers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGFjY2QwM2QtZGI3Yi00MzM3LTliOGUtZDJhNzVhMGNmN2ZjXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1982-1993",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://familyhometheater.com/2023/06/02/review-cheers-complete-series-blu-ray/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: CBS/Paramount complete series Blu-ray. All 11 seasons retain 4:3 in 1080p. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0106004",
+      "type": "series",
+      "name": "Frasier",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTYwMjY1OTctZjk4My00ZjllLWFkNTMtNzg2OGVlMGI0MmQ1XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1993-2004",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/frasier-the-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: CBS/Paramount original-series Blu-ray. Seasons 1–9 are 4:3, except the season 7 episode The Fight Before Christmas, presented in 16:9 by mistake. Seasons 10–11 are native 16:9. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0098878",
+      "type": "series",
+      "name": "Northern Exposure",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmM4MzM0YjctMDlmZS00YTZiLWJjZTYtNmFiZTc5NzM3NDY2XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1990-1995",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.thedigitalbits.com/reviews/item/northern-exposure-complete-regb-brd"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Fabulous Films/Turbine 4:3 Blu-ray. All 110 episodes retain 4:3 in the reviewed film-sourced HD edition. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0098904",
+      "type": "series",
+      "name": "Seinfeld",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmRjNjZjN2ItN2FkYi00ZDg0LWExN2EtMTU2ODUwNWU1M2NhXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1989-1998",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/seinfeld-the-complete-series-uhd-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Sony 4K UHD Blu-ray 4:3 edition. The 4K UHD discs preserve 4:3; standard 1080p Blu-ray and many streaming versions use cropped 16:9. A 1080p encode must explicitly derive from the 4:3 UHD edition to establish this framing. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1466074",
+      "type": "series",
+      "name": "Columbo",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDIxMmRhZDQtZjBlNC00OWJkLWI3YmEtZDcyZWRkY2IzNWYxXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1971-1998",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/121462/columboseasons17.html"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Kino Lorber The 1970s, seasons 1–7 Blu-ray. Seasons 1–7 retain 4:3. The later Return Blu-rays are reframed to 16:9 and are not the recommended original-framing edition. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0086765",
+      "type": "series",
+      "name": "Murder, She Wrote",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmEwN2M5NDItM2EyOS00ZTAzLWEyNDAtZGU3YTViZTNhNjk3XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1984-1996",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://dvdcorner.net/2025/07/02/murder-she-wrote-the-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Universal 2025 complete series Blu-ray. All 12 television seasons retain 4:3. Three later reunion films are 16:9. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0080240",
+      "type": "series",
+      "name": "Magnum, P.I.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTJlNTQ5ZDktNmU4YS00NjllLWIwY2QtNmM4YTI1MWVkMWZiXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1980-1988",
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://noreruns.net/2022/03/27/blu-ray-review-magnum-p-i-the-complete-series/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Mill Creek original-series Blu-ray. All eight seasons are presented in 1080p 4:3. Not the modern reboot. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0086759",
+      "type": "series",
+      "name": "Miami Vice",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2FmZWMxNWMtNTVkZC00ZTcwLTgyMjAtZjJlNjZlYzM0MDA5XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1984-1989",
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://glotzclevertv.de/miami-vice-ultimate-edition/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Koch/Plaion Ultimate Edition 4:3 Blu-ray. Original television series in 1080p 4:3, not the theatrical film. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0071042",
+      "type": "series",
+      "name": "The Rockford Files",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzRlZDQ4MmQtMzdlOS00YzIxLWE3YTEtYzk4ZTNkYjEzMDU3XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1974-1980",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/rockford-files-complete-series-blu-ray-review/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Mill Creek complete television series Blu-ray. Original broadcast 4:3 in 1080p. Reunion movies should be checked separately. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0077031",
+      "type": "series",
+      "name": "The Incredible Hulk",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjI5NzkxNDItYmYyNi00NGYzLWJiNmEtY2Q3OGUwYWE0YWJjXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1977-1982",
+      "genres": [
+        "Sci-Fi",
+        "Action",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/98864/theincrediblehulkthecompleteseries.html"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original Bill Bixby/Lou Ferrigno series Blu-ray. The television episodes retain 4:3. Later TV movies and theatrical adaptations are separate. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0074074",
+      "type": "series",
+      "name": "Wonder Woman",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzEzODlhZTEtODg0Ni00ZjFhLTg3MWEtMjcxZTI4YzAwODNlXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1975-1979",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.avnirvana.com/threads/wonder-woman-the-complete-collection-blu-ray-review.7249/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Warner complete Lynda Carter series Blu-ray. Original 4:3 television presentation in 1080p. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0054533",
+      "type": "series",
+      "name": "The Dick Van Dyke Show",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY0ODUzMDkwM15BMl5BanBnXkFtZTcwNTI1ODUyMQ@@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1961-1966",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/57183/dick-van-dyke-show-the-complete-series-the/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Image/CBS complete series Blu-ray. 4:3 high-definition transfers from the 35mm negatives. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0063929",
+      "type": "series",
+      "name": "Monty Python's Flying Circus",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDkyZjUyOTUtYWI3Zi00YTJhLTk3MDMtY2Q2MGM1ZjFhNTRkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1969-1974",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.thedigitalbits.com/reviews/item/monty-python-norwegian-bd-box"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Network restored complete series Blu-ray. 4:3 throughout. SD studio videotape is restored/upscaled; surviving film inserts can provide native HD detail. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0072500",
+      "type": "series",
+      "name": "Fawlty Towers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODM5YWE5NDAtZTU4MC00YWI0LThjMjItNTlhMTQ5Y2Y5NWJiXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1975-1979",
+      "genres": [
+        "Comedy"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://gameplaygamers.com/2020/12/04/review-fawlty-towers-die-komplette-serie/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Polyband 2020 4:3 Blu-ray. Primarily SD video restored/upscaled for Blu-ray. Preserved framing does not make it a native HD film scan. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0056751",
+      "type": "series",
+      "name": "Doctor Who",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTA2N2RlZGYtYTFjNS00Njg2LWIwZWUtM2YyMDUxMmE0NzdiXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1963-1989",
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Drama"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.avforums.com/reviews/doctor-who-the-collection-season-12-blu-ray-review.15085/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: BBC The Collection, original 1963–1989 series. Season-by-season Blu-ray releases retain 4:3; many use restored/upscaled video with improved film inserts. Some early episodes are missing or reconstructed/animated. Not all seasons have a Blu-ray release. Animated reconstructions and optional special versions may use wider framing; choose the original presentation. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0098936",
+      "type": "series",
+      "name": "Twin Peaks",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTExNzk2NjcxNTNeQTJeQWpwZ15BbWU4MDcxOTczOTIx._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1990-1991",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/12231/twinpeakstheentiremystery.html"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: The Entire Mystery Blu-ray for original seasons 1–2. Original two seasons retain 4:3. The 2017 Return season and associated movie use wider framing and are not part of this 4:3 approval. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0141842",
+      "type": "series",
+      "name": "The Sopranos",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjYwNWQwOTMtMzYwOS00NTcxLWFhNTYtNGQ4YjdmYTcyNDFkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "1999-2007",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/65565/sopranos-the-complete-series-bd-digital-hd-the/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0804503",
+      "type": "series",
+      "name": "Mad Men",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTNjNjc5OWQtYjMxNC00MzEwLWIxM2UtNjU3NzhkNjZmNGI3XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2007-2015",
+      "genres": [
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.avforums.com/reviews/mad-men-complete-collection-blu-ray-review.12058/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0348914",
+      "type": "series",
+      "name": "Deadwood",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODFiMjBkNDMtN2I1NS00YWM3LTliNWEtMTg0NjVlN2I5YTNlXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2004-2006",
+      "genres": [
+        "Drama",
+        "Western",
+        "Crime"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://thedigitalbits.com/reviews/item/deadwood-complete-series-bd"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0411008",
+      "type": "series",
+      "name": "Lost",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2004-2010",
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Drama"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.bigpicturebigsound.com/LOST-The-Complete-Series-Blu-ray.shtml"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0773262",
+      "type": "series",
+      "name": "Dexter",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTE5ZGI2N2UtYmFiMi00ZGIxLWI1ZTMtYWJkZDYxNDZiOTQwXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2006-2013",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.dvdtalk.com/reviews/71341/dexter-the-complete-series/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0412142",
+      "type": "series",
+      "name": "House",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjgxYjAwNmMtYTAwZC00YmQxLWJlOTMtMWM0NGJmNDE0YmI2XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2004-2012",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.serietotaal.nl/nieuws/1465/tv-serie-op-blu-ray-house-md-the-complete-collection"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt1489428",
+      "type": "series",
+      "name": "Justified",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGIzNmFlMzgtYWY0MC00NjFmLWJhMGItZTM2YjVlZjY3ZjBlXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2010-2015",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Western"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/24418/justifiedthecompleteseries.html"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0944947",
+      "type": "series",
+      "name": "Game of Thrones",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGYxOGJkMjItZjVkZC00OGEzLWExNjktOTZmNGZhZmRlMTk2XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2011-2019",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Adventure"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.hometheaterforum.com/game-of-thrones-the-complete-collection-uhd-review/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0185906",
+      "type": "series",
+      "name": "Band of Brothers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjdlNGJlYjQtMDU2Mi00ZjA1LWEwYzgtYzlmNDM5MmE1ZGUwXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2001",
+      "genres": [
+        "Drama",
+        "War",
+        "History"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://www.technofile.com/bluray/band_of_brothers.asp"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt7366338",
+      "type": "series",
+      "name": "Chernobyl",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzU0OTI4YTQtNGQ1ZS00ZjA4LTg3MTMtZjkyZWNjN2RiZDJmXkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2019",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "aspectRatio": 2.0,
+      "evidenceSources": [
+        "https://www.fanbolt.com/110801/chernobyl-blu-ray-review-a-brilliant-and-extremely-powerful-miniseries/"
+      ],
+      "description": "Reported standard framing: 2.0:1. Preferred edition: Reviewed complete-series Blu-ray/UHD. Reviewed home presentation fits the catalog range. This is a widescreen selection, separate from the original 4:3 remaster additions. Individual releases and special episodes still need checking. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "cacheMaxAge": 300

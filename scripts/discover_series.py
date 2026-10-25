@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-"""Collect popular genre-matched review leads; never infer their aspect ratios."""
+"""Collect popular review leads across genres; never infer their aspect ratios."""
 import datetime as dt
 import json
 import re
 from zoneinfo import ZoneInfo
 from update_catalog import ROOT, fetch_json, normalize, write_json
-
-GENRES = {'Sci-Fi', 'Science Fiction', 'Fantasy', 'Action', 'Adventure', 'Mythology'}
-
 
 def discover(metas, policy, today, previous=()):
     approved = {(normalize(m['title']), m['year']) for m in policy['series']}
@@ -27,7 +24,6 @@ def discover(metas, policy, today, previous=()):
         if (m.get('type') != 'series' or not re.fullmatch(r'tt\d{7,10}', m.get('id', ''))
                 or not year or int(year[0]) > today.year or m['id'] in excluded
                 or (normalize(m.get('name', '')), int(year[0])) in approved
-                or not GENRES.intersection(m.get('genres', []))
                 or str(m.get('released') or '')[:10] > today.isoformat()):
             continue
         lead = {k: m[k] for k in ('id', 'name', 'releaseInfo', 'genres') if k in m}
@@ -47,7 +43,7 @@ def main():
     previous = json.loads(path.read_text()).get('candidates', []) if path.exists() else []
     leads = discover(response['metas'], policy, today, previous)
     write_json(path, {'updated': today.isoformat(), 'source': url,
-        'policy': 'Genre-matched popular-series leads only. Check sourced home framing before adding to the catalog.',
+        'policy': 'Popular-series leads across all genres. Check sourced home framing before adding to the catalog.',
         'candidates': leads})
     print(f'Collected {len(leads)} series for framing review; none automatically admitted')
 

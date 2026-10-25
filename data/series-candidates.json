@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-25",
   "source": "https://v3-cinemeta.strem.io/catalog/series/top.json",
-  "policy": "Genre-matched popular-series leads only. Check sourced home framing before adding to the catalog.",
+  "policy": "Popular-series leads across all genres. Check sourced home framing before adding to the catalog.",
   "candidates": [
     {
       "id": "tt23112594",
@@ -59,17 +59,6 @@
         "Animation",
         "Action",
         "Adventure"
-      ],
-      "firstSeen": "2026-10-25",
-      "lastSeen": "2026-10-25"
-    },
-    {
-      "id": "tt0944947",
-      "name": "Game of Thrones",
-      "releaseInfo": "2011–2019",
-      "genres": [
-        "Drama",
-        "Fantasy"
       ],
       "firstSeen": "2026-10-25",
       "lastSeen": "2026-10-25"
@@ -166,6 +155,332 @@
         "Action",
         "Crime",
         "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt11540908",
+      "name": "Carrie",
+      "releaseInfo": "2026–",
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt35934755",
+      "name": "Below",
+      "releaseInfo": "2026",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt23148340",
+      "name": "Crystal Lake",
+      "releaseInfo": "2026–",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt21097264",
+      "name": "East of Eden",
+      "releaseInfo": "2026",
+      "genres": [
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt17491088",
+      "name": "The Diplomat",
+      "releaseInfo": "2023–",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt31510819",
+      "name": "MobLand",
+      "releaseInfo": "2025–",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt5875444",
+      "name": "Slow Horses",
+      "releaseInfo": "2022–",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt37972251",
+      "name": "War",
+      "releaseInfo": "2025–",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt10986410",
+      "name": "Ted Lasso",
+      "releaseInfo": "2020–",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sport"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt13210838",
+      "name": "The Gentlemen",
+      "releaseInfo": "2024–",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt13207736",
+      "name": "Monster",
+      "releaseInfo": "2022–",
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt13138834",
+      "name": "Time",
+      "releaseInfo": "2021–",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt33332385",
+      "name": "Widow's Bay",
+      "releaseInfo": "2026–",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt2356777",
+      "name": "True Detective",
+      "releaseInfo": "2014–",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt0121955",
+      "name": "South Park",
+      "releaseInfo": "1997–",
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt33270224",
+      "name": "Cupertino",
+      "releaseInfo": "2026–",
+      "genres": [
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt31289994",
+      "name": "The Lowdown",
+      "releaseInfo": "2025–",
+      "genres": [
+        "Biography",
+        "Comedy",
+        "Crime"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt6151526",
+      "name": "The Rainmaker",
+      "releaseInfo": "2025–",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt0413573",
+      "name": "Grey's Anatomy",
+      "releaseInfo": "2005–",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt11712058",
+      "name": "Mayor of Kingstown",
+      "releaseInfo": "2021–",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt32499579",
+      "name": "Haunted Hotel",
+      "releaseInfo": "2025–",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Horror"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt1520211",
+      "name": "The Walking Dead",
+      "releaseInfo": "2010–2022",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt0203259",
+      "name": "Law & Order: Special Victims Unit",
+      "releaseInfo": "1999–",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt31938062",
+      "name": "The Pitt",
+      "releaseInfo": "2025–",
+      "genres": [
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt6773088",
+      "name": "Brothers",
+      "releaseInfo": "2026–",
+      "genres": [
+        "Comedy"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt36885662",
+      "name": "Best Medicine",
+      "releaseInfo": "2026–",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt11041332",
+      "name": "Yellowjackets",
+      "releaseInfo": "2021–",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt0472954",
+      "name": "It's Always Sunny in Philadelphia",
+      "releaseInfo": "2005–",
+      "genres": [
+        "Comedy"
+      ],
+      "firstSeen": "2026-10-25",
+      "lastSeen": "2026-10-25"
+    },
+    {
+      "id": "tt35949226",
+      "name": "Youth",
+      "releaseInfo": "2026–",
+      "genres": [
+        "Comedy"
       ],
       "firstSeen": "2026-10-25",
       "lastSeen": "2026-10-25"

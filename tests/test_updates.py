@@ -35,11 +35,12 @@ class UpdateTests(unittest.TestCase):
                    dict(base, id='tt1000002', name='Known Show'),
                    dict(base, id='tt1000003', name='Wide Show'),
                    dict(base, id='tt1000004', name='Future Show', released='2026-12-01'),
-                   dict(base, id='tt1000005', name='Crime Show', genres=['Crime'])]
+                   dict(base, id='tt1000005', name='Crime Show', genres=['Crime']),
+                   dict(base, id='tt1000006', name='Comedy Show', genres=['Comedy'])]
         policy = {'series': [{'title': 'Known Show', 'year': 2026}], 'excludedSeries': [{'id': 'tt1000003'}]}
         leads = discover_series.discover(entries, policy, dt.date(2026, 10, 25))
-        self.assertEqual([m['id'] for m in leads], ['tt1000001'])
-        self.assertNotIn('aspectRatio', leads[0])
+        self.assertEqual([m['id'] for m in leads], ['tt1000001', 'tt1000005', 'tt1000006'])
+        self.assertTrue(all('aspectRatio' not in lead for lead in leads))
 
     def test_one_failed_updater_rolls_back_its_partial_writes_and_other_catalog_still_updates(self):
         with tempfile.TemporaryDirectory() as folder:
