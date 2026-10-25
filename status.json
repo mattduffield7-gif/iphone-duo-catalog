@@ -1,37 +1,36 @@
 {
   "updated": "2026-10-25",
   "timezone": "Australia/Adelaide",
-  "poolSize": 353,
+  "poolSize": 354,
   "reviewedCount": 30,
-  "releaseLabelledCount": 323,
-  "rowSize": 353,
+  "releaseLabelledCount": 324,
+  "rowSize": 354,
   "minimumMovieYear": null,
   "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches",
   "rotation": "Daily order of the complete pool; the live service shuffles each fetch",
   "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability.",
   "refresh": {
-    "checkedAt": "2026-10-25T03:12:41.748228+00:00",
+    "checkedAt": "2026-10-25T03:17:06.806551+00:00",
     "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
     "movieDiscovery": {
-      "state": "failed",
-      "lastAttemptAt": "2026-10-25T03:11:16.905653+00:00",
-      "lastSuccessAt": "2026-10-25T03:09:13.904228+00:00",
-      "message": "Refresh failed; previous successful metadata retained. See the GitHub Actions run."
+      "state": "ok",
+      "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
+      "lastSuccessAt": "2026-10-25T03:14:45.504407+00:00"
     },
     "movies": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-25T03:11:16.905653+00:00",
-      "lastSuccessAt": "2026-10-25T03:12:37.976998+00:00"
+      "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
+      "lastSuccessAt": "2026-10-25T03:17:00.313294+00:00"
     },
     "series": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-25T03:11:16.905653+00:00",
-      "lastSuccessAt": "2026-10-25T03:12:41.540481+00:00"
+      "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
+      "lastSuccessAt": "2026-10-25T03:17:06.642031+00:00"
     },
     "seriesDiscovery": {
       "state": "ok",
-      "lastAttemptAt": "2026-10-25T03:11:16.905653+00:00",
-      "lastSuccessAt": "2026-10-25T03:12:41.747329+00:00"
+      "lastAttemptAt": "2026-10-25T03:13:44.830200+00:00",
+      "lastSuccessAt": "2026-10-25T03:17:06.806147+00:00"
     },
     "upcoming": [
       {
