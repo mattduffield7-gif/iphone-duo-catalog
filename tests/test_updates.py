@@ -14,6 +14,16 @@ import refresh_catalogs
 
 
 class UpdateTests(unittest.TestCase):
+    def test_approval_id_mismatch_fails_refresh_instead_of_silently_omitting_title(self):
+        entry = {'id': 'tt1000001', 'title': 'Some Movie', 'year': 2026,
+                 'edition': 'Native Tall', 'aspectRatio': '1.85:1', 'allowStandardHome': True,
+                 'sources': ['https://example.com/review']}
+        policy = {'includeOlderTitles': True, 'movies': [entry]}
+        meta = {'id': 'tt1000002', 'name': entry['title'], 'type': 'movie', 'releaseInfo': '2026'}
+        with patch.object(movies, 'fetch_json', side_effect=lambda u: {'hits': []} if 'knaben' in u else {'metas': [meta]}):
+            with self.assertRaisesRegex(RuntimeError, 'approved IMDb ID tt1000001 does not match metadata ID tt1000002'):
+                movies.build(dt.date(2026, 10, 26), policy=policy)
+
     def test_exhausted_metadata_lookup_gets_one_delayed_retry_without_relaxing_matching(self):
         candidate = {'title': 'Some Movie', 'year': 2026}
         today = dt.date(2026, 10, 26)

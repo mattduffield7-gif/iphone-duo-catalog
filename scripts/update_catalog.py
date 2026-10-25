@@ -233,6 +233,8 @@ def build(today, fixture_dir=None, policy=None, previous_pool=(), community_cand
             try:
                 movie = future.result()
                 approval = futures[future].get("approval")
+                if movie and approval and movie["id"] != approval["id"]:
+                    raise ValueError(f"{approval['title']} ({approval['year']}): approved IMDb ID {approval['id']} does not match metadata ID {movie['id']}")
                 if movie and (not approval or movie["id"] == approval["id"]):
                     if not approval:
                         movie["reviewStatus"] = "Release-labelled; framing unverified"
