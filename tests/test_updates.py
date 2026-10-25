@@ -61,7 +61,7 @@ class UpdateTests(unittest.TestCase):
                 return subprocess.CompletedProcess(command, 0)
             health = refresh_catalogs.refresh(root, run)
             self.assertEqual((root/'data/pool.json').read_bytes(), before)
-            self.assertEqual(len(attempted), 3)
+            self.assertEqual(len(attempted), 4)
             self.assertEqual(health['movies']['state'], 'failed')
             self.assertEqual(health['series']['state'], 'ok')
             status = json.loads((root/'status.json').read_text())

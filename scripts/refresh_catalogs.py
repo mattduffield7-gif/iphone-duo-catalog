@@ -9,6 +9,7 @@ from zoneinfo import ZoneInfo
 from update_catalog import ROOT, write_json
 
 TASKS = [
+    ('movieDiscovery', 'discover_open_matte.py', ['data/open-matte-discoveries.json']),
     ('movies', 'update_catalog.py', ['data/pool.json', 'catalog/movie/iphone-duo.json', 'status.json', 'stream-expression.txt']),
     ('series', 'update_series.py', ['data/series-pool.json', 'catalog/series/iphone-duo-series.json']),
     ('seriesDiscovery', 'discover_series.py', ['data/series-candidates.json']),

@@ -46,7 +46,7 @@ jobs:
           python - <<'PY'
           import json
           health = json.load(open('data/refresh-health.json'))
-          failed = [name for name in ('movies', 'series', 'seriesDiscovery') if health[name]['state'] != 'ok']
+          failed = [name for name in ('movieDiscovery', 'movies', 'series', 'seriesDiscovery') if health[name]['state'] != 'ok']
           if failed:
               raise SystemExit('Previous good metadata retained for: ' + ', '.join(failed))
           PY

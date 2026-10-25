@@ -127,7 +127,7 @@ def retain_previous(movies, previous_pool, policy, today):
     return kept
 
 
-def build(today, fixture_dir=None, policy=None, previous_pool=()):
+def build(today, fixture_dir=None, policy=None, previous_pool=(), community_candidates=()):
     if policy is None:
         policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
     approved = {(normalize(m["title"]), m["year"], m["edition"]): m for m in policy["movies"]
@@ -183,6 +183,36 @@ def build(today, fixture_dir=None, policy=None, previous_pool=()):
                             and movie["edition"] == "Open Matte"
                             and (policy["includeOlderTitles"] or movie["year"] >= today.year - 3)):
                         candidates[key] = movie
+    if policy.get('includeReleaseLabelledOpenMatte'):
+        for record in community_candidates:
+            if (record.get('edition') != 'Open Matte' or not isinstance(record.get('year'), int)
+                    or not isinstance(record.get('title'), str) or not record['title'].strip()
+                    or record['year'] > today.year
+                    or (not policy['includeOlderTitles'] and record['year'] < today.year-3)):
+                continue
+            source = urllib.parse.urlsplit(record.get('sourceListing', ''))
+            if source.scheme != 'https' or source.netloc != 'storage.open-matte.ru' or not source.path.endswith('/') or source.query:
+                continue
+            key = (normalize(record['title']), record['year'], 'Open Matte')
+            if key[:2] in blocked:
+                continue
+            candidate = dict(record, homeSource=False)
+            if key in approved:
+                candidate['approval'] = approved[key]
+            else:
+                for approved_key, approval in approved.items():
+                    if approval.get('allowStandardHome') and approved_key[:2] == key[:2]:
+                        candidate.update(edition=approval['edition'], approval=approval)
+                        key = approved_key
+                        break
+            candidates.setdefault(key, candidate)
+    # A sourced, released native/expanded home edition does not disappear from
+    # the catalog merely because one torrent index cannot find its filename.
+    for key, approval in approved.items():
+        if approval.get('allowStandardHome'):
+            candidates.setdefault(key, {'title': approval['title'], 'year': approval['year'],
+                                       'edition': approval['edition'], 'observed': today.isoformat(),
+                                       'homeSource': True, 'approval': approval})
     movies = {}
     failures = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
@@ -196,6 +226,12 @@ def build(today, fixture_dir=None, policy=None, previous_pool=()):
                         movie["reviewStatus"] = "Release-labelled; framing unverified"
                         movie["description"] = ("Publicly indexed Open Matte-labelled release. Whole-film framing has not been independently confirmed. "
                                                 "Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.")
+                        source_listing = futures[future].get('sourceListing')
+                        if source_listing:
+                            movie['evidenceSources'] = [source_listing]
+                            movie['description'] = ("The Open Matte community archive lists an Open Matte-labelled edition. "
+                                "Whole-film framing and current TorBox availability have not been independently confirmed. "
+                                "Select an Open Matte result under IMAX/Open Matte; ordinary widescreen releases do not qualify.")
                         # A reviewed entry always takes precedence over a lead.
                         if movie["id"] not in movies:
                             movies[movie["id"]] = movie
@@ -224,12 +260,14 @@ def build(today, fixture_dir=None, policy=None, previous_pool=()):
 def stream_expression(policy):
     def quoted(value):
         return "'" + value.replace("\\", "\\\\").replace("'", "\\'") + "'"
-    open_matte = "merge(editions(streams, 'Open Matte'), keyword(streams, 'filename,folderName', 'open matte', 'openmatte'))"
+    open_matte = "merge(editions(streams, 'Open Matte'), keyword(streams, 'filename,folderName', 'open matte', 'openmatte', 'open.matte', 'open-matte', 'open_matte'))"
     expression = "[]"
     for movie in reversed(policy["movies"]):
         condition = f"(title == {quoted(movie['title'])} and year == {movie['year']})"
         if movie.get("allowStandardHome"):
             selection = "quality(streams, 'Bluray REMUX', 'Bluray', 'WEB-DL', 'WEBRip')"
+            if movie.get('allowFilmScan'):
+                selection = f"merge({selection}, keyword(streams, 'filename,folderName', '35mm', '35 mm'))"
         elif movie["edition"] == "Open Matte":
             selection = open_matte
         else:
@@ -256,7 +294,9 @@ def main():
     policy = json.loads((ROOT / "data" / "approved-editions.json").read_text())
     previous_path = ROOT / 'data' / 'pool.json'
     previous = json.loads(previous_path.read_text()).get('movies', []) if previous_path.exists() else []
-    pool, catalog = build(today, args.fixture_dir, previous_pool=previous)
+    discoveries_path = ROOT/'data/open-matte-discoveries.json'
+    discoveries = json.loads(discoveries_path.read_text()).get('candidates', []) if discoveries_path.exists() else []
+    pool, catalog = build(today, args.fixture_dir, previous_pool=previous, community_candidates=discoveries)
     (ROOT / "stream-expression.txt").write_text(stream_expression(policy) + "\n")
     write_json(ROOT / "data" / "pool.json", {"updated": today.isoformat(), "refreshedAt": dt.datetime.now(dt.timezone.utc).isoformat(), "movies": pool})
     write_json(ROOT / "catalog" / "movie" / "iphone-duo.json", catalog)

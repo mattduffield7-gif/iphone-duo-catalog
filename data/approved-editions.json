@@ -219,6 +219,165 @@
         "https://screen-connections.com/2013/08/06/blu-ray-review-sony-pictures-home-entertainment-4k-mastered-titles-men-in-black-spider-man-spider-man-2-now-available-on-4k-mastered-blu-ray/"
       ],
       "evidence": "Firsthand review of the mastered-in-4K Blu-ray confirms the complete original 1.85 presentation. This approval covers the original 2002 film only; the sequels use wider native framing."
+    },
+    {
+      "id": "tt0088763",
+      "title": "Back to the Future",
+      "year": 1985,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/back-to-the-future-ultimate-4k-uhd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified. Named 35mm scans are also permitted as file-unverified alternatives for this reviewed title; 35mm alone is not a global aspect-ratio rule.",
+      "allowFilmScan": true
+    },
+    {
+      "id": "tt0096874",
+      "title": "Back to the Future Part II",
+      "year": 1989,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/back-to-the-future-ultimate-4k-uhd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified. Named 35mm scans are also permitted as file-unverified alternatives for this reviewed title; 35mm alone is not a global aspect-ratio rule.",
+      "allowFilmScan": true
+    },
+    {
+      "id": "tt0099088",
+      "title": "Back to the Future Part III",
+      "year": 1990,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/back-to-the-future-ultimate-4k-uhd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified. Named 35mm scans are also permitted as file-unverified alternatives for this reviewed title; 35mm alone is not a global aspect-ratio rule.",
+      "allowFilmScan": true
+    },
+    {
+      "id": "tt0090605",
+      "title": "Aliens",
+      "year": 1986,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/aliens-2023-digital-uhd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0093773",
+      "title": "Predator",
+      "year": 1987,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.thedigitalbits.com/reviews/item/predator-uhd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0096895",
+      "title": "Batman",
+      "year": 1989,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.thedigitalbits.com/reviews/item/batman-1989-uhd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0103776",
+      "title": "Batman Returns",
+      "year": 1992,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/batman-returns-uhd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0087363",
+      "title": "Gremlins",
+      "year": 1984,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://ftp.thedigitalbits.com/reviews/item/gremlins-uhd-bd"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0093779",
+      "title": "The Princess Bride",
+      "year": 1987,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://mail.thedigitalbits.com/reviews/item/princess-bride-german-4k-2021"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0119654",
+      "title": "Men in Black",
+      "year": 1997,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://archive.thedigitalbits.com/reviews/meninblack.html"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0083866",
+      "title": "E.T. the Extra-Terrestrial",
+      "year": 1982,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/et-the-extraterrestrial-40th-uhd-2022"
+      ],
+      "evidence": "Firsthand home-media review confirms a full-film 1.85 presentation. This is native tall framing, not an IMAX production claim. Select a matching home edition; individual stream files remain unverified."
+    },
+    {
+      "id": "tt0051337",
+      "title": "The 7th Voyage of Sinbad",
+      "year": 1958,
+      "edition": "Native Tall",
+      "aspectRatio": "1.66:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.thedigitalbits.com/reviews/item/7th-voyage-of-sinbad-the-4k-uhd-review"
+      ],
+      "evidence": "Firsthand UHD review confirms the 1.66 home transfer, selected by Sony in consultation with Harryhausen. This is native tall home framing; individual stream files remain unverified."
+    },
+    {
+      "id": "tt1646987",
+      "title": "Wrath of the Titans",
+      "year": 2012,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://thedigitalbits.com/reviews/item/when-titans-clash-wrath-arrow-2024-uhd"
+      ],
+      "evidence": "Firsthand UHD review confirms full-film native 1.85 home framing for Wrath of the Titans. The wider 2.39 original Clash of the Titans (2010) is not covered by this approval. Individual files remain unverified."
     }
   ],
   "pendingReview": [
