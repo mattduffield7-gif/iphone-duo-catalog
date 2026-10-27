@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27",
-  "refreshedAt": "2026-10-26T22:58:00.596908+00:00",
+  "updated": "2026-10-28",
+  "refreshedAt": "2026-10-27T22:42:39.051893+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -187,7 +187,7 @@
       "id": "tt0491738",
       "type": "series",
       "name": "Psych",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDhiNDEwZDAtNGY3NS00ODU3LWE2NjUtYWNiNGFhZjIyMDg5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/fDI15gTVbtW5Sbv5QenqecRxWKJ.jpg",
       "posterShape": "poster",
       "releaseInfo": "2006-2014",
       "genres": [
