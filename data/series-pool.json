@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-29",
-  "refreshedAt": "2026-10-28T22:58:25.491304+00:00",
+  "updated": "2026-10-30",
+  "refreshedAt": "2026-10-29T23:04:37.382587+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -54,9 +54,9 @@
       "id": "tt2467372",
       "type": "series",
       "name": "Brooklyn Nine-Nine",
-      "poster": "https://images.metahub.space/poster/small/tt2467372/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2013–2021",
+      "releaseInfo": "2013-2021",
       "genres": [
         "Comedy",
         "Crime"
