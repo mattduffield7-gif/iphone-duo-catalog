@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01",
-  "refreshedAt": "2026-10-31T21:54:57.766388+00:00",
+  "updated": "2026-11-02",
+  "refreshedAt": "2026-11-01T22:31:32.895762+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -1440,9 +1440,9 @@
       "id": "tt0944947",
       "type": "series",
       "name": "Game of Thrones",
-      "poster": "https://images.metahub.space/poster/small/tt0944947/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGYxOGJkMjItZjVkZC00OGEzLWExNjktOTZmNGZhZmRlMTk2XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2011–2019",
+      "releaseInfo": "2011-2019",
       "genres": [
         "Drama",
         "Fantasy",
@@ -1493,9 +1493,9 @@
       "id": "tt9288030",
       "type": "series",
       "name": "Reacher",
-      "poster": "https://images.metahub.space/poster/small/tt9288030/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmE0YTA3MTItMjhiNC00MGQ3LTllZDktNGNiZWY1OWFmNmM1XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2022–",
+      "releaseInfo": "2022-",
       "genres": [
         "Action",
         "Crime",
@@ -1514,9 +1514,9 @@
       "id": "tt1520211",
       "type": "series",
       "name": "The Walking Dead",
-      "poster": "https://images.metahub.space/poster/small/tt1520211/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2010–2022",
+      "releaseInfo": "2010-2022",
       "genres": [
         "Drama",
         "Horror",
