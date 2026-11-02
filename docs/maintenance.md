@@ -73,3 +73,14 @@ The recovery workflow succeeded with 363 movies and 87 series (including eight a
 The regenerated native-home expression was submitted with Save in the existing unlocked IMAX/Open Matte profile on 2026-10-26. The editor matches the generated file and reports no expression validation errors; providers and preloading settings were not changed.
 
 Final verification: workflow 40241010465 succeeded. The live service returned complete 364-movie and 87-series sets in both default shuffle and A–Z modes, matching repository membership with no lost titles. All four refresh tasks were healthy. Toy Story 5 (tt29355505), Clash of the Titans (1981), the upgraded Terminator approval, Reacher and The Walking Dead were present. Odyssey, Project Hail Mary and known variable-ratio exclusions stayed absent. Reacher’s season-four limitation was present in the live description. All 23 Python tests passed. Native catalog IDs, row names, placement and manifest 2.1.0 were preserved; no Site deployment or reinstall was needed.
+
+
+## Weekly framing review (2026-11-02)
+
+Daily refreshes since the previous review continued serving metadata; the latest inspected workflow (41357241939) was healthy with 369 movies and 87 series. Five newly exact-matched Open Matte-labelled discoveries since October 26 are Buck Rogers in the 25th Century (1979), Wrong Turn (2003), Ravenous (1999), Bandits (2001) and Cloud Atlas (2012); these remain explicitly unverified.
+
+Reviewed older additions: RoboCop (1987) upgrades an existing discovery to a reviewed 1.85 home approval, and Total Recall (1990) gains a reviewed 1.85 home approval. Exact Cinemeta identities were checked before editing the policy. Firsthand Arrow and StudioCanal/Lionsgate disc evidence is recorded in approved-editions.json. Neither approval extends to its remake.
+
+Added Cyberpunk: Edgerunners with the original 2022 ten-episode Blu-ray story explicitly scoped in its preferred edition and note. A firsthand Anime Limited disc inspection reports 1080p/16:9; Aniplex confirms original ten-episode coverage. Edgerunners 2 is already released but has not received a sourced home-framing approval here. Generic series aspect tags cannot extend this approval to the second story. The series queue still requires editorial evidence for all other candidates.
+
+New/upcoming review: Universal still lists Odyssey’s November 17, 2026 home release at 1.78, so its gate remains unchanged. The Bride! (2026) has a wide 2.39 ordinary UHD transfer rather than its expanded theatrical IMAX presentation, and Poltergeist (1982) has a 2.39 UHD transfer; neither was approved as native tall. These observations do not revoke any separately labelled unverified Open Matte leads. Evidence: https://www.universalpicturesathome.com/press-release/the-odyssey-press-release ; https://www.avnirvana.com/threads/the-bride-4k-blu-ray-review.16910/ ; https://screen-connections.com/2022/10/05/4k-ultra-hd-review-poltergeist-1982/ .

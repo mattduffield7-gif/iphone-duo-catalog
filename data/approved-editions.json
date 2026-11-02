@@ -416,6 +416,32 @@
         "https://www.ecoustics.com/reviews/toy-story-5-4k-uhd/"
       ],
       "evidence": "Two firsthand UHD disc reviews confirm the released home edition at 1.85:1. The September 22, 2026 disc release predates this review. Native tall framing qualifies without an IMAX/Open Matte tag; no claim of native 4K rendering or file-level verification."
+    },
+    {
+      "id": "tt0093870",
+      "title": "RoboCop",
+      "year": 1987,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.avforums.com/reviews/robocop-4k-dolby-vision-atmos-ultra-hd-uhd-hdr-blu-ray-review.19574/",
+        "https://criterionforum.org/review/robocop-arrow-video-limited-edition-blu-ray"
+      ],
+      "evidence": "Firsthand Arrow UHD/Blu-ray reviews confirm the original film in a constant 1.85 home presentation, including the theatrical and director cuts. This upgrades the existing unverified Open Matte discovery for the 1987 film only; the 2014 remake is not approved for its ordinary widescreen edition. Older Criterion DVD framing differs. Individual stream files remain unverified."
+    },
+    {
+      "id": "tt0100802",
+      "title": "Total Recall",
+      "year": 1990,
+      "edition": "Native Tall",
+      "aspectRatio": "1.85:1",
+      "allowStandardHome": true,
+      "sources": [
+        "https://www.avforums.com/reviews/total-recall-4k-blu-ray-review.18153/",
+        "https://www.hometheaterforum.com/total-recall-30th-anniversary-uhd-review-2/"
+      ],
+      "evidence": "Firsthand 30th-anniversary UHD reviews confirm the original 1990 film at a constant 1.85 home framing. Regular matching 2D Blu-ray/WEB editions qualify without an IMAX/Open Matte tag. The 2012 remake is not covered. Individual stream files remain unverified."
     }
   ],
   "pendingReview": [
