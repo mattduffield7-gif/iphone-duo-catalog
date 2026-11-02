@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-02",
-  "refreshedAt": "2026-11-01T22:31:32.895762+00:00",
+  "refreshedAt": "2026-11-02T00:17:13.109889+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -222,9 +222,9 @@
       "id": "tt2243973",
       "type": "series",
       "name": "Hannibal",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjBmYjdiMzItNTEwNi00YTI2LTg4YjctOTRjNDYxNTUxNGQ1XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt2243973/img",
       "posterShape": "poster",
-      "releaseInfo": "2013-2015",
+      "releaseInfo": "2013",
       "genres": [
         "Crime",
         "Mystery",
@@ -240,9 +240,9 @@
       "id": "tt0903747",
       "type": "series",
       "name": "Breaking Bad",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0903747/img",
       "posterShape": "poster",
-      "releaseInfo": "2008-2013",
+      "releaseInfo": "2008",
       "genres": [
         "Crime",
         "Drama"
@@ -987,9 +987,9 @@
       "id": "tt0147746",
       "type": "series",
       "name": "Batman Beyond",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDExYjNiYTYtZDkwZC00NDcxLTk3YWYtMmIyN2ZlZGYyY2E0XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0147746/img",
       "posterShape": "poster",
-      "releaseInfo": "1999-2001",
+      "releaseInfo": "1999",
       "genres": [
         "Animation",
         "Sci-Fi",
@@ -1092,9 +1092,9 @@
       "id": "tt0098904",
       "type": "series",
       "name": "Seinfeld",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmRjNjZjN2ItN2FkYi00ZDg0LWExN2EtMTU2ODUwNWU1M2NhXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0098904/img",
       "posterShape": "poster",
-      "releaseInfo": "1989-1998",
+      "releaseInfo": "1989",
       "genres": [
         "Comedy"
       ],
@@ -1529,6 +1529,25 @@
         "https://geekvibesnation.com/the-walking-dead-season-11-blu-ray-review/"
       ],
       "description": "Reported standard framing: 1.78:1. Preferred edition: Original series Blu-ray editions, seasons 1–11. Firsthand first-season and late-series Blu-ray reviews (seasons 10 and 11) report 1.78:1. Early seasons were photographed on Super 16 and retain grain; HD does not mean grain-free. This approval covers the original series only, not its separately framed spin-offs or custom widescreen fan edits. Special sequences and individual files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt12590266",
+      "type": "series",
+      "name": "Cyberpunk: Edgerunners",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTE4ZTkxZTUtNmE1Yi00OTMwLThlOWUtNmQ2Njc1OWNiMGQ0XkEyXkFqcGc@._V1_SX250.jpg",
+      "posterShape": "poster",
+      "releaseInfo": "2022-",
+      "genres": [
+        "Animation",
+        "Action",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.78,
+      "evidenceSources": [
+        "https://normanicgrav.co.uk/2025/12/14/cyberpunk-edgerunners-collectors-edition-blu-ray-unboxing/",
+        "https://www.aniplex.co.jp/edgerunners-bdbox/"
+      ],
+      "description": "Reported standard framing: 1.78:1. Preferred edition: Original 2022 ten-episode story, 16:9 1080p Blu-ray (Anime Limited/Aniplex). Firsthand inspection of the Anime Limited Blu-ray reports 1080p and 16:9 for the original ten episodes; Aniplex confirms the original ten-episode box. This approval covers that 2022 story only. Edgerunners 2 has now released but has no independently reviewed home-framing approval here; do not extend the original Blu-ray specification to the second story. Regional transfers and individual files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "limitations": "Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored."
