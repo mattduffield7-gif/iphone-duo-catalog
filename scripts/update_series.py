@@ -15,6 +15,7 @@ def resolve(entry):
     url = 'https://v3-cinemeta.strem.io/catalog/series/top/search=' + urllib.parse.quote(entry['title'],safe='') + '.json'
     metas = fetch_json(url).get('metas',[])
     matches = [m for m in metas if m.get('type') == 'series' and re.fullmatch(r'tt\d{7,10}',m.get('id',''))
+               and (not entry.get('id') or m['id'] == entry['id'])
                and normalize(m.get('name','')) == normalize(entry['title'])
                and str(m.get('releaseInfo',m.get('year','')))[:4] == str(entry['year'])]
     if len(matches)!=1:

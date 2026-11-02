@@ -11,9 +11,24 @@ sys.path.insert(0, str(Path(__file__).parents[1]/'scripts'))
 import update_catalog as movies
 import discover_series
 import refresh_catalogs
+import update_series
 
 
 class UpdateTests(unittest.TestCase):
+    def test_reviewed_series_id_resolves_same_title_year_collision_without_relaxing_identity(self):
+        entry = {'id': 'tt10919486', 'title': 'Into the Night', 'year': 2020,
+                 'genres': ['Sci-Fi'], 'aspectRatio': 2.0, 'sources': ['https://example.com/review']}
+        correct = {'id': entry['id'], 'name': entry['title'], 'type': 'series', 'releaseInfo': '2020'}
+        other = dict(correct, id='tt9689672')
+        with patch.object(update_series, 'fetch_json', return_value={'metas': [other, correct]}):
+            self.assertEqual(update_series.resolve(entry)['id'], entry['id'])
+            with self.assertRaises(ValueError):
+                update_series.resolve({k: v for k, v in entry.items() if k != 'id'})
+        for changes in [{'id': other['id']}, {'name': 'Different Show'}, {'releaseInfo': '2021'}]:
+            with patch.object(update_series, 'fetch_json', return_value={'metas': [dict(correct, **changes)]}):
+                with self.assertRaises(ValueError):
+                    update_series.resolve(entry)
+
     def test_announced_date_alone_does_not_seed_an_unobserved_home_release(self):
         entry = {'id': 'tt33764258', 'title': 'The Odyssey', 'year': 2026,
                  'edition': 'Expanded Home', 'aspectRatio': '1.78:1', 'allowStandardHome': True,
