@@ -220,9 +220,9 @@
       "id": "tt2243973",
       "type": "series",
       "name": "Hannibal",
-      "poster": "https://images.metahub.space/poster/small/tt2243973/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjBmYjdiMzItNTEwNi00YTI2LTg4YjctOTRjNDYxNTUxNGQ1XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2013",
+      "releaseInfo": "2013-2015",
       "genres": [
         "Crime",
         "Mystery",
@@ -238,9 +238,9 @@
       "id": "tt0903747",
       "type": "series",
       "name": "Breaking Bad",
-      "poster": "https://images.metahub.space/poster/small/tt0903747/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2008",
+      "releaseInfo": "2008-2013",
       "genres": [
         "Crime",
         "Drama"
@@ -985,9 +985,9 @@
       "id": "tt0147746",
       "type": "series",
       "name": "Batman Beyond",
-      "poster": "https://images.metahub.space/poster/small/tt0147746/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDExYjNiYTYtZDkwZC00NDcxLTk3YWYtMmIyN2ZlZGYyY2E0XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "1999",
+      "releaseInfo": "1999-2001",
       "genres": [
         "Animation",
         "Sci-Fi",
@@ -1090,9 +1090,9 @@
       "id": "tt0098904",
       "type": "series",
       "name": "Seinfeld",
-      "poster": "https://images.metahub.space/poster/small/tt0098904/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmRjNjZjN2ItN2FkYi00ZDg0LWExN2EtMTU2ODUwNWU1M2NhXkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "1989",
+      "releaseInfo": "1989-1998",
       "genres": [
         "Comedy"
       ],
@@ -1529,23 +1529,26 @@
       "description": "Reported standard framing: 1.78:1. Preferred edition: Original series Blu-ray editions, seasons 1–11. Firsthand first-season and late-series Blu-ray reviews (seasons 10 and 11) report 1.78:1. Early seasons were photographed on Super 16 and retain grain; HD does not mean grain-free. This approval covers the original series only, not its separately framed spin-offs or custom widescreen fan edits. Special sequences and individual files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
     },
     {
-      "id": "tt12590266",
+      "id": "tt0121220",
       "type": "series",
-      "name": "Cyberpunk: Edgerunners",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTE4ZTkxZTUtNmE1Yi00OTMwLThlOWUtNmQ2Njc1OWNiMGQ0XkEyXkFqcGc@._V1_SX250.jpg",
+      "name": "Dragon Ball Z",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4YmEzMjUtOWViNS00NTE0LTk2YmEtZjYwMGUyZDk5NjM4XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2022-",
+      "releaseInfo": "1989-1996",
       "genres": [
         "Animation",
         "Action",
-        "Sci-Fi"
+        "Adventure",
+        "Fantasy"
       ],
-      "aspectRatio": 1.78,
+      "aspectRatio": 1.33,
       "evidenceSources": [
-        "https://normanicgrav.co.uk/2025/12/14/cyberpunk-edgerunners-collectors-edition-blu-ray-unboxing/",
-        "https://www.aniplex.co.jp/edgerunners-bdbox/"
+        "https://toei-animation-usa.com/newsAdmin/30th-anniversary-collectors-edition-of-dragon-ball-z-now-available-to-pre-order-75.html",
+        "https://animeblurayuk.wordpress.com/2019/12/03/blu-ray-review-dragon-ball-z-30th-anniversary-edition/",
+        "https://www.awn.com/blog/dragon-ball-z-dragon-box-one",
+        "https://www.dvdtalk.com/reviews/63824/dragonball-z-season-4/"
       ],
-      "description": "Reported standard framing: 1.78:1. Preferred edition: Original 2022 ten-episode story, 16:9 1080p Blu-ray (Anime Limited/Aniplex). Firsthand inspection of the Anime Limited Blu-ray reports 1080p and 16:9 for the original ten episodes; Aniplex confirms the original ten-episode box. This approval covers that 2022 story only. Edgerunners 2 has now released but has no independently reviewed home-framing approval here; do not extend the original Blu-ray specification to the second story. Regional transfers and individual files can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original DBZ in 4:3: 30th Anniversary Blu-ray (all 291 episodes), Dragon Box DVD, or Level 1.1/1.2 Blu-rays for episodes 1–34. Approval covers the original Dragon Ball Z TV series in a matching 4:3 edition, not every DBZ file. The complete 30th Anniversary Blu-ray uses a 4:3 HD transfer; Dragon Box is SD DVD. The older 4:3 Level Blu-rays are incomplete (episodes 1–34). Common widescreen season Blu-rays and orange-brick DVD season sets crop the picture to 16:9 and are not the preferred presentation. A 1080p label alone does not identify the transfer. Restorations and processing differ even between 4:3 editions; no claim that every edition is uncropped. DBZ Kai and the films are separate editions and are not blanket-approved. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "cacheMaxAge": 300
