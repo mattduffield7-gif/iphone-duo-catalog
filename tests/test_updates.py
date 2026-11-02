@@ -14,6 +14,18 @@ import refresh_catalogs
 
 
 class UpdateTests(unittest.TestCase):
+    def test_announced_date_alone_does_not_seed_an_unobserved_home_release(self):
+        entry = {'id': 'tt33764258', 'title': 'The Odyssey', 'year': 2026,
+                 'edition': 'Expanded Home', 'aspectRatio': '1.78:1', 'allowStandardHome': True,
+                 'notBefore': '2026-11-17', 'sources': ['https://www.universalpicturesathome.com/']}
+        policy = {'includeOlderTitles': True, 'movies': [entry]}
+        meta = {'id': entry['id'], 'name': entry['title'], 'type': 'movie', 'releaseInfo': '2026'}
+        with patch.object(movies, 'fetch_json', side_effect=lambda u: {'hits': []} if 'knaben' in u else {'metas': [meta]}):
+            for day in [dt.date(2026, 11, 17), dt.date(2026, 11, 18)]:
+                pool, public = movies.build(day, policy=policy)
+                self.assertEqual(pool, [])
+                self.assertEqual(public['metas'], [])
+
     def test_approval_id_mismatch_fails_refresh_instead_of_silently_omitting_title(self):
         entry = {'id': 'tt1000001', 'title': 'Some Movie', 'year': 2026,
                  'edition': 'Native Tall', 'aspectRatio': '1.85:1', 'allowStandardHome': True,

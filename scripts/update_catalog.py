@@ -220,8 +220,10 @@ def build(today, fixture_dir=None, policy=None, previous_pool=(), community_cand
             candidates.setdefault(key, candidate)
     # A sourced, released native/expanded home edition does not disappear from
     # the catalog merely because one torrent index cannot find its filename.
+    # Announced future editions still need an observed release after their
+    # date gate opens; the calendar alone does not establish availability.
     for key, approval in approved.items():
-        if approval.get('allowStandardHome'):
+        if approval.get('allowStandardHome') and not approval.get('notBefore'):
             candidates.setdefault(key, {'title': approval['title'], 'year': approval['year'],
                                        'edition': approval['edition'], 'observed': today.isoformat(),
                                        'homeSource': True, 'approval': approval})
