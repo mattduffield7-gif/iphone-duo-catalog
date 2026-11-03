@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02",
-  "refreshedAt": "2026-11-02T06:32:13.676434+00:00",
+  "updated": "2026-11-03",
+  "refreshedAt": "2026-11-03T01:21:49.551157+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -1458,7 +1458,7 @@
       "id": "tt0185906",
       "type": "series",
       "name": "Band of Brothers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjdlNGJlYjQtMDU2Mi00ZjA1LWEwYzgtYzlmNDM5MmE1ZGUwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0185906/img",
       "posterShape": "poster",
       "releaseInfo": "2001",
       "genres": [
