@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03",
-  "refreshedAt": "2026-11-03T01:21:49.551157+00:00",
+  "updated": "2026-11-04",
+  "refreshedAt": "2026-11-03T23:46:56.237285+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -1300,9 +1300,9 @@
       "id": "tt0098936",
       "type": "series",
       "name": "Twin Peaks",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTExNzk2NjcxNTNeQTJeQWpwZ15BbWU4MDcxOTczOTIx._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0098936/img",
       "posterShape": "poster",
-      "releaseInfo": "1990-1991",
+      "releaseInfo": "1990",
       "genres": [
         "Drama",
         "Mystery",
@@ -1458,7 +1458,7 @@
       "id": "tt0185906",
       "type": "series",
       "name": "Band of Brothers",
-      "poster": "https://images.metahub.space/poster/small/tt0185906/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjdlNGJlYjQtMDU2Mi00ZjA1LWEwYzgtYzlmNDM5MmE1ZGUwXkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
       "releaseInfo": "2001",
       "genres": [
