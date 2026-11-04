@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "source": "https://storage.open-matte.ru/",
   "policy": "Only explicit Open Matte labels qualify. A 35mm/film-scan label alone is not approval. No media fetched.",
-  "discoveredDirectories": 1498,
-  "inspectedDirectories": 1498,
-  "inspectedThisRun": 0,
+  "discoveredDirectories": 1499,
+  "inspectedDirectories": 1499,
+  "inspectedThisRun": 1,
   "pendingInspections": 0,
   "inspectionErrors": 0,
   "directories": {
@@ -11989,6 +11989,14 @@
       "year": 2014,
       "modified": "2022-11-20 21:58",
       "scannedAt": "2026-10-25",
+      "openMatteLabelled": false,
+      "filmScanMentioned": false
+    },
+    "https://storage.open-matte.ru/%d0%94/%d0%94%d0%b5%d0%bd%d1%8c%d0%b3%d0%b8%20%d0%bd%d0%b0%20%d0%b4%d0%b2%d0%be%d0%b8%d1%85%20%28Two%20for%20the%20Money%2C%202005%29/": {
+      "title": "Two for the Money",
+      "year": 2005,
+      "modified": "2026-11-04 23:58",
+      "scannedAt": "2026-11-05",
       "openMatteLabelled": false,
       "filmScanMentioned": false
     }
