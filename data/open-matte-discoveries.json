@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "source": "https://storage.open-matte.ru/",
   "policy": "Only explicit Open Matte labels qualify. A 35mm/film-scan label alone is not approval. No media fetched.",
-  "discoveredDirectories": 1499,
-  "inspectedDirectories": 1499,
+  "discoveredDirectories": 1500,
+  "inspectedDirectories": 1500,
   "inspectedThisRun": 1,
   "pendingInspections": 0,
   "inspectionErrors": 0,
@@ -11997,6 +11997,14 @@
       "year": 2005,
       "modified": "2026-11-04 23:58",
       "scannedAt": "2026-11-05",
+      "openMatteLabelled": false,
+      "filmScanMentioned": false
+    },
+    "https://storage.open-matte.ru/%d0%93/%d0%93%d1%80%d1%8f%d0%b7%d0%bd%d1%8b%d0%b5%20%d0%b8%d0%b3%d1%80%d1%8b%20%28The%20Company%20You%20Keep%2C%202012%29/": {
+      "title": "The Company You Keep",
+      "year": 2012,
+      "modified": "2026-11-06 01:53",
+      "scannedAt": "2026-11-06",
       "openMatteLabelled": false,
       "filmScanMentioned": false
     }
