@@ -1213,6 +1213,41 @@
       ],
       "note": "Approval covers the original Dragon Ball Z TV series in a matching 4:3 edition, not every DBZ file. The complete 30th Anniversary Blu-ray uses a 4:3 HD transfer; Dragon Box is SD DVD. The older 4:3 Level Blu-rays are incomplete (episodes 1–34). Common widescreen season Blu-rays and orange-brick DVD season sets crop the picture to 16:9 and are not the preferred presentation. A 1080p label alone does not identify the transfer. Restorations and processing differ even between 4:3 editions; no claim that every edition is uncropped. DBZ Kai and the films are separate editions and are not blanket-approved.",
       "id": "tt0121220"
+    },
+    {
+      "id": "tt0071003",
+      "title": "Kolchak: The Night Stalker",
+      "year": 1974,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "aspectRatio": 1.33,
+      "preferredEdition": "Kino Lorber complete-series Blu-ray (2021), all 20 original 1974–1975 episodes in 4:3 at 1080p",
+      "sources": [
+        "https://www.theaterbyte.com/kolchak-the-night-stalker-the-complete-series-blu-ray-review/",
+        "https://www.reelreviews.com/home-video/badsass-sinema-unearthed/kolchak-the-night-stalker-blu-ray-review"
+      ],
+      "note": "Firsthand complete-series Blu-ray inspections confirm the original 1.33:1 presentation across the single-season series. The older 1972/1973 TV movies and 2005 reboot are separate and not covered. HD transfer retains some film softness and source damage; a generic 1080p filename is not a guarantee of original framing."
+    },
+    {
+      "id": "tt0083437",
+      "title": "Knight Rider",
+      "year": 1982,
+      "genres": [
+        "Action",
+        "Crime",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.33,
+      "preferredEdition": "Original 1982–1986 series in 4:3; Turbine 40th Anniversary Blu-ray (2022) preferred for uncut episodes and original music",
+      "sources": [
+        "https://www.thedigitalbits.com/reviews/item/knight-rider-box-turbine-2023-bd",
+        "https://thedigitalbits.com/reviews/item/knight-rider-the-complete-series-4k-uhd-review",
+        "https://www.dvdtalk.com/reviews/71440/knight-rider-the-complete-series/"
+      ],
+      "note": "Complete-series disc reviews cover all four original seasons at 1.33:1. Turbine Blu-ray preserves original two-hour episode versions and music; Universal 2025 UHD also preserves 4:3 but has compression issues, music replacements and some syndicated edits. The approval does not include the later TV movies, Team Knight Rider or 2008 reboot merely because they appear in a franchise box. Episode numbering and individual stream transfers can differ."
     }
   ],
   "taste": "Prioritize original 4:3 editions across science fiction, fantasy, adventure, mythology, comedy, crime, mystery and drama; do not treat ordinary 1080p/16:9 as a special Duo benefit. Preserve a broad range of existing non-anime choices. Japanese anime is opt-in rather than a recommendation category; Dragon Ball Z is explicitly selected. Western animation is a separate category. Distinguish native HD remasters, upscales, SD originals and cropped widescreen alternatives.",
@@ -1229,6 +1264,14 @@
       "id": "tt12590266",
       "title": "Cyberpunk: Edgerunners",
       "reason": "Editorial selection: Japanese anime is opt-in for this catalog; this title is not selected. No framing defect is asserted."
+    },
+    {
+      "id": "tt14688458",
+      "title": "Silo",
+      "reason": "Do not extend season-one framing across the whole series: season-two cinematographer interview specifies 2.39:1, wider than the catalog range. Retained as a taste/research reference rather than an approved series.",
+      "sources": [
+        "https://hotrodcameras.com/en-ca/blogs/podcast/the-cinematography-podcast-episode-310"
+      ]
     }
   ]
 }

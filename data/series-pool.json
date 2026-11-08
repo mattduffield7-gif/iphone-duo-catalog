@@ -1,14 +1,14 @@
 {
   "updated": "2026-11-09",
-  "refreshedAt": "2026-11-08T22:33:06.421989+00:00",
+  "refreshedAt": "2026-11-08T23:00:50.707129+00:00",
   "series": [
     {
       "id": "tt1439629",
       "type": "series",
       "name": "Community",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1439629/img",
       "posterShape": "poster",
-      "releaseInfo": "2009-2015",
+      "releaseInfo": "2009",
       "genres": [
         "Comedy"
       ],
@@ -22,9 +22,9 @@
       "id": "tt0386676",
       "type": "series",
       "name": "The Office",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0386676/img",
       "posterShape": "poster",
-      "releaseInfo": "2005-2013",
+      "releaseInfo": "2005",
       "genres": [
         "Comedy"
       ],
@@ -38,9 +38,9 @@
       "id": "tt1266020",
       "type": "series",
       "name": "Parks and Recreation",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDlhMzAwNTAtNTk2NS00MTdkLWE3ZWYtMDU0MTFiYmU2ZTc0XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1266020/img",
       "posterShape": "poster",
-      "releaseInfo": "2009-2015",
+      "releaseInfo": "2009",
       "genres": [
         "Comedy"
       ],
@@ -54,9 +54,9 @@
       "id": "tt2467372",
       "type": "series",
       "name": "Brooklyn Nine-Nine",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt2467372/img",
       "posterShape": "poster",
-      "releaseInfo": "2013-2021",
+      "releaseInfo": "2013",
       "genres": [
         "Comedy",
         "Crime"
@@ -71,9 +71,9 @@
       "id": "tt4955642",
       "type": "series",
       "name": "The Good Place",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjI3ZGRhNDYtNDFjOS00OGFlLTg4NTEtYjZjYTViY2ZiMzBkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt4955642/img",
       "posterShape": "poster",
-      "releaseInfo": "2016-2020",
+      "releaseInfo": "2016",
       "genres": [
         "Comedy",
         "Fantasy"
@@ -88,9 +88,9 @@
       "id": "tt4082744",
       "type": "series",
       "name": "Detectorists",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGRjYzhmOTgtMDNlNy00YjJlLWI1MDAtMjAyMDRlMjE5OGNkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt4082744/img",
       "posterShape": "poster",
-      "releaseInfo": "2014-2022",
+      "releaseInfo": "2014",
       "genres": [
         "Comedy"
       ],
@@ -104,9 +104,9 @@
       "id": "tt2674806",
       "type": "series",
       "name": "Inside No. 9",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTQ0ZGM2ZmQtMzU2Ni00MTQ0LTliZjMtMGRlNzlhNWIxNjgyXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt2674806/img",
       "posterShape": "poster",
-      "releaseInfo": "2014-2024",
+      "releaseInfo": "2014",
       "genres": [
         "Comedy",
         "Mystery"
@@ -121,9 +121,9 @@
       "id": "tt14218830",
       "type": "series",
       "name": "Abbott Elementary",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjU5YTdlZTItNWM5Yi00OGM1LTk1NGItNjY5MGU3Y2JkOWIwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt14218830/img",
       "posterShape": "poster",
-      "releaseInfo": "2021-",
+      "releaseInfo": "2021",
       "genres": [
         "Comedy"
       ],
@@ -137,9 +137,9 @@
       "id": "tt21433690",
       "type": "series",
       "name": "St. Denis Medical",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTVmZjBkNTgtYjI4ZS00YjJiLTk4NjktNmRhY2JiZGZjMDU1XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt21433690/img",
       "posterShape": "poster",
-      "releaseInfo": "2024-",
+      "releaseInfo": "2024",
       "genres": [
         "Comedy"
       ],
@@ -153,9 +153,9 @@
       "id": "tt7587890",
       "type": "series",
       "name": "The Rookie",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTdmNjFlMjktZDI1ZC00MzMzLTkxZmItMzE0OTJkMDAwNzQ4XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt7587890/img",
       "posterShape": "poster",
-      "releaseInfo": "2018-",
+      "releaseInfo": "2018",
       "genres": [
         "Crime",
         "Drama"
@@ -170,9 +170,9 @@
       "id": "tt1196946",
       "type": "series",
       "name": "The Mentalist",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ5OTgzOTczM15BMl5BanBnXkFtZTcwMDM2OTY4MQ@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1196946/img",
       "posterShape": "poster",
-      "releaseInfo": "2008-2015",
+      "releaseInfo": "2008",
       "genres": [
         "Crime",
         "Mystery"
@@ -187,9 +187,9 @@
       "id": "tt0491738",
       "type": "series",
       "name": "Psych",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDhiNDEwZDAtNGY3NS00ODU3LWE2NjUtYWNiNGFhZjIyMDg5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0491738/img",
       "posterShape": "poster",
-      "releaseInfo": "2006-2014",
+      "releaseInfo": "2006",
       "genres": [
         "Comedy",
         "Crime",
@@ -205,9 +205,9 @@
       "id": "tt1475582",
       "type": "series",
       "name": "Sherlock",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjRhZDdjMDYtMTg5Yy00NGI4LWI3ZDgtYjNkNDc4MzJkNDRjXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1475582/img",
       "posterShape": "poster",
-      "releaseInfo": "2010-2017",
+      "releaseInfo": "2010",
       "genres": [
         "Crime",
         "Mystery"
@@ -222,9 +222,9 @@
       "id": "tt2243973",
       "type": "series",
       "name": "Hannibal",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjBmYjdiMzItNTEwNi00YTI2LTg4YjctOTRjNDYxNTUxNGQ1XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt2243973/img",
       "posterShape": "poster",
-      "releaseInfo": "2013-2015",
+      "releaseInfo": "2013",
       "genres": [
         "Crime",
         "Mystery",
@@ -240,9 +240,9 @@
       "id": "tt0903747",
       "type": "series",
       "name": "Breaking Bad",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0903747/img",
       "posterShape": "poster",
-      "releaseInfo": "2008-2013",
+      "releaseInfo": "2008",
       "genres": [
         "Crime",
         "Drama"
@@ -257,9 +257,9 @@
       "id": "tt3032476",
       "type": "series",
       "name": "Better Call Saul",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTAxOTQ0MjUzMzJeQTJeQWpwZ15BbWU4MDY0NTAxNzMx._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt3032476/img",
       "posterShape": "poster",
-      "releaseInfo": "2015-2022",
+      "releaseInfo": "2015",
       "genres": [
         "Crime",
         "Drama"
@@ -274,9 +274,9 @@
       "id": "tt1119644",
       "type": "series",
       "name": "Fringe",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMWVlMmE1MmEtNjhjMC00MDdmLWIzZGMtNjc1YTZmNDc2MWExXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1119644/img",
       "posterShape": "poster",
-      "releaseInfo": "2008-2013",
+      "releaseInfo": "2008",
       "genres": [
         "Sci-Fi",
         "Mystery"
@@ -291,9 +291,9 @@
       "id": "tt1839578",
       "type": "series",
       "name": "Person of Interest",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTcxNDJiMTUtN2ZhZS00OGE1LWJmZmYtN2VhYThiZTBhYWM1XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1839578/img",
       "posterShape": "poster",
-      "releaseInfo": "2011-2016",
+      "releaseInfo": "2011",
       "genres": [
         "Crime",
         "Sci-Fi"
@@ -308,9 +308,9 @@
       "id": "tt0303461",
       "type": "series",
       "name": "Firefly",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzYyZWYzNzUtOWQ4Yi00Y2Q4LWJjZjgtZTllNjg2ZGM0MTcyXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0303461/img",
       "posterShape": "poster",
-      "releaseInfo": "2002-2003",
+      "releaseInfo": "2002",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -325,9 +325,9 @@
       "id": "tt0407362",
       "type": "series",
       "name": "Battlestar Galactica",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNmMzYzdmNWMtM2ZmMi00Y2E2LWI5ZTMtYWJlNmJiMDgyYWRiXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0407362/img",
       "posterShape": "poster",
-      "releaseInfo": "2004-2009",
+      "releaseInfo": "2004",
       "genres": [
         "Sci-Fi",
         "Drama"
@@ -342,7 +342,7 @@
       "id": "tt5491994",
       "type": "series",
       "name": "Planet Earth II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzY4NDBkMWYtYzdkYy00YzBjLWJmODctMWM4YjYzZTdjNWE5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt5491994/img",
       "posterShape": "poster",
       "releaseInfo": "2016",
       "genres": [
@@ -359,7 +359,7 @@
       "id": "tt6769208",
       "type": "series",
       "name": "Blue Planet II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNmUwYThjM2UtNTg1Yy00MzRlLThhMmYtNjlmOWU0ZmQxZDA3XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt6769208/img",
       "posterShape": "poster",
       "releaseInfo": "2017",
       "genres": [
@@ -376,9 +376,9 @@
       "id": "tt2092588",
       "type": "series",
       "name": "Frozen Planet",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDE0ZTZlZDItOTgzNS00Zjg4LWEwOWEtYjc1YzY2MjliZTM5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt2092588/img",
       "posterShape": "poster",
-      "releaseInfo": "2011-2012",
+      "releaseInfo": "2011",
       "genres": [
         "Documentary",
         "Nature"
@@ -393,9 +393,9 @@
       "id": "tt8064302",
       "type": "series",
       "name": "Dead to Me",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODFhNzI1ZjgtMTFmNC00MTkyLTg0NTItMTkzYzk4MDFjNzdhXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt8064302/img",
       "posterShape": "poster",
-      "releaseInfo": "2019-2022",
+      "releaseInfo": "2019",
       "genres": [
         "Comedy",
         "Crime"
@@ -410,9 +410,9 @@
       "id": "tt10919486",
       "type": "series",
       "name": "Into the Night",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmI5N2ZhMmMtZThkYS00ZmYyLWI0NWItNWI4ZDg0MjVkOTczXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt10919486/img",
       "posterShape": "poster",
-      "releaseInfo": "2020-2021",
+      "releaseInfo": "2020",
       "genres": [
         "Sci-Fi",
         "Thriller"
@@ -427,9 +427,9 @@
       "id": "tt4574334",
       "type": "series",
       "name": "Stranger Things",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt4574334/img",
       "posterShape": "poster",
-      "releaseInfo": "2016-2025",
+      "releaseInfo": "2016",
       "genres": [
         "Sci-Fi",
         "Mystery",
@@ -445,9 +445,9 @@
       "id": "tt0118276",
       "type": "series",
       "name": "Buffy the Vampire Slayer",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDk4MGVkNDAtZjQwZi00MDc3LWE4MmEtY2YyODQ2NDQyMjgxXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0118276/img",
       "posterShape": "poster",
-      "releaseInfo": "1997-2003",
+      "releaseInfo": "1997",
       "genres": [
         "Fantasy",
         "Action",
@@ -463,9 +463,9 @@
       "id": "tt0162065",
       "type": "series",
       "name": "Angel",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjQzMTliMWYtNDQ3Ny00MTdmLWJjODQtNTk3NTcyZDMwMmMwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0162065/img",
       "posterShape": "poster",
-      "releaseInfo": "1999-2004",
+      "releaseInfo": "1999",
       "genres": [
         "Fantasy",
         "Action",
@@ -481,9 +481,9 @@
       "id": "tt1199099",
       "type": "series",
       "name": "Merlin",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNmI5NDgyZmQtNDc3YS00Mjg0LThmMzEtZjcyNzczOTJlYWY4XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1199099/img",
       "posterShape": "poster",
-      "releaseInfo": "2008-2012",
+      "releaseInfo": "2008",
       "genres": [
         "Fantasy",
         "Adventure",
@@ -499,9 +499,9 @@
       "id": "tt0112230",
       "type": "series",
       "name": "Xena: Warrior Princess",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZWNhMmQ1YzEtMWM0YS00ZDcxLWFkMjEtNWYyOGE2MjhhYWUxXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0112230/img",
       "posterShape": "poster",
-      "releaseInfo": "1995-2001",
+      "releaseInfo": "1995",
       "genres": [
         "Fantasy",
         "Action",
@@ -518,9 +518,9 @@
       "id": "tt0118480",
       "type": "series",
       "name": "Stargate SG-1",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTc3MjEwMTc5N15BMl5BanBnXkFtZTcwNzQ2NjQ4NA@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0118480/img",
       "posterShape": "poster",
-      "releaseInfo": "1997-2007",
+      "releaseInfo": "1997",
       "genres": [
         "Sci-Fi",
         "Action",
@@ -537,9 +537,9 @@
       "id": "tt0374455",
       "type": "series",
       "name": "Stargate: Atlantis",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjI0MTI4MTY3N15BMl5BanBnXkFtZTcwMjg1NjQ4NA@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0374455/img",
       "posterShape": "poster",
-      "releaseInfo": "2004-2009",
+      "releaseInfo": "2004",
       "genres": [
         "Sci-Fi",
         "Action",
@@ -555,9 +555,9 @@
       "id": "tt1286039",
       "type": "series",
       "name": "Stargate Universe",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTEzNTY5NDY5M15BMl5BanBnXkFtZTcwMTY4MDQ3Mg@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1286039/img",
       "posterShape": "poster",
-      "releaseInfo": "2009-2011",
+      "releaseInfo": "2009",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -572,9 +572,9 @@
       "id": "tt0187636",
       "type": "series",
       "name": "Farscape",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTE4NjhiOGEtMDI5ZS00M2JhLWFjYTUtNGMyNWNmYmE5NmFmXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0187636/img",
       "posterShape": "poster",
-      "releaseInfo": "1999-2003",
+      "releaseInfo": "1999",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -589,9 +589,9 @@
       "id": "tt4254242",
       "type": "series",
       "name": "The Magicians",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzVjZDg1YzctMTZhNi00OWVjLTg3OGEtMjdhNWE2MmEyODA5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt4254242/img",
       "posterShape": "poster",
-      "releaseInfo": "2015-2020",
+      "releaseInfo": "2015",
       "genres": [
         "Fantasy",
         "Adventure",
@@ -607,9 +607,9 @@
       "id": "tt0460681",
       "type": "series",
       "name": "Supernatural",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDFmMGZmMGItNGRjNC00NjVjLWI5ODEtNzhjMTE5MmJhN2FkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0460681/img",
       "posterShape": "poster",
-      "releaseInfo": "2005-2020",
+      "releaseInfo": "2005",
       "genres": [
         "Fantasy",
         "Horror",
@@ -626,9 +626,9 @@
       "id": "tt1830617",
       "type": "series",
       "name": "Grimm",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTkyODg2MzQwMV5BMl5BanBnXkFtZTgwNTA2MjE1MDI@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1830617/img",
       "posterShape": "poster",
-      "releaseInfo": "2011-2017",
+      "releaseInfo": "2011",
       "genres": [
         "Fantasy",
         "Crime",
@@ -644,9 +644,9 @@
       "id": "tt1132290",
       "type": "series",
       "name": "Warehouse 13",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDVjOGI3MDEtYTQzYi00N2IxLTlkMGItM2UwMTIzZTcxYjY5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1132290/img",
       "posterShape": "poster",
-      "releaseInfo": "2009-2014",
+      "releaseInfo": "2009",
       "genres": [
         "Sci-Fi",
         "Fantasy",
@@ -662,9 +662,9 @@
       "id": "tt0844653",
       "type": "series",
       "name": "Legend of the Seeker",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODcyNTM4MjUwOF5BMl5BanBnXkFtZTcwNTE5Mjc2Nw@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0844653/img",
       "posterShape": "poster",
-      "releaseInfo": "2008-2010",
+      "releaseInfo": "2008",
       "genres": [
         "Fantasy",
         "Action",
@@ -680,9 +680,9 @@
       "id": "tt0105946",
       "type": "series",
       "name": "Babylon 5",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTRmOWJjMWMtNDljOC00NzNlLWJhODItNjBjOGVkMDYxMzQ0XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0105946/img",
       "posterShape": "poster",
-      "releaseInfo": "1993-1998",
+      "releaseInfo": "1993",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -697,9 +697,9 @@
       "id": "tt0796264",
       "type": "series",
       "name": "Eureka",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDNlZjFhYWUtYTM0My00ZjQ1LWJhYzktYzM4ZWQ5Yzk3NjEyXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0796264/img",
       "posterShape": "poster",
-      "releaseInfo": "2006-2012",
+      "releaseInfo": "2006",
       "genres": [
         "Sci-Fi",
         "Comedy",
@@ -715,9 +715,9 @@
       "id": "tt0092455",
       "type": "series",
       "name": "Star Trek: The Next Generation",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmNiNTQ2YzYtODBjYy00ZWMwLTlmNWMtYWE1NTQ2ZTYyZmMwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0092455/img",
       "posterShape": "poster",
-      "releaseInfo": "1987-1994",
+      "releaseInfo": "1987",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -732,9 +732,9 @@
       "id": "tt2306299",
       "type": "series",
       "name": "Vikings",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTFmZmExYTEtYmE0Mi00MzRmLWE4ZDYtOThiNzNlOTIyODljXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt2306299/img",
       "posterShape": "poster",
-      "releaseInfo": "2013-2020",
+      "releaseInfo": "2013",
       "genres": [
         "Action",
         "Adventure",
@@ -751,9 +751,9 @@
       "id": "tt0060028",
       "type": "series",
       "name": "Star Trek",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmIyYjI0YzUtOWRiZS00NDJhLThiZTktNDkyYzg4Yjg5YmJmXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0060028/img",
       "posterShape": "poster",
-      "releaseInfo": "1966-1969",
+      "releaseInfo": "1966",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -769,9 +769,9 @@
       "id": "tt0052520",
       "type": "series",
       "name": "The Twilight Zone",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjkyZmRmYmMtYTg5Zi00MjA0LTliYmQtMDU0NzBiZDcxNzA0XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0052520/img",
       "posterShape": "poster",
-      "releaseInfo": "1959-1964",
+      "releaseInfo": "1959",
       "genres": [
         "Sci-Fi",
         "Fantasy",
@@ -788,9 +788,9 @@
       "id": "tt0056777",
       "type": "series",
       "name": "The Outer Limits",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTdhYzllMGMtNjBiMy00ZjVhLWFjMmMtODgyYWI5MDllMmZiXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0056777/img",
       "posterShape": "poster",
-      "releaseInfo": "1963-1965",
+      "releaseInfo": "1963",
       "genres": [
         "Sci-Fi",
         "Horror",
@@ -807,9 +807,9 @@
       "id": "tt0072564",
       "type": "series",
       "name": "Space: 1999",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmM0NjQwNzctNTI5Mi00MTlhLThhNTYtZmIwODUwNmVhMWFlXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0072564/img",
       "posterShape": "poster",
-      "releaseInfo": "1975-1977",
+      "releaseInfo": "1975",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -824,9 +824,9 @@
       "id": "tt0061287",
       "type": "series",
       "name": "The Prisoner",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2IzM2FkYjItZGEzYS00NDRmLTkzODYtZTBlNWY2NTU5ZmE0XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0061287/img",
       "posterShape": "poster",
-      "releaseInfo": "1967-1968",
+      "releaseInfo": "1967",
       "genres": [
         "Drama",
         "Mystery",
@@ -842,9 +842,9 @@
       "id": "tt0063962",
       "type": "series",
       "name": "UFO",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMWZmMDY3OWMtZTU0Yy00OWFiLThmZDAtNTkzYWE1ODFhZjFjXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0063962/img",
       "posterShape": "poster",
-      "releaseInfo": "1970-1971",
+      "releaseInfo": "1970",
       "genres": [
         "Sci-Fi",
         "Action",
@@ -860,9 +860,9 @@
       "id": "tt0059973",
       "type": "series",
       "name": "Captain Scarlet and the Mysterons",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNmRkYzAzNTEtYmRmYi00MTA2LTg1YjMtZTBmMDA4M2U3OGQ5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0059973/img",
       "posterShape": "poster",
-      "releaseInfo": "1967-1968",
+      "releaseInfo": "1967",
       "genres": [
         "Sci-Fi",
         "Action",
@@ -878,9 +878,9 @@
       "id": "tt0057790",
       "type": "series",
       "name": "Thunderbirds",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDhhNzI0ZjktODgxYy00NWRmLWEzYjQtYzk3MTI3MmFkMzRmXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0057790/img",
       "posterShape": "poster",
-      "releaseInfo": "1965-1966",
+      "releaseInfo": "1965",
       "genres": [
         "Sci-Fi",
         "Adventure",
@@ -896,9 +896,9 @@
       "id": "tt0058824",
       "type": "series",
       "name": "Lost in Space",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjE2OTczMDI2M15BMl5BanBnXkFtZTcwMTA5MDgyMQ@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0058824/img",
       "posterShape": "poster",
-      "releaseInfo": "1965-1968",
+      "releaseInfo": "1965",
       "genres": [
         "Sci-Fi",
         "Adventure",
@@ -914,9 +914,9 @@
       "id": "tt0096684",
       "type": "series",
       "name": "Quantum Leap",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjFiYWZjZTctZWUxOS00YTA5LTg1ZjctNzYyMzYxODhjOWZlXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0096684/img",
       "posterShape": "poster",
-      "releaseInfo": "1989-1993",
+      "releaseInfo": "1989",
       "genres": [
         "Sci-Fi",
         "Drama",
@@ -933,9 +933,9 @@
       "id": "tt0059968",
       "type": "series",
       "name": "Batman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZWFjNTdlZjctZTRkNC00OTQ1LWI3NDktOWY0ZWZmNzFiOTNkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0059968/img",
       "posterShape": "poster",
-      "releaseInfo": "1966-1968",
+      "releaseInfo": "1966",
       "genres": [
         "Action",
         "Adventure",
@@ -951,9 +951,9 @@
       "id": "tt0103359",
       "type": "series",
       "name": "Batman: The Animated Series",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjM2NjMwMjctZmMxZi00ZTRiLWI1NTItZDc4YTc4YWI2NTRjXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0103359/img",
       "posterShape": "poster",
-      "releaseInfo": "1992-1995",
+      "releaseInfo": "1992",
       "genres": [
         "Animation",
         "Action",
@@ -969,9 +969,9 @@
       "id": "tt0115378",
       "type": "series",
       "name": "Superman: The Animated Series",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmNiNTY1YjYtNmI1Zi00ODE3LTg4MmYtNWRkYTU2MTkxZjkwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0115378/img",
       "posterShape": "poster",
-      "releaseInfo": "1996-2000",
+      "releaseInfo": "1996",
       "genres": [
         "Animation",
         "Action",
@@ -987,9 +987,9 @@
       "id": "tt0147746",
       "type": "series",
       "name": "Batman Beyond",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDExYjNiYTYtZDkwZC00NDcxLTk3YWYtMmIyN2ZlZGYyY2E0XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0147746/img",
       "posterShape": "poster",
-      "releaseInfo": "1999-2001",
+      "releaseInfo": "1999",
       "genres": [
         "Animation",
         "Sci-Fi",
@@ -1005,9 +1005,9 @@
       "id": "tt0278238",
       "type": "series",
       "name": "Samurai Jack",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjIwZDQyOTMtNjVjNy00ODBiLTlmZWYtYTJkYzVjMTc2NWJkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0278238/img",
       "posterShape": "poster",
-      "releaseInfo": "2001-2017",
+      "releaseInfo": "2001",
       "genres": [
         "Animation",
         "Fantasy",
@@ -1024,9 +1024,9 @@
       "id": "tt0417299",
       "type": "series",
       "name": "Avatar: The Last Airbender",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0417299/img",
       "posterShape": "poster",
-      "releaseInfo": "2005-2008",
+      "releaseInfo": "2005",
       "genres": [
         "Animation",
         "Fantasy",
@@ -1043,9 +1043,9 @@
       "id": "tt0083399",
       "type": "series",
       "name": "Cheers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGFjY2QwM2QtZGI3Yi00MzM3LTliOGUtZDJhNzVhMGNmN2ZjXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0083399/img",
       "posterShape": "poster",
-      "releaseInfo": "1982-1993",
+      "releaseInfo": "1982",
       "genres": [
         "Comedy"
       ],
@@ -1059,9 +1059,9 @@
       "id": "tt0106004",
       "type": "series",
       "name": "Frasier",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTYwMjY1OTctZjk4My00ZjllLWFkNTMtNzg2OGVlMGI0MmQ1XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0106004/img",
       "posterShape": "poster",
-      "releaseInfo": "1993-2004",
+      "releaseInfo": "1993",
       "genres": [
         "Comedy"
       ],
@@ -1075,9 +1075,9 @@
       "id": "tt0098878",
       "type": "series",
       "name": "Northern Exposure",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZmM4MzM0YjctMDlmZS00YTZiLWJjZTYtNmFiZTc5NzM3NDY2XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0098878/img",
       "posterShape": "poster",
-      "releaseInfo": "1990-1995",
+      "releaseInfo": "1990",
       "genres": [
         "Comedy",
         "Drama"
@@ -1092,9 +1092,9 @@
       "id": "tt0098904",
       "type": "series",
       "name": "Seinfeld",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmRjNjZjN2ItN2FkYi00ZDg0LWExN2EtMTU2ODUwNWU1M2NhXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0098904/img",
       "posterShape": "poster",
-      "releaseInfo": "1989-1998",
+      "releaseInfo": "1989",
       "genres": [
         "Comedy"
       ],
@@ -1108,9 +1108,9 @@
       "id": "tt1466074",
       "type": "series",
       "name": "Columbo",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZDIxMmRhZDQtZjBlNC00OWJkLWI3YmEtZDcyZWRkY2IzNWYxXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1466074/img",
       "posterShape": "poster",
-      "releaseInfo": "1971-1998",
+      "releaseInfo": "1971",
       "genres": [
         "Crime",
         "Mystery",
@@ -1126,9 +1126,9 @@
       "id": "tt0086765",
       "type": "series",
       "name": "Murder, She Wrote",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNmEwN2M5NDItM2EyOS00ZTAzLWEyNDAtZGU3YTViZTNhNjk3XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0086765/img",
       "posterShape": "poster",
-      "releaseInfo": "1984-1996",
+      "releaseInfo": "1984",
       "genres": [
         "Crime",
         "Mystery",
@@ -1144,9 +1144,9 @@
       "id": "tt0080240",
       "type": "series",
       "name": "Magnum, P.I.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTJlNTQ5ZDktNmU4YS00NjllLWIwY2QtNmM4YTI1MWVkMWZiXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0080240/img",
       "posterShape": "poster",
-      "releaseInfo": "1980-1988",
+      "releaseInfo": "1980",
       "genres": [
         "Crime",
         "Action",
@@ -1162,9 +1162,9 @@
       "id": "tt0086759",
       "type": "series",
       "name": "Miami Vice",
-      "poster": "https://m.media-amazon.com/images/M/MV5BY2FmZWMxNWMtNTVkZC00ZTcwLTgyMjAtZjJlNjZlYzM0MDA5XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0086759/img",
       "posterShape": "poster",
-      "releaseInfo": "1984-1989",
+      "releaseInfo": "1984",
       "genres": [
         "Crime",
         "Action",
@@ -1180,9 +1180,9 @@
       "id": "tt0071042",
       "type": "series",
       "name": "The Rockford Files",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzRlZDQ4MmQtMzdlOS00YzIxLWE3YTEtYzk4ZTNkYjEzMDU3XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0071042/img",
       "posterShape": "poster",
-      "releaseInfo": "1974-1980",
+      "releaseInfo": "1974",
       "genres": [
         "Crime",
         "Mystery",
@@ -1216,9 +1216,9 @@
       "id": "tt0074074",
       "type": "series",
       "name": "Wonder Woman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzEzODlhZTEtODg0Ni00ZjFhLTg3MWEtMjcxZTI4YzAwODNlXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0074074/img",
       "posterShape": "poster",
-      "releaseInfo": "1975-1979",
+      "releaseInfo": "1975",
       "genres": [
         "Action",
         "Adventure",
@@ -1234,9 +1234,9 @@
       "id": "tt0054533",
       "type": "series",
       "name": "The Dick Van Dyke Show",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY0ODUzMDkwM15BMl5BanBnXkFtZTcwNTI1ODUyMQ@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0054533/img",
       "posterShape": "poster",
-      "releaseInfo": "1961-1966",
+      "releaseInfo": "1961",
       "genres": [
         "Comedy"
       ],
@@ -1250,9 +1250,9 @@
       "id": "tt0063929",
       "type": "series",
       "name": "Monty Python's Flying Circus",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZDkyZjUyOTUtYWI3Zi00YTJhLTk3MDMtY2Q2MGM1ZjFhNTRkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0063929/img",
       "posterShape": "poster",
-      "releaseInfo": "1969-1974",
+      "releaseInfo": "1969",
       "genres": [
         "Comedy"
       ],
@@ -1266,9 +1266,9 @@
       "id": "tt0072500",
       "type": "series",
       "name": "Fawlty Towers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODM5YWE5NDAtZTU4MC00YWI0LThjMjItNTlhMTQ5Y2Y5NWJiXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0072500/img",
       "posterShape": "poster",
-      "releaseInfo": "1975-1979",
+      "releaseInfo": "1975",
       "genres": [
         "Comedy"
       ],
@@ -1282,9 +1282,9 @@
       "id": "tt0056751",
       "type": "series",
       "name": "Doctor Who",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTA2N2RlZGYtYTFjNS00Njg2LWIwZWUtM2YyMDUxMmE0NzdiXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0056751/img",
       "posterShape": "poster",
-      "releaseInfo": "1963-1989",
+      "releaseInfo": "1963",
       "genres": [
         "Sci-Fi",
         "Adventure",
@@ -1300,9 +1300,9 @@
       "id": "tt0098936",
       "type": "series",
       "name": "Twin Peaks",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTExNzk2NjcxNTNeQTJeQWpwZ15BbWU4MDcxOTczOTIx._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0098936/img",
       "posterShape": "poster",
-      "releaseInfo": "1990-1991",
+      "releaseInfo": "1990",
       "genres": [
         "Drama",
         "Mystery",
@@ -1335,9 +1335,9 @@
       "id": "tt0804503",
       "type": "series",
       "name": "Mad Men",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTNjNjc5OWQtYjMxNC00MzEwLWIxM2UtNjU3NzhkNjZmNGI3XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0804503/img",
       "posterShape": "poster",
-      "releaseInfo": "2007-2015",
+      "releaseInfo": "2007",
       "genres": [
         "Drama"
       ],
@@ -1369,9 +1369,9 @@
       "id": "tt0411008",
       "type": "series",
       "name": "Lost",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0411008/img",
       "posterShape": "poster",
-      "releaseInfo": "2004-2010",
+      "releaseInfo": "2004",
       "genres": [
         "Adventure",
         "Mystery",
@@ -1387,9 +1387,9 @@
       "id": "tt0773262",
       "type": "series",
       "name": "Dexter",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTE5ZGI2N2UtYmFiMi00ZGIxLWI1ZTMtYWJkZDYxNDZiOTQwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0773262/img",
       "posterShape": "poster",
-      "releaseInfo": "2006-2013",
+      "releaseInfo": "2006",
       "genres": [
         "Crime",
         "Drama",
@@ -1405,9 +1405,9 @@
       "id": "tt0412142",
       "type": "series",
       "name": "House",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjgxYjAwNmMtYTAwZC00YmQxLWJlOTMtMWM0NGJmNDE0YmI2XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0412142/img",
       "posterShape": "poster",
-      "releaseInfo": "2004-2012",
+      "releaseInfo": "2004",
       "genres": [
         "Drama",
         "Mystery"
@@ -1422,9 +1422,9 @@
       "id": "tt1489428",
       "type": "series",
       "name": "Justified",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZGIzNmFlMzgtYWY0MC00NjFmLWJhMGItZTM2YjVlZjY3ZjBlXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1489428/img",
       "posterShape": "poster",
-      "releaseInfo": "2010-2015",
+      "releaseInfo": "2010",
       "genres": [
         "Crime",
         "Drama",
@@ -1440,9 +1440,9 @@
       "id": "tt0944947",
       "type": "series",
       "name": "Game of Thrones",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGYxOGJkMjItZjVkZC00OGEzLWExNjktOTZmNGZhZmRlMTk2XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0944947/img",
       "posterShape": "poster",
-      "releaseInfo": "2011-2019",
+      "releaseInfo": "2011",
       "genres": [
         "Drama",
         "Fantasy",
@@ -1458,7 +1458,7 @@
       "id": "tt0185906",
       "type": "series",
       "name": "Band of Brothers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjdlNGJlYjQtMDU2Mi00ZjA1LWEwYzgtYzlmNDM5MmE1ZGUwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0185906/img",
       "posterShape": "poster",
       "releaseInfo": "2001",
       "genres": [
@@ -1476,7 +1476,7 @@
       "id": "tt7366338",
       "type": "series",
       "name": "Chernobyl",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzU0OTI4YTQtNGQ1ZS00ZjA4LTg3MTMtZjkyZWNjN2RiZDJmXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt7366338/img",
       "posterShape": "poster",
       "releaseInfo": "2019",
       "genres": [
@@ -1493,9 +1493,9 @@
       "id": "tt9288030",
       "type": "series",
       "name": "Reacher",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmE0YTA3MTItMjhiNC00MGQ3LTllZDktNGNiZWY1OWFmNmM1XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt9288030/img",
       "posterShape": "poster",
-      "releaseInfo": "2022-",
+      "releaseInfo": "2022",
       "genres": [
         "Action",
         "Crime",
@@ -1514,9 +1514,9 @@
       "id": "tt1520211",
       "type": "series",
       "name": "The Walking Dead",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1520211/img",
       "posterShape": "poster",
-      "releaseInfo": "2010-2022",
+      "releaseInfo": "2010",
       "genres": [
         "Drama",
         "Horror",
@@ -1534,9 +1534,9 @@
       "id": "tt0121220",
       "type": "series",
       "name": "Dragon Ball Z",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4YmEzMjUtOWViNS00NTE0LTk2YmEtZjYwMGUyZDk5NjM4XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0121220/img",
       "posterShape": "poster",
-      "releaseInfo": "1989-1996",
+      "releaseInfo": "1989",
       "genres": [
         "Animation",
         "Action",
@@ -1551,6 +1551,45 @@
         "https://www.dvdtalk.com/reviews/63824/dragonball-z-season-4/"
       ],
       "description": "Reported standard framing: 1.33:1. Preferred edition: Original DBZ in 4:3: 30th Anniversary Blu-ray (all 291 episodes), Dragon Box DVD, or Level 1.1/1.2 Blu-rays for episodes 1–34. Approval covers the original Dragon Ball Z TV series in a matching 4:3 edition, not every DBZ file. The complete 30th Anniversary Blu-ray uses a 4:3 HD transfer; Dragon Box is SD DVD. The older 4:3 Level Blu-rays are incomplete (episodes 1–34). Common widescreen season Blu-rays and orange-brick DVD season sets crop the picture to 16:9 and are not the preferred presentation. A 1080p label alone does not identify the transfer. Restorations and processing differ even between 4:3 editions; no claim that every edition is uncropped. DBZ Kai and the films are separate editions and are not blanket-approved. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0071003",
+      "type": "series",
+      "name": "Kolchak: The Night Stalker",
+      "poster": "https://images.metahub.space/poster/small/tt0071003/img",
+      "posterShape": "poster",
+      "releaseInfo": "1974",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.theaterbyte.com/kolchak-the-night-stalker-the-complete-series-blu-ray-review/",
+        "https://www.reelreviews.com/home-video/badsass-sinema-unearthed/kolchak-the-night-stalker-blu-ray-review"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Kino Lorber complete-series Blu-ray (2021), all 20 original 1974–1975 episodes in 4:3 at 1080p. Firsthand complete-series Blu-ray inspections confirm the original 1.33:1 presentation across the single-season series. The older 1972/1973 TV movies and 2005 reboot are separate and not covered. HD transfer retains some film softness and source damage; a generic 1080p filename is not a guarantee of original framing. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0083437",
+      "type": "series",
+      "name": "Knight Rider",
+      "poster": "https://images.metahub.space/poster/small/tt0083437/img",
+      "posterShape": "poster",
+      "releaseInfo": "1982",
+      "genres": [
+        "Action",
+        "Crime",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://www.thedigitalbits.com/reviews/item/knight-rider-box-turbine-2023-bd",
+        "https://thedigitalbits.com/reviews/item/knight-rider-the-complete-series-4k-uhd-review",
+        "https://www.dvdtalk.com/reviews/71440/knight-rider-the-complete-series/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original 1982–1986 series in 4:3; Turbine 40th Anniversary Blu-ray (2022) preferred for uncut episodes and original music. Complete-series disc reviews cover all four original seasons at 1.33:1. Turbine Blu-ray preserves original two-hour episode versions and music; Universal 2025 UHD also preserves 4:3 but has compression issues, music replacements and some syndicated edits. The approval does not include the later TV movies, Team Knight Rider or 2008 reboot merely because they appear in a franchise box. Episode numbering and individual stream transfers can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "limitations": "Reported home framing, not file-level verification. No viewing history, account identifiers or debrid keys are stored."

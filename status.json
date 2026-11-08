@@ -1,10 +1,10 @@
 {
   "updated": "2026-11-09",
   "timezone": "Australia/Adelaide",
-  "poolSize": 373,
-  "reviewedCount": 35,
-  "releaseLabelledCount": 338,
-  "rowSize": 373,
+  "poolSize": 405,
+  "reviewedCount": 36,
+  "releaseLabelledCount": 369,
+  "rowSize": 405,
   "minimumMovieYear": null,
   "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches",
   "rotation": "Daily order of the complete pool; the live service shuffles each fetch",
@@ -46,6 +46,6 @@
   },
   "series": {
     "updated": "2026-11-09",
-    "poolSize": 88
+    "poolSize": 90
   }
 }
