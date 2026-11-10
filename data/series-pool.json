@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-09",
-  "refreshedAt": "2026-11-08T23:08:25.295491+00:00",
+  "updated": "2026-11-10",
+  "refreshedAt": "2026-11-10T01:48:30.228941+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -481,9 +481,9 @@
       "id": "tt1199099",
       "type": "series",
       "name": "Merlin",
-      "poster": "https://images.metahub.space/poster/small/tt1199099/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmI5NDgyZmQtNDc3YS00Mjg0LThmMzEtZjcyNzczOTJlYWY4XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2008",
+      "releaseInfo": "2008-2012",
       "genres": [
         "Fantasy",
         "Adventure",
@@ -933,9 +933,9 @@
       "id": "tt0059968",
       "type": "series",
       "name": "Batman",
-      "poster": "https://images.metahub.space/poster/small/tt0059968/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWFjNTdlZjctZTRkNC00OTQ1LWI3NDktOWY0ZWZmNzFiOTNkXkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "1966",
+      "releaseInfo": "1966-1968",
       "genres": [
         "Action",
         "Adventure",
@@ -1300,9 +1300,9 @@
       "id": "tt0098936",
       "type": "series",
       "name": "Twin Peaks",
-      "poster": "https://images.metahub.space/poster/small/tt0098936/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTExNzk2NjcxNTNeQTJeQWpwZ15BbWU4MDcxOTczOTIx._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "1990",
+      "releaseInfo": "1990-1991",
       "genres": [
         "Drama",
         "Mystery",
