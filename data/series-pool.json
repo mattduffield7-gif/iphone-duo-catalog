@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12",
-  "refreshedAt": "2026-11-12T01:08:20.469819+00:00",
+  "updated": "2026-11-13",
+  "refreshedAt": "2026-11-12T23:54:26.395558+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -715,9 +715,9 @@
       "id": "tt0092455",
       "type": "series",
       "name": "Star Trek: The Next Generation",
-      "poster": "https://images.metahub.space/poster/small/tt0092455/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmNiNTQ2YzYtODBjYy00ZWMwLTlmNWMtYWE1NTQ2ZTYyZmMwXkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "1987",
+      "releaseInfo": "1987-1994",
       "genres": [
         "Sci-Fi",
         "Adventure"
