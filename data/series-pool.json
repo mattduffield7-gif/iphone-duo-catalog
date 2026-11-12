@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11",
-  "refreshedAt": "2026-11-10T23:48:11.676284+00:00",
+  "updated": "2026-11-12",
+  "refreshedAt": "2026-11-12T01:08:20.469819+00:00",
   "series": [
     {
       "id": "tt1439629",
@@ -240,9 +240,9 @@
       "id": "tt0903747",
       "type": "series",
       "name": "Breaking Bad",
-      "poster": "https://images.metahub.space/poster/small/tt0903747/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2008",
+      "releaseInfo": "2008-2013",
       "genres": [
         "Crime",
         "Drama"
@@ -481,9 +481,9 @@
       "id": "tt1199099",
       "type": "series",
       "name": "Merlin",
-      "poster": "https://images.metahub.space/poster/small/tt1199099/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmI5NDgyZmQtNDc3YS00Mjg0LThmMzEtZjcyNzczOTJlYWY4XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "2008",
+      "releaseInfo": "2008-2012",
       "genres": [
         "Fantasy",
         "Adventure",
@@ -715,9 +715,9 @@
       "id": "tt0092455",
       "type": "series",
       "name": "Star Trek: The Next Generation",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmNiNTQ2YzYtODBjYy00ZWMwLTlmNWMtYWE1NTQ2ZTYyZmMwXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0092455/img",
       "posterShape": "poster",
-      "releaseInfo": "1987-1994",
+      "releaseInfo": "1987",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -933,9 +933,9 @@
       "id": "tt0059968",
       "type": "series",
       "name": "Batman",
-      "poster": "https://images.metahub.space/poster/small/tt0059968/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWFjNTdlZjctZTRkNC00OTQ1LWI3NDktOWY0ZWZmNzFiOTNkXkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "1966",
+      "releaseInfo": "1966-1968",
       "genres": [
         "Action",
         "Adventure",
@@ -1476,7 +1476,7 @@
       "id": "tt7366338",
       "type": "series",
       "name": "Chernobyl",
-      "poster": "https://images.metahub.space/poster/small/tt7366338/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzU0OTI4YTQtNGQ1ZS00ZjA4LTg3MTMtZjkyZWNjN2RiZDJmXkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
       "releaseInfo": "2019",
       "genres": [
@@ -1534,9 +1534,9 @@
       "id": "tt0121220",
       "type": "series",
       "name": "Dragon Ball Z",
-      "poster": "https://images.metahub.space/poster/small/tt0121220/img",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4YmEzMjUtOWViNS00NTE0LTk2YmEtZjYwMGUyZDk5NjM4XkEyXkFqcGc@._V1_SX250.jpg",
       "posterShape": "poster",
-      "releaseInfo": "1989",
+      "releaseInfo": "1989-1996",
       "genres": [
         "Animation",
         "Action",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "source": "https://v3-cinemeta.strem.io/catalog/series/top.json",
   "policy": "Popular-series leads across all genres. Check sourced home framing before adding to the catalog.",
   "candidates": [
@@ -8,12 +8,10 @@
       "name": "VisionQuest",
       "releaseInfo": "2026",
       "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
+        "Action"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt26545992",
@@ -37,7 +35,7 @@
         "Drama"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt1844624",
@@ -49,7 +47,7 @@
         "Sci-Fi"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt35854736",
@@ -61,7 +59,7 @@
         "Adventure"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt19231492",
@@ -73,7 +71,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt7441658",
@@ -85,7 +83,7 @@
         "Adventure"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt33539520",
@@ -121,7 +119,7 @@
         "Adventure"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt0364845",
@@ -144,7 +142,7 @@
         "Horror"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt35934755",
@@ -156,7 +154,7 @@
         "Mystery"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt23148340",
@@ -168,7 +166,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt21097264",
@@ -178,7 +176,7 @@
         "Drama"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt17491088",
@@ -189,7 +187,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt31510819",
@@ -200,7 +198,7 @@
         "Drama"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt5875444",
@@ -211,7 +209,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt37972251",
@@ -222,7 +220,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt10986410",
@@ -234,7 +232,7 @@
         "Sport"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt13210838",
@@ -245,7 +243,7 @@
         "Drama"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt13207736",
@@ -280,7 +278,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt2356777",
@@ -313,7 +311,7 @@
         "Drama"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt31289994",
@@ -337,7 +335,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt0413573",
@@ -348,7 +346,7 @@
         "Romance"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt11712058",
@@ -384,7 +382,7 @@
         "Mystery"
       ],
       "firstSeen": "2026-10-25",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt31938062",
@@ -459,7 +457,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt26933824",
@@ -471,7 +469,7 @@
         "Romance"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt9813792",
@@ -483,7 +481,7 @@
         "Mystery"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt2531336",
@@ -495,7 +493,7 @@
         "Mystery"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt39980704",
@@ -507,7 +505,7 @@
         "Horror"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt7631058",
@@ -519,7 +517,7 @@
         "Drama"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt11379026",
@@ -530,7 +528,7 @@
         "Fantasy"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt31038430",
@@ -565,7 +563,7 @@
         "Mystery"
       ],
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt21952924",
@@ -589,7 +587,7 @@
         "Thriller"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt19244304",
@@ -600,7 +598,7 @@
         "Horror"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt36458668",
@@ -612,7 +610,7 @@
         "Mystery"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt31438328",
@@ -623,7 +621,7 @@
         "Drama"
       ],
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt42220724",
@@ -645,7 +643,7 @@
         "Mystery"
       ],
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt4406178",
@@ -655,7 +653,7 @@
         "Drama"
       ],
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt31710249",
@@ -666,7 +664,7 @@
         "Sport"
       ],
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt17543592",
@@ -677,7 +675,7 @@
         "Drama"
       ],
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt12324366",
@@ -700,7 +698,7 @@
         "Romance"
       ],
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     },
     {
       "id": "tt15715850",
@@ -712,7 +710,7 @@
         "Sport"
       ],
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-11"
+      "lastSeen": "2026-11-12"
     }
   ]
 }
