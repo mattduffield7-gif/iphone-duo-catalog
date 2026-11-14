@@ -1,25 +1,25 @@
 {
-  "checkedAt": "2026-11-13T23:57:10.863863+00:00",
+  "checkedAt": "2026-11-14T22:46:56.936051+00:00",
   "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
   "movieDiscovery": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-13T23:54:28.851012+00:00",
-    "lastSuccessAt": "2026-11-13T23:54:43.947877+00:00"
+    "lastAttemptAt": "2026-11-14T22:45:32.211402+00:00",
+    "lastSuccessAt": "2026-11-14T22:45:53.216181+00:00"
   },
   "movies": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-13T23:54:28.851012+00:00",
-    "lastSuccessAt": "2026-11-13T23:56:54.148864+00:00"
+    "lastAttemptAt": "2026-11-14T22:45:32.211402+00:00",
+    "lastSuccessAt": "2026-11-14T22:46:50.493855+00:00"
   },
   "series": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-13T23:54:28.851012+00:00",
-    "lastSuccessAt": "2026-11-13T23:57:10.699220+00:00"
+    "lastAttemptAt": "2026-11-14T22:45:32.211402+00:00",
+    "lastSuccessAt": "2026-11-14T22:46:56.671016+00:00"
   },
   "seriesDiscovery": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-13T23:54:28.851012+00:00",
-    "lastSuccessAt": "2026-11-13T23:57:10.863344+00:00"
+    "lastAttemptAt": "2026-11-14T22:45:32.211402+00:00",
+    "lastSuccessAt": "2026-11-14T22:46:56.935646+00:00"
   },
   "upcoming": [
     {
