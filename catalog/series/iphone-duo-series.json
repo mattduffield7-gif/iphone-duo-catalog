@@ -20,9 +20,9 @@
       "id": "tt0386676",
       "type": "series",
       "name": "The Office",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0386676/img",
       "posterShape": "poster",
-      "releaseInfo": "2005-2013",
+      "releaseInfo": "2005",
       "genres": [
         "Comedy"
       ],
@@ -605,9 +605,9 @@
       "id": "tt0460681",
       "type": "series",
       "name": "Supernatural",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDFmMGZmMGItNGRjNC00NjVjLWI5ODEtNzhjMTE5MmJhN2FkXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0460681/img",
       "posterShape": "poster",
-      "releaseInfo": "2005-2020",
+      "releaseInfo": "2005",
       "genres": [
         "Fantasy",
         "Horror",
@@ -749,9 +749,9 @@
       "id": "tt0060028",
       "type": "series",
       "name": "Star Trek",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmIyYjI0YzUtOWRiZS00NDJhLThiZTktNDkyYzg4Yjg5YmJmXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0060028/img",
       "posterShape": "poster",
-      "releaseInfo": "1966-1969",
+      "releaseInfo": "1966",
       "genres": [
         "Sci-Fi",
         "Adventure"
@@ -1214,9 +1214,9 @@
       "id": "tt0074074",
       "type": "series",
       "name": "Wonder Woman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzEzODlhZTEtODg0Ni00ZjFhLTg3MWEtMjcxZTI4YzAwODNlXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0074074/img",
       "posterShape": "poster",
-      "releaseInfo": "1975-1979",
+      "releaseInfo": "1975",
       "genres": [
         "Action",
         "Adventure",
@@ -1232,9 +1232,9 @@
       "id": "tt0054533",
       "type": "series",
       "name": "The Dick Van Dyke Show",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY0ODUzMDkwM15BMl5BanBnXkFtZTcwNTI1ODUyMQ@@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt0054533/img",
       "posterShape": "poster",
-      "releaseInfo": "1961-1966",
+      "releaseInfo": "1961",
       "genres": [
         "Comedy"
       ],
@@ -1474,7 +1474,7 @@
       "id": "tt7366338",
       "type": "series",
       "name": "Chernobyl",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzU0OTI4YTQtNGQ1ZS00ZjA4LTg3MTMtZjkyZWNjN2RiZDJmXkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt7366338/img",
       "posterShape": "poster",
       "releaseInfo": "2019",
       "genres": [
@@ -1512,9 +1512,9 @@
       "id": "tt1520211",
       "type": "series",
       "name": "The Walking Dead",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_SX250.jpg",
+      "poster": "https://images.metahub.space/poster/small/tt1520211/img",
       "posterShape": "poster",
-      "releaseInfo": "2010-2022",
+      "releaseInfo": "2010",
       "genres": [
         "Drama",
         "Horror",
@@ -1588,6 +1588,46 @@
         "https://www.dvdtalk.com/reviews/71440/knight-rider-the-complete-series/"
       ],
       "description": "Reported standard framing: 1.33:1. Preferred edition: Original 1982–1986 series in 4:3; Turbine 40th Anniversary Blu-ray (2022) preferred for uncut episodes and original music. Complete-series disc reviews cover all four original seasons at 1.33:1. Turbine Blu-ray preserves original two-hour episode versions and music; Universal 2025 UHD also preserves 4:3 but has compression issues, music replacements and some syndicated edits. The approval does not include the later TV movies, Team Knight Rider or 2008 reboot merely because they appear in a franchise box. Episode numbering and individual stream transfers can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0071054",
+      "type": "series",
+      "name": "The Six Million Dollar Man",
+      "poster": "https://images.metahub.space/poster/small/tt0071054/img",
+      "posterShape": "poster",
+      "releaseInfo": "1974",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/105687/thesixmilliondollarmanthecompleteseries.html",
+        "https://bluray.highdefdigest.com/109681/thesixmilliondollarmangermanimport.html"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Shout Factory complete-series Blu-ray (2022): all five original seasons in 1080p at 4:3. Firsthand complete-set review covers all 99 regular episodes across five seasons in the original 1.33:1 presentation. Crossover material from The Bionic Woman can look softer and have weaker audio, notably Return of Bigfoot Part II and Kill Oscar episodes. Film grain, optical effects and transfer quality vary. Pilot/reunion films and the separate Bionic Woman series are not blanket-added as series entries merely because they are included in the box; numbering and individual stream transfers can differ. Select your usual series stream provider; this catalog does not enforce playback resolution."
+    },
+    {
+      "id": "tt0073965",
+      "type": "series",
+      "name": "The Bionic Woman",
+      "poster": "https://images.metahub.space/poster/small/tt0073965/img",
+      "posterShape": "poster",
+      "releaseInfo": "1976",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.33,
+      "evidenceSources": [
+        "https://bluray.highdefdigest.com/106392/thebionicwomanthecompleteseries.html",
+        "https://bluray.highdefdigest.com/109685/thebionicwomandiesiebenmillionendollarfraugermanimport.html",
+        "https://www.kennethjohnson.us/bionic",
+        "https://www.blu-ray.com/movies/The-Bionic-Woman-The-Complete-Series-Blu-ray/161551/"
+      ],
+      "description": "Reported standard framing: 1.33:1. Preferred edition: Original 1976–1978 series: Shout Factory 2022 complete-series Blu-ray, or the Turbine 2022 HD edition, in 4:3. Firsthand complete-series disc reviews report all 58 original episodes across three seasons in 1080p at 1.33:1. The older German Rough Trade SD-on-Blu-ray set is 576i, so Blu-ray packaging alone does not identify the HD transfer. Shout has muffled audio on some episodes; the newer Turbine HD set has different compression/audio tradeoffs. Crossover episodes, optical effects and individual files vary. Reunion films and the 2007 reboot are separate and not blanket-approved. Select your usual series stream provider; this catalog does not enforce playback resolution."
     }
   ],
   "cacheMaxAge": 300

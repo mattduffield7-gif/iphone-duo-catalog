@@ -1248,6 +1248,42 @@
         "https://www.dvdtalk.com/reviews/71440/knight-rider-the-complete-series/"
       ],
       "note": "Complete-series disc reviews cover all four original seasons at 1.33:1. Turbine Blu-ray preserves original two-hour episode versions and music; Universal 2025 UHD also preserves 4:3 but has compression issues, music replacements and some syndicated edits. The approval does not include the later TV movies, Team Knight Rider or 2008 reboot merely because they appear in a franchise box. Episode numbering and individual stream transfers can differ."
+    },
+    {
+      "id": "tt0071054",
+      "title": "The Six Million Dollar Man",
+      "year": 1974,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.33,
+      "preferredEdition": "Shout Factory complete-series Blu-ray (2022): all five original seasons in 1080p at 4:3",
+      "sources": [
+        "https://bluray.highdefdigest.com/105687/thesixmilliondollarmanthecompleteseries.html",
+        "https://bluray.highdefdigest.com/109681/thesixmilliondollarmangermanimport.html"
+      ],
+      "note": "Firsthand complete-set review covers all 99 regular episodes across five seasons in the original 1.33:1 presentation. Crossover material from The Bionic Woman can look softer and have weaker audio, notably Return of Bigfoot Part II and Kill Oscar episodes. Film grain, optical effects and transfer quality vary. Pilot/reunion films and the separate Bionic Woman series are not blanket-added as series entries merely because they are included in the box; numbering and individual stream transfers can differ."
+    },
+    {
+      "id": "tt0073965",
+      "title": "The Bionic Woman",
+      "year": 1976,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "aspectRatio": 1.33,
+      "preferredEdition": "Original 1976–1978 series: Shout Factory 2022 complete-series Blu-ray, or the Turbine 2022 HD edition, in 4:3",
+      "sources": [
+        "https://bluray.highdefdigest.com/106392/thebionicwomanthecompleteseries.html",
+        "https://bluray.highdefdigest.com/109685/thebionicwomandiesiebenmillionendollarfraugermanimport.html",
+        "https://www.kennethjohnson.us/bionic",
+        "https://www.blu-ray.com/movies/The-Bionic-Woman-The-Complete-Series-Blu-ray/161551/"
+      ],
+      "note": "Firsthand complete-series disc reviews report all 58 original episodes across three seasons in 1080p at 1.33:1. The older German Rough Trade SD-on-Blu-ray set is 576i, so Blu-ray packaging alone does not identify the HD transfer. Shout has muffled audio on some episodes; the newer Turbine HD set has different compression/audio tradeoffs. Crossover episodes, optical effects and individual files vary. Reunion films and the 2007 reboot are separate and not blanket-approved."
     }
   ],
   "taste": "Prioritize original 4:3 editions across science fiction, fantasy, adventure, mythology, comedy, crime, mystery and drama; do not treat ordinary 1080p/16:9 as a special Duo benefit. Preserve a broad range of existing non-anime choices. Japanese anime is opt-in rather than a recommendation category; Dragon Ball Z is explicitly selected. Western animation is a separate category. Distinguish native HD remasters, upscales, SD originals and cropped widescreen alternatives.",
@@ -1271,6 +1307,14 @@
       "reason": "Do not extend season-one framing across the whole series: season-two cinematographer interview specifies 2.39:1, wider than the catalog range. Retained as a taste/research reference rather than an approved series.",
       "sources": [
         "https://hotrodcameras.com/en-ca/blogs/podcast/the-cinematography-podcast-episode-310"
+      ]
+    },
+    {
+      "id": "tt7631058",
+      "title": "The Lord of the Rings: The Rings of Power",
+      "reason": "A season-two cinematographer production interview explicitly specifies 2.39:1, wider than the catalog range. Fantasy/mythology interest and generic UHD labels do not establish a qualifying whole-series presentation.",
+      "sources": [
+        "https://britishcinematographer.co.uk/alex-disenhof-asc-jean-philippe-gossart-afc-laurie-rose-bsc-the-lord-of-the-rings-the-rings-of-power/"
       ]
     }
   ]
