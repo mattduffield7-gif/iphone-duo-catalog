@@ -4,7 +4,7 @@
   "policy": "Only explicit Open Matte labels qualify. A 35mm/film-scan label alone is not approval. No media fetched.",
   "discoveredDirectories": 1500,
   "inspectedDirectories": 1500,
-  "inspectedThisRun": 7,
+  "inspectedThisRun": 0,
   "pendingInspections": 0,
   "inspectionErrors": 0,
   "directories": {
