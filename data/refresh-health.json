@@ -1,35 +1,25 @@
 {
-  "checkedAt": "2026-11-15T23:13:12.945372+00:00",
+  "checkedAt": "2026-11-17T02:08:02.898093+00:00",
   "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
   "movieDiscovery": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-15T23:11:29.557081+00:00",
-    "lastSuccessAt": "2026-11-15T23:11:53.075430+00:00"
+    "lastAttemptAt": "2026-11-17T02:06:56.206208+00:00",
+    "lastSuccessAt": "2026-11-17T02:07:06.849063+00:00"
   },
   "movies": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-15T23:11:29.557081+00:00",
-    "lastSuccessAt": "2026-11-15T23:13:04.499302+00:00"
+    "lastAttemptAt": "2026-11-17T02:06:56.206208+00:00",
+    "lastSuccessAt": "2026-11-17T02:07:58.156588+00:00"
   },
   "series": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-15T23:11:29.557081+00:00",
-    "lastSuccessAt": "2026-11-15T23:13:12.730732+00:00"
+    "lastAttemptAt": "2026-11-17T02:06:56.206208+00:00",
+    "lastSuccessAt": "2026-11-17T02:08:02.733261+00:00"
   },
   "seriesDiscovery": {
     "state": "ok",
-    "lastAttemptAt": "2026-11-15T23:11:29.557081+00:00",
-    "lastSuccessAt": "2026-11-15T23:13:12.944945+00:00"
+    "lastAttemptAt": "2026-11-17T02:06:56.206208+00:00",
+    "lastSuccessAt": "2026-11-17T02:08:02.897598+00:00"
   },
-  "upcoming": [
-    {
-      "id": "tt33764258",
-      "title": "The Odyssey",
-      "notBefore": "2026-11-17",
-      "aspectRatio": "1.78:1",
-      "sources": [
-        "https://www.universalpicturesathome.com/press-release/the-odyssey-press-release"
-      ]
-    }
-  ]
+  "upcoming": []
 }
