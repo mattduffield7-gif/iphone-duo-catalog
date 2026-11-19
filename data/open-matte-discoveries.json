@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "source": "https://storage.open-matte.ru/",
   "policy": "Only explicit Open Matte labels qualify. A 35mm/film-scan label alone is not approval. No media fetched.",
   "discoveredDirectories": 1500,
   "inspectedDirectories": 1500,
-  "inspectedThisRun": 0,
+  "inspectedThisRun": 2,
   "pendingInspections": 0,
   "inspectionErrors": 0,
   "directories": {
@@ -6355,8 +6355,8 @@
     "https://storage.open-matte.ru/%d0%9e/%d0%9e%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%20%d0%b7%d0%bb%d0%b0%202%3A%20%d0%90%d0%bf%d0%be%d0%ba%d0%b0%d0%bb%d0%b8%d0%bf%d1%81%d0%b8%d1%81%20%28Resident%20Evil%3A%20Apocalypse%2C%202004%29/": {
       "title": "Resident Evil: Apocalypse",
       "year": 2004,
-      "modified": "2023-09-19 19:08",
-      "scannedAt": "2026-10-25",
+      "modified": "2026-11-19 01:28",
+      "scannedAt": "2026-11-19",
       "openMatteLabelled": false,
       "filmScanMentioned": false
     },
@@ -11083,8 +11083,8 @@
     "https://storage.open-matte.ru/%d0%a7/%d0%a7%d0%b5%d0%bb%d0%be%d0%b2%d0%b5%d0%ba-%d0%bf%d0%b0%d1%83%d0%ba%3A%20%d0%92%d0%b4%d0%b0%d0%bb%d0%b8%20%d0%be%d1%82%20%d0%b4%d0%be%d0%bc%d0%b0%20%28Spider-Man%3A%20Far%20From%20Home%2C%202019%29/": {
       "title": "Spider-Man: Far From Home",
       "year": 2019,
-      "modified": "2024-02-17 16:49",
-      "scannedAt": "2026-10-25",
+      "modified": "2026-11-19 01:25",
+      "scannedAt": "2026-11-19",
       "openMatteLabelled": true,
       "filmScanMentioned": false
     },
@@ -14270,7 +14270,7 @@
       "title": "Spider-Man: Far From Home",
       "year": 2019,
       "edition": "Open Matte",
-      "observed": "2026-10-25",
+      "observed": "2026-11-19",
       "sourceListing": "https://storage.open-matte.ru/%d0%a7/%d0%a7%d0%b5%d0%bb%d0%be%d0%b2%d0%b5%d0%ba-%d0%bf%d0%b0%d1%83%d0%ba%3A%20%d0%92%d0%b4%d0%b0%d0%bb%d0%b8%20%d0%be%d1%82%20%d0%b4%d0%be%d0%bc%d0%b0%20%28Spider-Man%3A%20Far%20From%20Home%2C%202019%29/",
       "source": "Open Matte community archive; directory label, file framing unverified"
     },
