@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "source": "https://storage.open-matte.ru/",
   "policy": "Only explicit Open Matte labels qualify. A 35mm/film-scan label alone is not approval. No media fetched.",
   "discoveredDirectories": 1500,
   "inspectedDirectories": 1500,
-  "inspectedThisRun": 2,
+  "inspectedThisRun": 0,
   "pendingInspections": 0,
   "inspectionErrors": 0,
   "directories": {
