@@ -1,41 +1,41 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "timezone": "Australia/Adelaide",
-  "poolSize": 413,
+  "poolSize": 414,
   "reviewedCount": 38,
-  "releaseLabelledCount": 375,
-  "rowSize": 413,
+  "releaseLabelledCount": 376,
+  "rowSize": 414,
   "minimumMovieYear": null,
   "source": "Reviewed native tall/expanded presentations and optional Open Matte release metadata, with exact Cinemeta title/year/IMDb matches",
   "rotation": "Daily order of the complete pool; the live service shuffles each fetch",
   "limitations": "Release-labelled Open Matte entries are discovery leads, not independently confirmed whole-film framing. Known variable-ratio titles and explicitly altered framing are excluded. Individual files are not played, downloaded or checked for TorBox availability.",
   "refresh": {
-    "checkedAt": "2026-11-27T01:59:07.688040+00:00",
+    "checkedAt": "2026-11-28T01:43:00.258006+00:00",
     "schedule": "Daily at 18:47 UTC (05:17 Adelaide daylight time; 04:17 standard time)",
     "movieDiscovery": {
       "state": "ok",
-      "lastAttemptAt": "2026-11-27T01:57:04.989082+00:00",
-      "lastSuccessAt": "2026-11-27T01:58:01.180773+00:00"
+      "lastAttemptAt": "2026-11-28T01:40:40.125117+00:00",
+      "lastSuccessAt": "2026-11-28T01:42:03.735576+00:00"
     },
     "movies": {
       "state": "ok",
-      "lastAttemptAt": "2026-11-27T01:57:04.989082+00:00",
-      "lastSuccessAt": "2026-11-27T01:59:02.101885+00:00"
+      "lastAttemptAt": "2026-11-28T01:40:40.125117+00:00",
+      "lastSuccessAt": "2026-11-28T01:42:54.918072+00:00"
     },
     "series": {
       "state": "ok",
-      "lastAttemptAt": "2026-11-27T01:57:04.989082+00:00",
-      "lastSuccessAt": "2026-11-27T01:59:07.423563+00:00"
+      "lastAttemptAt": "2026-11-28T01:40:40.125117+00:00",
+      "lastSuccessAt": "2026-11-28T01:42:59.993103+00:00"
     },
     "seriesDiscovery": {
       "state": "ok",
-      "lastAttemptAt": "2026-11-27T01:57:04.989082+00:00",
-      "lastSuccessAt": "2026-11-27T01:59:07.687702+00:00"
+      "lastAttemptAt": "2026-11-28T01:40:40.125117+00:00",
+      "lastSuccessAt": "2026-11-28T01:43:00.257530+00:00"
     },
     "upcoming": []
   },
   "series": {
-    "updated": "2026-11-27",
+    "updated": "2026-11-28",
     "poolSize": 92
   }
 }
